@@ -1,0 +1,5 @@
+{
+  "name": "Grafo Interattivo di Studio",
+  "description": "Un'applicazione React per visualizzare e studiare argomenti correlati attraverso un grafo di forza interattivo. Utilizza D3.js per la visualizzazione e Tailwind CSS per un design moderno e pulito.",
+  "requestFramePermissions": []
+}
