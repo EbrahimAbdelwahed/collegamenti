@@ -22,56 +22,79 @@ const getCommissionTypeClasses = (type: Subject['commission_type']) => {
   }
 };
 
+const MOBILE_BREAKPOINT = 767; // pixels
+
 const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
   const [width, setWidth] = useState(window.innerWidth / 2.5);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= MOBILE_BREAKPOINT);
   const panelRef = useRef<HTMLDivElement>(null);
   const isResizing = useRef(false);
 
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth <= MOBILE_BREAKPOINT);
+    };
+    checkMobile(); // Initial check
+    window.addEventListener('resize', checkMobile);
+    return () => window.removeEventListener('resize', checkMobile);
+  }, []);
+
   const handleMouseDown = (e: React.MouseEvent) => {
+    if (isMobile) return;
     e.preventDefault();
     isResizing.current = true;
   };
 
   const handleMouseUp = useCallback(() => {
+    if (isMobile) return;
     isResizing.current = false;
-  }, []);
+  }, [isMobile]);
 
   const handleMouseMove = useCallback((e: MouseEvent) => {
-    if (isResizing.current && panelRef.current) {
-      const newWidth = window.innerWidth - e.clientX;
-      if (newWidth > 400 && newWidth < window.innerWidth * 0.8) {
-        setWidth(newWidth);
-      }
+    if (isMobile || !isResizing.current || !panelRef.current) return;
+
+    const newWidth = window.innerWidth - e.clientX;
+    if (newWidth > 400 && newWidth < window.innerWidth * 0.8) {
+      setWidth(newWidth);
     }
-  }, []);
+  }, [isMobile]);
 
   useEffect(() => {
+    if (isMobile) {
+      isResizing.current = false; // Ensure resizing stops if screen becomes mobile
+    }
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('mouseup', handleMouseUp);
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('mouseup', handleMouseUp);
     };
-  }, [handleMouseMove, handleMouseUp]);
+  }, [handleMouseMove, handleMouseUp, isMobile]);
 
   const isTopic = node?.type === 'topic';
   const data = node?.data as Topic | Subject | undefined;
 
+  const panelStyle = {
+    width: node ? (isMobile ? '100%' : `${width}px`) : '0px',
+  };
+
   return (
     <div
       ref={panelRef}
-      style={node ? { width: `${width}px` } : { width: `0px` }}
+      style={panelStyle}
       className={`absolute top-0 right-0 h-full bg-slate-900/80 backdrop-blur-lg shadow-2xl shadow-black/30 transform transition-transform duration-500 ease-in-out z-30 flex flex-col ${
         node ? 'translate-x-0' : 'translate-x-full'
       }`}
     >
-      <div 
-        onMouseDown={handleMouseDown}
-        className="absolute left-0 top-0 h-full w-2 cursor-ew-resize z-40 group"
-        title="Ridimensiona pannello"
-      >
-        <div className="w-0.5 h-full bg-slate-600/50 group-hover:bg-cyan-400 transition-colors mx-auto"></div>
-      </div>
+      {!isMobile && (
+        <div
+          onMouseDown={handleMouseDown}
+          className="absolute left-0 top-0 h-full w-2 cursor-ew-resize z-40 group"
+          title="Ridimensiona pannello"
+        >
+          <div className="w-0.5 h-full bg-slate-600/50 group-hover:bg-cyan-400 transition-colors mx-auto"></div>
+        </div>
+      )}
       
       <button
         onClick={onClose}
