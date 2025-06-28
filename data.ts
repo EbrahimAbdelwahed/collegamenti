@@ -1,4 +1,6 @@
-const data = [
+import type { Topic } from './types';
+
+export const studyData: Topic[] = [
   {
     "title": "1. La Crisi delle Certezze e la Frantumazione dell'Io",
     "prompt_text": "Un documento che illustra i postulati della Teoria della Relatività Ristretta di Albert Einstein (1905).",
@@ -534,4 +536,4 @@ const data = [
   }
 ];
 
-export default data;
+export default studyData;
