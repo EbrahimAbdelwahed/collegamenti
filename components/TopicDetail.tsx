@@ -25,7 +25,7 @@ const getCommissionTypeClasses = (type: Subject['commission_type']) => {
 const MOBILE_BREAKPOINT = 767; // pixels
 
 const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
-  const [width, setWidth] = useState(window.innerWidth / 2.5);
+  const [width, setWidth] = useState(window.innerWidth * 0.45);
   const [isMobile, setIsMobile] = useState(window.innerWidth <= MOBILE_BREAKPOINT);
   const panelRef = useRef<HTMLDivElement>(null);
   const isResizing = useRef(false);
@@ -118,7 +118,7 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
                   <ChatBubbleLeftRightIcon className="w-6 h-6 text-rose-400" />
                   <h3 className="text-lg font-semibold text-slate-200">Introduzione</h3>
                 </div>
-                <p className="text-slate-300 font-light leading-relaxed">{(data as Topic).introduction}</p>
+                <p className="text-slate-300 font-light leading-relaxed text-lg" style={{ fontFamily: 'sans-serif', letterSpacing: '0.02em', lineHeight: '1.6' }}>{(data as Topic).introduction}</p>
               </div>
 
               <div className="bg-slate-800/50 rounded-xl p-5 ring-1 ring-slate-700">
@@ -126,7 +126,7 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
                   <DocumentTextIcon className="w-6 h-6 text-emerald-400" />
                   <h3 className="text-lg font-semibold text-slate-200">Testo di Riferimento</h3>
                 </div>
-                <p className="text-slate-300 font-light leading-relaxed">{(data as Topic).prompt_text}</p>
+                <p className="text-slate-300 font-light leading-relaxed text-lg" style={{ fontFamily: 'sans-serif', letterSpacing: '0.02em', lineHeight: '1.6' }}>{(data as Topic).prompt_text}</p>
               </div>
 
               <div className="bg-slate-800/50 rounded-xl p-5 ring-1 ring-slate-700">
@@ -134,7 +134,7 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
                   <SparklesIcon className="w-6 h-6 text-amber-400" />
                   <h3 className="text-lg font-semibold text-slate-200">Conclusione</h3>
                 </div>
-                <div className="prose prose-invert max-w-none prose-p:text-slate-300 prose-p:leading-relaxed prose-headings:text-slate-100 prose-strong:text-slate-100 prose-strong:font-semibold prose-blockquote:border-l-amber-400 prose-blockquote:text-slate-400 prose-ul:list-disc prose-li:text-slate-300 prose-li:my-2">
+                <div className="prose prose-invert max-w-none prose-p:text-slate-300 prose-p:leading-relaxed prose-headings:text-slate-100 prose-strong:text-slate-100 prose-strong:font-semibold prose-blockquote:border-l-amber-400 prose-blockquote:text-slate-400 prose-ul:list-disc prose-li:text-slate-300 prose-li:my-2 text-lg" style={{ fontFamily: 'sans-serif', letterSpacing: '0.02em', lineHeight: '1.6' }}>
                     <ReactMarkdown
                         remarkPlugins={[remarkGfm]}
                     >
@@ -158,7 +158,7 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
                     <LightbulbIcon className="w-6 h-6 text-cyan-400" />
                     <h3 className="text-lg font-semibold text-slate-200">Collegamento al Tema</h3>
                   </div>
-                  <p className="text-slate-300 font-light leading-relaxed">{(data as Subject).connection_to_prompt}</p>
+                  <p className="text-slate-300 font-light leading-relaxed text-lg" style={{ fontFamily: 'sans-serif', letterSpacing: '0.02em', lineHeight: '1.6' }}>{(data as Subject).connection_to_prompt}</p>
                 </div>
               )}
 
@@ -167,7 +167,7 @@ const TopicDetail: React.FC<TopicDetailProps> = ({ node, onClose }) => {
                   <BookOpenIcon className="w-6 h-6 text-violet-400" />
                   <h3 className="text-lg font-semibold text-slate-200">Approfondimento</h3>
                 </div>
-                <div className="prose prose-invert max-w-none prose-p:text-slate-300 prose-p:leading-relaxed prose-headings:text-slate-100 prose-strong:text-slate-100 prose-strong:font-semibold prose-blockquote:border-l-violet-400 prose-blockquote:text-slate-400 prose-ul:list-disc prose-li:text-slate-300 prose-li:my-2">
+                <div className="prose prose-invert max-w-none prose-p:text-slate-300 prose-p:leading-relaxed prose-headings:text-slate-100 prose-strong:text-slate-100 prose-strong:font-semibold prose-blockquote:border-l-violet-400 prose-blockquote:text-slate-400 prose-ul:list-disc prose-li:text-slate-300 prose-li:my-2 text-lg" style={{ fontFamily: 'sans-serif', letterSpacing: '0.02em', lineHeight: '1.6' }}>
                     <ReactMarkdown
                         remarkPlugins={[remarkGfm]}
                     >
