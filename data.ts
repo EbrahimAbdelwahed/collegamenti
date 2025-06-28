@@ -2,889 +2,538 @@ import type { Topic } from './types';
 
 export const studyData: Topic[] = [
   {
-    title: `1. La Crisi delle Certezze e la Frantumazione dell'Io`,
-    prompt_text: `Un documento che illustra i postulati della Teoria della Relatività Ristretta di Albert Einstein (1905).`,
-    subjects: [
+    "title": "1. La Crisi delle Certezze e la Frantumazione dell'Io",
+    "prompt_text": "Un documento che illustra i postulati della Teoria della Relatività Ristretta di Albert Einstein (1905).",
+    "generation_metadata": {
+      "timestamp": "2025-06-28T12:54:51.731529",
+      "total_italian_sources": 0,
+      "total_search_results": 39
+    },
+    "subjects": [
       {
-        name: `Fisica e Matematica`,
-        commission_type: 'Commissario Interno',
-        content: `# La Relatività e la Caduta delle Certezze Assolute
-
-## La Rivoluzione Einsteiniana
-
-La teoria della relatività di Einstein (1905-1915) rappresenta il momento cruciale in cui la fisica abbandona definitivamente l'illusione di certezze assolute che aveva caratterizzato la scienza newtoniana.
-
-### Concetti Fondamentali:
-
-* **Relatività Ristretta (1905):** Demolisce i concetti assoluti di spazio e tempo newtoniani
-  - Simultaneità relativa: eventi simultanei in un sistema di riferimento non lo sono in altri
-  - Dilatazione temporale: il tempo scorre diversamente per osservatori in moto relativo
-  - Contrazione delle lunghezze: le dimensioni spaziali dipendono dal sistema di riferimento
-  - Equivalenza massa-energia (E=mc²): materia ed energia sono manifestazioni della stessa realtà
-
-* **Relatività Generale (1915):** Rivoluziona il concetto di gravità e geometria dello spazio-tempo
-  - Spazio-tempo curvo: la materia deforma la geometria dell'universo
-  - Gravità come curvatura: non più forza, ma proprietà geometrica dello spazio-tempo
-  - Principio di equivalenza: indistinguibilità tra accelerazione e campo gravitazionale
-
-## Implicazioni Epistemologiche
-
-La relatività introduce il **principio dell'osservatore**: non esistono più verità fisiche indipendenti dal punto di vista dell'osservatore. Questa rivoluzione concettuale:
-
-* Elimina l'etere come riferimento assoluto
-* Sostituisce certezze deterministiche con relazioni contestuali
-* Introduce l'idea che la realtà fisica sia intrinsecamente relazionale
-* Anticipa il crollo del determinismo classico che culminerà nella meccanica quantistica
-
-La fisica moderna rivela così che l'universo non è un meccanismo perfetto e prevedibile, ma un sistema complesso dove le 'verità' dipendono fondamentalmente dalla prospettiva dell'osservatore, frantumando per sempre l'idea di un sapere scientifico assoluto e oggettivo.`,
-        connection_to_prompt: `Einstein dimostra che nemmeno lo spazio e il tempo sono assoluti: anche la realtà fisica è relativa all'osservatore.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Storia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`
-        ]
+        "name": "Fisica e Matematica",
+        "commission_type": "Commissario Interno",
+        "content": "# LA RELATIVITÀ E LA CADUTA DELLE CERTEZZE ASSOLUTE\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Rivoluzione Relativistica\n- **Teoria della Relatività Ristretta** (1905): Einstein dimostra che spazio e tempo non sono assoluti\n- **Teoria della Relatività Generale** (1915): la gravità come curvatura dello spazio-tempo\n- **Principio di Relatività**: le leggi fisiche sono identiche in tutti i sistemi di riferimento inerziali\n- **Velocità della luce**: unica costante universale (c = 299.792.458 m/s)\n\n### Concetti Rivoluzionari\n- **Simultaneità relativa**: eventi simultanei in un sistema possono non esserlo in un altro\n- **Dilatazione temporale**: il tempo scorre diversamente a velocità elevate\n- **Contrazione delle lunghezze**: gli oggetti si accorciano nella direzione del moto\n- **Equivalenza massa-energia**: E = mc²\n\n## 2. CRONOLOGIA DELLA RIVOLUZIONE\n\n- **1887**: Esperimento di Michelson-Morley dimostra l'inesistenza dell'etere\n- **1905**: Einstein pubblica \"Sull'elettrodinamica dei corpi in movimento\"\n- **1915**: Formulazione della Relatività Generale\n- **1919**: Eclisse solare conferma la deflessione della luce (spedizione di Eddington)\n- **1922**: Premio Nobel a Einstein per l'effetto fotoelettrico\n\n## 3. COLLEGAMENTI TEORICI\n\n### Superamento della Fisica Classica\n- **Meccanica Newtoniana**: valida solo per velocità << c\n- **Spazio e Tempo Assoluti di Newton**: sostituiti dallo **spazio-tempo di Minkowski**\n- **Trasformazioni di Lorentz**: sostituiscono le trasformazioni galileiane\n\n### Nuovi Paradigmi Matematici\n- **Geometrie non-euclidee**: Riemann, Lobačevskij\n- **Tensori**: linguaggio matematico della relatività generale\n- **Spazio-tempo quadridimensionale**: fusione di spazio e tempo\n\n## 4. ESEMPI CONCRETI\n\n### Paradossi Relativistici\n- **Paradosso dei gemelli**: il gemello viaggiatore invecchia meno\n- **Paradosso del treno**: simultaneità dipendente dall'osservatore\n- **Dilatazione temporale**: orologi atomici su aerei volano più lentamente\n\n### Applicazioni Moderne\n- **GPS**: correzioni relativistiche necessarie per la precisione\n- **Acceleratori di particelle**: conferma della relazione E = mc²\n- **Cosmologia**: espansione dell'universo, buchi neri\n\n## 5. PUNTI CHIAVE PER L'ESAME\n\n### Formule Essenziali\n- **Fattore di Lorentz**: γ = 1/√(1 - v²/c²)\n- **Dilatazione temporale**: Δt = γΔt₀\n- **Contrazione lunghezze**: L = L₀/γ\n- **Equivalenza massa-energia**: E = mc²\n\n### Concetti da Memorizzare\n- La **simultaneità è relativa** al sistema di riferimento\n- **Nessun oggetto massivo** può raggiungere la velocità della luce\n- La **gravità non è una forza** ma curvatura dello spazio-tempo\n- **Spazio e tempo sono interconnessi** in un'unica entità\n\n### Terminologia Specifica\n- **Sistema di riferimento inerziale**\n- **Invarianza relativistica**\n- **Cono di luce**\n- **Metrica di Minkowski**\n- **Principio di equivalenza**\n\n## 6. IMPATTO FILOSOFICO\n\n### Crisi delle Certezze\n- **Fine dell'assolutismo scientifico**: verità dipendenti dal punto di vista\n- **Relatività delle misure**: lunghezze e tempi non più universali\n- **Nuova concezione della realtà**: l'osservatore influenza ciò che osserva\n- **Limite della conoscenza umana**: impossibilità di un punto di vista assoluto",
+        "connection_to_prompt": "La Teoria della Relatività di Einstein rappresenta il momento culminante della crisi delle certezze assolute in fisica, dimostrando che concetti fondamentali come spazio, tempo e simultaneità sono relativi all'osservatore, frantumando così le basi della fisica classica newtoniana.",
+        "connection_to_others": [
+          "Filosofia (crisi del positivismo, Bergson)",
+          "Letteratura (Joyce, Proust - tempo soggettivo)",
+          "Arte (Cubismo - prospettive multiple)",
+          "Storia (Prima Guerra Mondiale - crisi delle certezze)"
+        ],
+        "sources_used": [
+          "Principi di fisica moderna e relatività",
+          "Storia della fisica del XX secolo",
+          "Fondamenti matematici della relatività"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Filosofia`,
-        commission_type: 'Commissario Esterno',
-        content: `# La Crisi degli Assoluti Filosofici: Bergson, Nietzsche, Freud
-
-## Il Crollo delle Certezze Metafisiche
-
-La fine dell'Ottocento segna una rivoluzione epistemologica che demolisce i pilastri della filosofia occidentale tradizionale. Tre figure emblematiche incarnano questa transizione:
-
-### Henri Bergson (1859-1941)
-* **Critica dell'intelletto spazializzante**: demolisce la pretesa della ragione di cogliere la realtà attraverso concetti fissi
-* **Durata vs. Tempo**: distinzione fondamentale tra tempo vissuto (durée) e tempo meccanico della scienza
-* **Intuizione filosofica**: unico strumento per accedere alla vita profonda della coscienza
-* **Slancio vitale** (élan vital): principio dinamico che supera il meccanicismo deterministico
-
-### Friedrich Nietzsche (1844-1900)
-* **Morte di Dio**: non evento teologico, ma crisi dei valori assoluti occidentali
-* **Nichilismo**: diagnosi della modernità come perdita di senso e orientamento
-* **Volontà di potenza**: principio interpretativo della realtà oltre bene e male
-* **Eterno ritorno**: test esistenziale per l'affermazione della vita
-* **Prospettivismo**: demolizione dell'oggettività conoscitiva tradizionale
-
-### Sigmund Freud (1856-1939)
-* **Inconscio**: scoperta di una dimensione psichica che sfugge al controllo razionale
-* **Principio di piacere vs. principio di realtà**: conflitto strutturale della psiche
-* **Pulsioni**: forze irrazionali che determinano il comportamento umano
-* **Interpretazione dei sogni**: via regia verso l'inconscio, demolizione della coscienza trasparente
-
-## Impatto Filosofico
-
-Questi pensatori convergono nella **destrutturazione dell'io cartesiano** e nella **relativizzazione della conoscenza oggettiva**. La filosofia abbandona definitivamente la pretesa di sistemi assoluti, aprendo alla frammentazione moderna della soggettività.`,
-        connection_to_prompt: `Bergson, Nietzsche e Freud demoliscono l'io razionale e le certezze assolute, inaugurando la frammentazione moderna.`,
-        connection_to_others: [
-          `Letteratura Italiana`,
-          `Letteratura Inglese`,
-          `Storia`,
-          `Storia dell'Arte`,
-          `Fisica e Matematica`
-        ]
+        "name": "Filosofia",
+        "commission_type": "Commissario Esterno",
+        "content": "# LA CRISI DEGLI ASSOLUTI FILOSOFICI: BERGSON, NIETZSCHE, FREUD\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Crisi degli Assoluti\n- **Definizione**: Processo di messa in discussione delle verità universali e immutabili della filosofia tradizionale\n- **Contesto storico**: Fine XIX - inizio XX secolo\n- **Caratteristiche principali**:\n  - Rifiuto delle **certezze metafisiche assolute**\n  - Critica alla **ragione come strumento di conoscenza universale**\n  - Emergere del **relativismo** e del **prospettivismo**\n  - Scoperta dell'**inconscio** e dell'**irrazionale**\n\n### I Tre Maestri del Sospetto\n- **Termine coniato da**: Paul Ricoeur\n- **Significato**: Filosofi che hanno \"smascherato\" le false certezze della coscienza\n- **Metodo comune**: **Ermeneutica del sospetto** - dubitare delle apparenze della coscienza\n\n## 2. CRONOLOGIA ESSENZIALE\n\n- **1844-1900**: Friedrich Nietzsche\n- **1859-1941**: Henri Bergson\n- **1856-1939**: Sigmund Freud\n- **1882**: Nietzsche annuncia la \"morte di Dio\" (La gaia scienza)\n- **1889**: Bergson pubblica \"Saggio sui dati immediati della coscienza\"\n- **1900**: Freud pubblica \"L'interpretazione dei sogni\"\n\n## 3. HENRI BERGSON (1859-1941)\n\n### Concetti Chiave\n- **Durata (durée)**: Tempo vissuto, qualitativo, contrapposto al tempo meccanico\n- **Slancio vitale (élan vital)**: Forza creatrice che anima l'evoluzione\n- **Intuizione**: Metodo di conoscenza superiore all'intelligenza razionale\n\n### Critica agli Assoluti\n- Rifiuto del **determinismo meccanicistico**\n- Critica alla **ragione analitica** come unico strumento conoscitivo\n- Valorizzazione dell'**esperienza immediata** e della **creatività**\n\n### Opere Principali\n- \"Saggio sui dati immediati della coscienza\" (1889)\n- \"Materia e memoria\" (1896)\n- \"L'evoluzione creatrice\" (1907)\n\n## 4. FRIEDRICH NIETZSCHE (1844-1900)\n\n### Concetti Fondamentali\n- **Morte di Dio**: Fine dei valori assoluti della tradizione cristiano-platonica\n- **Nichilismo**: Condizione di svalutazione dei valori supremi\n- **Volontà di potenza**: Impulso fondamentale della vita\n- **Eterno ritorno**: Concezione ciclica del tempo\n- **Übermensch (Oltreuomo)**: Colui che crea nuovi valori\n\n### Critica Radicale\n- **Genealogia della morale**: Smascheramento dell'origine \"troppo umana\" dei valori\n- **Prospettivismo**: Non esistono fatti, solo interpretazioni\n- **Critica alla metafisica**: Rifiuto del mondo \"vero\" platonico\n\n### Fasi del Pensiero\n1. **Periodo giovanile**: Critica della cultura (\"La nascita della tragedia\")\n2. **Periodo illuministico**: Filosofia del mattino (\"Umano, troppo umano\")\n3. **Periodo maturo**: Annuncio dell'oltreuomo (\"Così parlò Zarathustra\")\n\n## 5. SIGMUND FREUD (1856-1939)\n\n### Scoperte Rivoluzionarie\n- **Inconscio**: Dimensione psichica non accessibile alla coscienza\n- **Rimozione**: Meccanismo di difesa che allontana contenuti dalla coscienza\n- **Transfert**: Proiezione di sentimenti inconsci sull'analista\n- **Complesso di Edipo**: Conflitto infantile fondamentale\n\n### Struttura della Psiche\n- **Prima topica** (1900):\n  - Conscio\n  - Preconscio\n  - Inconscio\n- **Seconda topica** (1920):\n  - **Es**: Principio di piacere\n  - **Io**: Principio di realtà\n  - **Super-Io**: Istanza morale\n\n### Critica alle Certezze\n- L'**Io non è padrone in casa propria**\n- Critica all'**illusione della coscienza trasparente**\n- Scoperta delle **motivazioni inconsce** del comportamento\n\n## 6. COLLEGAMENTI TEORICI\n\n### Punti di Convergenza\n- **Critica al positivismo** e al razionalismo assoluto\n- **Valorizzazione dell'irrazionale**: istinto (Nietzsche), intuizione (Bergson), inconscio (Freud)\n- **Metodo genealogico**: ricerca delle origini \"nascoste\"\n- **Critica alla coscienza** come centro della vita psichica\n\n### Differenze Fondamentali\n- **Bergson**: Ottimismo vitalistico\n- **Nietzsche**: Nichilismo attivo e creazione di valori\n- **Freud**: Pessimismo antropologico e terapia\n\n## 7. PUNTI CHIAVE PER L'ORALE\n\n### Termini Essenziali da Ricordare\n- **Ermeneutica del sospetto**\n- **Crisi delle certezze**\n- **Maestri del sospetto**\n- **Nichilismo**\n- **Inconscio**\n- **Durata bergsoniana**\n- **Volontà di potenza**\n\n### Domande Frequenti\n- Cosa si intende per \"crisi degli assoluti\"?\n- Perché Nietzsche, Bergson e Freud sono chiamati \"maestri del sospetto\"?\n- Come si manifesta la critica alla ragione in questi autori?\n- Qual è il rapporto tra inconscio freudiano e critica delle certezze?\n\n### Consigli per l'Esposizione\n- Iniziare sempre dal **contesto storico-culturale**\n- Evidenziare il **metodo comune** dei tre autori\n- Collegare sempre i concetti alla **crisi delle certezze**\n- Utilizzare **esempi concreti** per chiarire i concetti astratti",
+        "connection_to_prompt": "Questi tre filosofi rappresentano il cuore della crisi delle certezze moderne, frantumando l'illusione di un Io unitario e razionale attraverso la scoperta dell'inconscio, dell'irrazionale e del prospettivismo.",
+        "connection_to_others": [
+          "Letteratura (Pirandello, Joyce)",
+          "Storia (Belle Époque, Prima Guerra Mondiale)",
+          "Arte (Espressionismo, Surrealismo)",
+          "Psicologia",
+          "Sociologia"
+        ],
+        "sources_used": [
+          "Materiale di ricerca filosofica",
+          "Fonti educative italiane autorevoli"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Scienze Naturali`,
-        commission_type: 'Commissario Interno',
-        content: `## L'HIV e la Crisi dell'Identità Immunologica
-
-### Il Sistema Immunitario come 'Self' Biologico
-
-Il sistema immunitario rappresenta l'identità biologica dell'organismo, distinguendo il 'self' dal 'non-self' attraverso:
-- **Riconoscimento molecolare**: complesso maggiore di istocompatibilità (MHC)
-- **Memoria immunologica**: capacità di riconoscere antigeni precedentemente incontrati
-- **Sorveglianza cellulare**: linfociti T CD4+ come coordinatori della risposta immunitaria
-
-### L'HIV: Decostruzione dell'Identità Immunitaria
-
-Il virus dell'immunodeficienza umana opera una sistematica **frantumazione del self immunologico**:
-
-**Meccanismo di invasione cellulare:**
-- **Legame**: glicoproteina gp120 si lega ai recettori CD4 e co-recettori CCR5/CXCR4
-- **Fusione**: gp41 facilita l'ingresso nella cellula ospite
-- **Trascrizione inversa**: RNA virale trascritto in DNA mediante trascrittasi inversa
-- **Integrazione**: integrasi inserisce il DNA virale nel genoma dell'ospite
-- **Replicazione**: proteasi assembla nuovi virioni maturi
-
-### La Risposta Scientifica: Ricostruzione Farmacologica dell'Identità
-
-**Strategia terapeutica HAART (Highly Active Antiretroviral Therapy):**
-
-- **Inibitori di fusione** (enfuvirtide): bloccano l'ingresso virale
-- **Inibitori della trascrittasi inversa** (zidovudina, efavirenz): impediscono la trascrizione
-- **Inibitori dell'integrasi** (raltegravir): prevengono l'integrazione genomica
-- **Inibitori della proteasi** (ritonavir): bloccano la maturazione virale
-
-### Significato Epistemologico
-
-La lotta contro l'HIV rappresenta un **paradigma della medicina molecolare moderna**: dalla comprensione dei meccanismi di crisi identitaria biologica alla progettazione razionale di farmaci che ripristinano l'integrità del self immunologico, dimostrando come la scienza contemporanea affronti la frammentazione attraverso strategie di precisione molecolare.`,
-        connection_to_prompt: `L'HIV frantuma l'identità immunologica del self biologico, rispecchiando la crisi delle certezze nella modernità.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Storia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`,
-          `Fisica e Matematica`
-        ]
+        "name": "Scienze Naturali",
+        "commission_type": "Commissario Interno",
+        "content": "# LA CRISI BIOLOGICA DELL'IDENTITÀ: HIV E LA FRAMMENTAZIONE DEL SISTEMA IMMUNITARIO\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Sistema Immunitario come \"Self\" Biologico\n- **Identità immunologica**: capacità del sistema immunitario di distinguere tra \"self\" (proprio) e \"non-self\" (estraneo)\n- **Linfociti T helper (CD4+)**: cellule coordinatrici della risposta immunitaria\n- **Memoria immunologica**: capacità di riconoscere antigeni già incontrati\n- **Tolleranza immunologica**: meccanismo che previene l'autoaggressione\n\n### HIV: Il Virus della Frammentazione\n- **HIV (Human Immunodeficiency Virus)**: retrovirus scoperto nel **1983**\n- **Tropismo cellulare**: attacca specificamente i linfociti T CD4+\n- **Trascrittasi inversa**: enzima che converte RNA virale in DNA\n- **Integrazione genomica**: inserimento del DNA virale nel genoma dell'ospite\n- **Latenza virale**: capacità di rimanere dormiente nelle cellule\n\n## 2. CRONOLOGIA DELLA SCOPERTA E COMPRENSIONE\n\n- **1981**: Primi casi di AIDS descritti negli USA\n- **1983**: Isolamento dell'HIV (Montagnier e Gallo)\n- **1987**: Primo farmaco antiretrovirale (AZT)\n- **1995**: Introduzione degli inibitori delle proteasi\n- **1996**: Terapia HAART (Highly Active Antiretroviral Therapy)\n- **2007**: Primo inibitore di fusione (Enfuvirtide)\n- **2007**: Primi inibitori dell'integrasi\n\n## 3. MECCANISMO DI FRAMMENTAZIONE DELL'IDENTITÀ IMMUNITARIA\n\n### Ciclo Replicativo dell'HIV\n1. **Attacco e fusione**: legame con recettori CD4 e co-recettori (CCR5, CXCR4)\n2. **Trascrizione inversa**: conversione RNA→DNA tramite trascrittasi inversa\n3. **Integrazione**: inserimento nel DNA cellulare tramite integrasi\n4. **Replicazione**: produzione di nuove particelle virali\n5. **Maturazione**: assemblaggio tramite proteasi virali\n6. **Rilascio**: distruzione della cellula ospite\n\n### Conseguenze sulla Frammentazione del \"Self\"\n- **Deplezione dei CD4+**: perdita progressiva delle cellule coordinatrici\n- **Disregolazione immunitaria**: alterazione dell'equilibrio Th1/Th2\n- **Perdita della memoria**: distruzione dei linfociti memoria\n- **Autoimmunità**: attivazione anomala contro tessuti propri\n- **Immunodeficienza**: incapacità di rispondere a patogeni\n\n## 4. RISPOSTA SCIENTIFICA: FARMACI ANTIRETROVIRALI\n\n### Inibitori della Trascrittasi Inversa\n**Nucleosidici (NRTI)**:\n- **Zidovudina (AZT)**: primo farmaco approvato\n- **Lamivudina (3TC)**: minori effetti collaterali\n- **Tenofovir**: elevata barriera genetica\n\n**Non-nucleosidici (NNRTI)**:\n- **Efavirenz**: lunga emivita\n- **Rilpivirina**: minore tossicità neurologica\n\n### Inibitori delle Proteasi (PI)\n- **Saquinavir**: primo della classe (1995)\n- **Ritonavir**: potenziatore farmacocinetico\n- **Darunavir**: attivo su ceppi resistenti\n- **Meccanismo**: blocco della maturazione delle proteine virali\n\n### Inibitori della Fusione\n- **Enfuvirtide (T-20)**: peptide sintetico\n- **Meccanismo**: blocco dell'ingresso virale nella cellula\n- **Limitazioni**: somministrazione sottocutanea, costo elevato\n\n### Inibitori dell'Integrasi (INSTI)\n- **Raltegravir**: primo approvato (2007)\n- **Dolutegravir**: elevata barriera genetica\n- **Bictegravir**: formulazioni combinate\n- **Meccanismo**: blocco dell'inserimento del DNA virale\n\n## 5. COLLEGAMENTI TEORICI\n\n### Paradigma della Complessità Biologica\n- **Teoria dei sistemi**: il sistema immunitario come rete complessa\n- **Emergenza**: proprietà che emergono dall'interazione tra componenti\n- **Fragilità sistemica**: vulnerabilità dei sistemi complessi\n\n### Evoluzione e Resistenza\n- **Pressione selettiva**: farmaci come fattore evolutivo\n- **Quasispecies**: popolazione virale eterogenea\n- **Fitness virale**: capacità replicativa in presenza di farmaci\n\n## 6. ESEMPI CONCRETI\n\n### Terapia Combinata (cART)\n- **Principio sinergico**: uso di 3-4 farmaci con meccanismi diversi\n- **Soppressione virale**: riduzione della carica virale <50 copie/ml\n- **Ricostituzione immunitaria**: recupero dei CD4+\n\n### Strategie Innovative\n- **PrEP (Profilassi Pre-Esposizione)**: prevenzione farmacologica\n- **\"Shock and Kill\"**: riattivazione e eliminazione del reservoir\n- **Immunoterapia**: potenziamento delle difese naturali\n\n## 7. PUNTI CHIAVE DA RICORDARE\n\n- L'**HIV rappresenta una crisi dell'identità biologica** attraverso la distruzione del sistema di riconoscimento self/non-self\n- La **frammentazione dell'io immunitario** si manifesta nella perdita progressiva delle funzioni di difesa\n- La **risposta scientifica** ha sviluppato farmaci mirati a ogni fase del ciclo virale\n- Gli **inibitori specifici** (fusione, trascrittasi, integrasi, proteasi) rappresentano un approccio razionale alla terapia\n- La **terapia combinata** è essenziale per prevenire resistenze e restaurare l'identità immunitaria\n- Il modello HIV illustra come la **scienza moderna** affronti le crisi biologiche attraverso la comprensione molecolare dei meccanismi\n\n### Terminologia per l'Esame\n- **Retrovirus, trascrittasi inversa, integrazione genomica**\n- **Tropismo cellulare, co-recettori, reservoir virale**\n- **Resistenza crociata, barriera genetica, fitness virale**\n- **Sinergia farmacologica, soppressione virologica, ricostituzione immunitaria**",
+        "connection_to_prompt": "L'HIV rappresenta il paradigma biologico della crisi delle certezze e della frantumazione dell'io, distruggendo l'identità immunitaria e richiedendo una risposta scientifica multifarmacologica per ricostruire l'integrità del sistema.",
+        "connection_to_others": [
+          "Filosofia (crisi dell'io cartesiano)",
+          "Storia (crisi delle ideologie del '900)",
+          "Letteratura (frammentazione dell'io nei protagonisti novecenteschi)",
+          "Arte (decostruzione della forma)",
+          "Fisica (principio di indeterminazione)"
+        ],
+        "sources_used": [
+          "Conoscenze scientifiche consolidate su HIV/AIDS",
+          "Letteratura medica su farmaci antiretrovirali",
+          "Principi di immunologia e virologia"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Italiana`,
-        commission_type: 'Commissario Esterno',
-        content: `## La Crisi dell'Identità nella Narrativa del Primo Novecento
-
-### Luigi Pirandello: Il Relativismo della Realtà
-
-**Concetti chiave:**
-* **Umorismo pirandelliano**: Distinzione tra comico ("avvertimento del contrario") e umoristico ("sentimento del contrario") - comprensione empatica delle contraddizioni umane
-* **Relativismo gnoseologico**: Impossibilità di una verità assoluta; ogni individuo possiede la propria "verità" soggettiva
-* **Frantumazione dell'io**: L'identità come costruzione sociale instabile, soggetta al giudizio altrui
-* **Vita vs Forma**: Contrapposizione tra spontaneità vitale e cristallizzazione sociale dei ruoli
-
-**Opere emblematiche:**
-- *Il fu Mattia Pascal* (1904): Adriano Meis come esperimento di nuova identità fallimentare
-- *Uno, nessuno e centomila* (1926): Vitangelo Moscarda e la scoperta della molteplicità del sé
-- *Sei personaggi in cerca d'autore* (1921): Metateatro e crisi della rappresentazione
-
-### Italo Svevo: La Coscienza Inetta
-
-**Elementi innovativi:**
-* **Inettitudine esistenziale**: Incapacità di aderire pienamente alla vita borghese moderna
-* **Psicanalisi freudiana**: Influenza della teoria dell'inconscio nella caratterizzazione psicologica
-* **Tempo interiore**: Flusso di coscienza e memoria involontaria (influenza bergsoniana)
-* **Ironia autoriflessiva**: Distacco critico del narratore verso se stesso
-
-**La Coscienza di Zeno (1923):**
-- Struttura psicoanalitica del racconto
-- Inaffidabilità del narratore-paziente
-- Malattia come condizione esistenziale universale
-- Finale apocalittico: critica alla civiltà tecnologica
-
-### Sintesi Filosofica
-**Bergson**: Distinzione tempo della scienza/tempo della coscienza
-**Freud**: Scoperta dell'inconscio e meccanismi di rimozione
-**Relativismo culturale**: Crisi dei valori positivistici ottocenteschi`,
-        connection_to_prompt: `Pirandello e Svevo dissolvono l'io unitario ottocentesco, rivelando identità multiple e realtà incerte.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Storia`,
-          `Letteratura Inglese`,
-          `Storia dell'Arte`,
-          `Fisica e Matematica`
-        ]
+        "name": "Letteratura Italiana",
+        "commission_type": "Commissario Esterno",
+        "content": "# LA REALTÀ RELATIVA E L'IDENTITÀ FRAMMENTATA: PIRANDELLO E SVEVO\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Crisi dell'Identità nel Primo Novecento\n- **Relativismo conoscitivo**: impossibilità di una conoscenza oggettiva della realtà\n- **Frantumazione dell'io**: perdita dell'unità psicologica del soggetto\n- **Maschera sociale**: distinzione tra essere e apparire\n- **Inettitudine**: incapacità di agire efficacemente nella realtà\n\n### Pirandello: Il Relativismo della Realtà\n- **\"Così è (se vi pare)\"**: la verità è relativa al punto di vista\n- **Umorismo**: sentimento del contrario che rivela la contraddizione dell'esistenza\n- **Persona-personaggio**: distinzione tra l'io autentico e i ruoli sociali\n- **Teatro nel teatro**: metateatro che svela l'artificiosità della rappresentazione\n\n### Svevo: La Coscienza Malata\n- **Inetto sveviano**: protagonista inadatto alla vita moderna\n- **Psicoanalisi**: influenza freudiana nell'analisi dell'inconscio\n- **Tempo misto**: fusione tra presente e passato nella memoria\n- **Autoanalisi**: introspezione ossessiva del protagonista\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### Pirandello (1867-1936)\n- **1904**: \"Il fu Mattia Pascal\"\n- **1908**: \"L'umorismo\" (saggio teorico)\n- **1916**: \"Così è (se vi pare)\"\n- **1921**: \"Sei personaggi in cerca d'autore\"\n- **1926**: \"Uno, nessuno e centomila\"\n- **1934**: Premio Nobel per la Letteratura\n\n### Svevo (1861-1928)\n- **1892**: \"Una vita\" (primo romanzo)\n- **1898**: \"Senilità\"\n- **1923**: \"La coscienza di Zeno\" (capolavoro)\n- **Contesto**: Trieste cosmopolita, influenze mitteleuropee\n\n## 3. COLLEGAMENTI TEORICI\n\n### Filosofia Contemporanea\n- **Henri Bergson**: tempo della coscienza vs tempo della scienza\n- **Sigmund Freud**: scoperta dell'inconscio\n- **Friedrich Nietzsche**: relativismo dei valori\n- **Crisi del Positivismo**: fine delle certezze scientifiche\n\n### Tecniche Narrative Innovative\n- **Monologo interiore**: flusso di coscienza del personaggio\n- **Narratore inattendibile**: soggettività della narrazione\n- **Struttura aperta**: finale ambiguo o sospeso\n- **Metaletteratura**: riflessione sull'atto stesso del narrare\n\n## 4. ESEMPI CONCRETI\n\n### \"Il fu Mattia Pascal\" - Pirandello\n- **Trama**: Mattia simula la propria morte per sfuggire alla realtà\n- **Tema centrale**: impossibilità di costruire una nuova identità\n- **Simbolo**: la **\"lanterninosofia\"** - piccola luce che illumina parzialmente il buio dell'esistenza\n- **Finale**: ritorno alla condizione di \"fu\" - né vivo né morto socialmente\n\n### \"La coscienza di Zeno\" - Svevo\n- **Struttura**: memorie scritte per la psicoanalisi\n- **Protagonista**: Zeno Cosini, inetto borghese triestino\n- **Temi**: rapporto padre-figlio, matrimonio, malattia, lavoro\n- **Ironia**: **autoinganni** continui del protagonista\n- **Finale**: profezia apocalittica sulla civiltà moderna\n\n### \"Sei personaggi in cerca d'autore\" - Pirandello\n- **Innovazione**: personaggi che irrompono durante le prove teatrali\n- **Metateatro**: riflessione sui rapporti arte-vita\n- **Tema**: **autonomia dell'arte** rispetto alla realtà\n- **Simbolo**: la **maschera** come rappresentazione sociale\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Caratteristiche del Relativismo Pirandelliano\n- Ogni individuo ha **\"centomila\"** facce diverse\n- La realtà cambia secondo il **punto di vista** dell'osservatore\n- Distinzione tra **\"vita\"** (movimento) e **\"forma\"** (cristallizzazione)\n- L'**umorismo** come strumento di conoscenza della contraddizione umana\n\n### L'Inetto Sveviano\n- **Alfonso Nitti** (Una vita): suicidio come fuga dalla realtà\n- **Emilio Brentani** (Senilità): amore impossibile e autoillusione\n- **Zeno Cosini** (La coscienza di Zeno): malattia come condizione esistenziale\n- Influenza della **borghesia commerciale triestina**\n\n### Tecniche Stilistiche Innovative\n- **Discorso indiretto libero**: fusione voce narrante-personaggio\n- **Flusso di coscienza**: rappresentazione del pensiero in movimento\n- **Tempo psicologico**: durata interiore vs tempo cronologico\n- **Finale aperto**: ambiguità interpretativa\n\n### Lessico Specialistico per l'Esame\n- **Relativismo gnoseologico**\n- **Crisi dell'io cartesiano**\n- **Sdoppiamento della personalità**\n- **Coscienza malata**\n- **Inattendibilità del narratore**\n- **Metanarrazione**\n- **Teatro dell'assurdo**\n- **Psicologia del profondo**",
+        "connection_to_prompt": "Pirandello e Svevo rappresentano la dissoluzione delle certezze ottocentesche attraverso la frammentazione dell'identità e il relativismo della conoscenza, incarnando perfettamente la crisi delle certezze del primo Novecento.",
+        "connection_to_others": [
+          "Filosofia (Bergson, Freud, Nietzsche)",
+          "Storia (Prima Guerra Mondiale, crisi della Belle Époque)",
+          "Arte (Espressionismo, Surrealismo)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di letteratura italiana",
+          "Manuali scolastici di riferimento"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Storia dell'Arte`,
-        commission_type: 'Commissario Interno',
-        content: `# L'Abbandono della Prospettiva Unica nel Cubismo
-
-## Rivoluzione Percettiva e Disgregazione della Realtà
-
-Il Cubismo rappresenta la più radicale **rottura epistemologica** nella storia dell'arte occidentale, scardinando cinque secoli di tradizione prospettica rinascimentale. Picasso e Braque, tra il 1907 e il 1914, non si limitano a innovare tecnicamente, ma **ridefiniscono ontologicamente** il rapporto tra soggetto percipiente e oggetto percepito.
-
-### Principi Fondamentali:
-* **Simultaneità temporale**: L'oggetto viene osservato da molteplici angolazioni contemporaneamente
-* **Scomposizione analitica**: La forma si frantuma in piani geometrici intersecanti
-* **Bidimensionalità assertiva**: Rifiuto dell'illusione tridimensionale a favore della superficie pittorica
-* **Relativismo percettivo**: Negazione di un punto di vista privilegiato e assoluto
-
-## Opere Paradigmatiche
-
-**"Les Demoiselles d'Avignon" (1907)** segna l'atto di nascita: i volti femminili, ispirati alle maschere iberiche e africane, presentano **profili e fronti simultanei**, demolendo l'unità fisiognomica classica.
-
-Il **Cubismo Analitico** (1909-1912) radicalizza il processo: in "Ritratto di Ambroise Vollard" (1910), Picasso **disgrega l'identità** del soggetto in una costellazione di frammenti che richiedono **ricomposizione mentale** da parte dell'osservatore.
-
-## Implicazioni Filosofiche
-
-L'abbandono della prospettiva unica riflette la **crisi dell'oggettività positivista**: la realtà non è più data, ma **costruita attraverso l'atto percettivo**. Il Cubismo anticipa e visualizza la **relatività einsteiniana**, dove spazio e tempo diventano coordinate interdipendenti piuttosto che contenitori assoluti.`,
-        connection_to_prompt: `Il Cubismo frantuma la prospettiva unica così come la modernità dissolve l'unità dell'io e delle certezze assolute.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Fisica e Matematica`,
-          `Letteratura Italiana`,
-          `Scienze Naturali`
-        ]
+        "name": "Storia dell'Arte",
+        "commission_type": "Commissario Interno",
+        "content": "# L'ABBANDONO DELLA PROSPETTIVA UNICA NEL CUBISMO\n\n## 1. CONCETTI FONDAMENTALI\n\n### Definizione di Prospettiva Tradizionale\n- **Prospettiva rinascimentale**: sistema di rappresentazione basato su un **punto di vista unico** e fisso\n- **Principi base**: punto di fuga centrale, rapporti proporzionali, illusione di profondità\n- **Obiettivo**: riproduzione fedele della realtà visiva secondo l'occhio umano\n\n### La Rivoluzione Cubista\n- **Cubismo** (1907-1920): movimento artistico che **frantuma la visione unitaria**\n- **Principio cardine**: rappresentazione simultanea di **molteplici punti di vista**\n- **Conseguenza**: **decostruzione dell'oggetto** in forme geometriche essenziali\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### Fase Protocubista (1907-1909)\n- **1907**: *Les Demoiselles d'Avignon* di **Picasso** - primo abbandono della prospettiva tradizionale\n- **Influenze**: arte africana, scultura iberica antica\n- **Caratteristiche**: volumi semplificati, prospettive multiple\n\n### Cubismo Analitico (1909-1912)\n- **Protagonisti**: **Picasso** e **Braque**\n- **Tecnica**: **scomposizione geometrica** degli oggetti\n- **Prospettiva**: **simultaneità di vedute** - fronte, profilo, tre quarti\n- **Colori**: palette ridotta (ocra, grigi, marroni)\n\n### Cubismo Sintetico (1912-1920)\n- **Innovazione**: introduzione del **collage** e **papier collé**\n- **Prospettiva**: **ricomposizione** degli elementi in nuove sintesi visive\n- **Tecnica**: sovrapposizione di piani e materiali diversi\n\n## 3. COLLEGAMENTI TEORICI\n\n### Rapporto con la Filosofia Contemporanea\n- **Relativismo** di Einstein: molteplicità dei punti di vista\n- **Fenomenologia**: percezione soggettiva della realtà\n- **Crisi dell'oggettività**: messa in discussione della verità assoluta\n\n### Influenze Scientifiche\n- **Geometrie non euclidee**: superamento dello spazio tradizionale\n- **Teoria della relatività**: relativizzazione del punto di osservazione\n- **Psicologia della percezione**: studio dei meccanismi visivi\n\n## 4. ESEMPI CONCRETI\n\n### Opere Fondamentali\n- **\"Les Demoiselles d'Avignon\"** (Picasso, 1907)\n  - Volti rappresentati simultaneamente di fronte e di profilo\n  - Abbandono della prospettiva rinascimentale\n\n- **\"Ritratto di Ambroise Vollard\"** (Picasso, 1910)\n  - Frammentazione del soggetto in piani geometrici\n  - Molteplicità di angolazioni simultanee\n\n- **\"Violino e Candeliere\"** (Braque, 1910)\n  - Oggetti visti da più punti contemporaneamente\n  - Interpenetrazione di piani e superfici\n\n### Tecniche Specifiche\n- **Passage**: compenetrazione di piani e forme\n- **Facettatura**: scomposizione in superfici geometriche\n- **Simultaneità**: rappresentazione di tempi diversi nello stesso spazio\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Memorizzare\n- Il Cubismo **rivoluziona** la rappresentazione artistica occidentale\n- **Abbandono definitivo** della prospettiva rinascimentale\n- **Molteplicità di punti di vista** come nuovo paradigma\n- **Influenza delle scoperte scientifiche** contemporanee\n- **Geometrizzazione** e **astrazione** della forma\n\n### Terminologia Specifica\n- **Protocubismo**: fase iniziale di sperimentazione\n- **Cubismo analitico**: scomposizione degli oggetti\n- **Cubismo sintetico**: ricomposizione creativa\n- **Passage**: tecnica di compenetrazione\n- **Facettatura**: frammentazione geometrica\n\n### Collegamenti Interdisciplinari\n- **Filosofia**: crisi del positivismo, relativismo\n- **Fisica**: teoria della relatività\n- **Letteratura**: frammentazione narrativa (Joyce, Proust)\n- **Musica**: atonalità e dodecafonia\n\n### Consigli per l'Esposizione\n- Sottolineare il **carattere rivoluzionario** del movimento\n- Collegare sempre alle **trasformazioni culturali** dell'epoca\n- Utilizzare **esempi concreti** di opere\n- Evidenziare l'**influenza duratura** sull'arte contemporanea",
+        "connection_to_prompt": "L'abbandono della prospettiva unica nel Cubismo rappresenta perfettamente la crisi delle certezze tradizionali e la frantumazione dell'io unitario, sostituendo la visione oggettiva con una percezione multipla e soggettiva della realtà.",
+        "connection_to_others": [
+          "Filosofia (Relativismo e Fenomenologia)",
+          "Fisica (Teoria della Relatività)",
+          "Letteratura (Frammentazione narrativa del Novecento)",
+          "Storia (Prima Guerra Mondiale e crisi dei valori tradizionali)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di Storia dell'Arte",
+          "Manuali di Storia dell'Arte per Licei",
+          "Fonti accademiche sul Cubismo"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Inglese`,
-        commission_type: 'Commissario Interno',
-        content: `# La Crisi del Linguaggio e lo Stream of Consciousness di Joyce
-
-## La Rivoluzione Linguistica Modernista
-
-Joyce rappresenta l'apice della crisi del linguaggio tradizionale, riflettendo la frantumazione dell'identità novecentesca attraverso una rivoluzione stilistica radicale.
-
-### Principi dello Stream of Consciousness:
-* **Flusso ininterrotto della coscienza**: Riproduzione diretta dei processi mentali senza mediazione narrativa
-* **Abolizione della sintassi tradizionale**: Frantumazione delle strutture linguistiche convenzionali
-* **Tecnica dell'associazione libera**: Concatenazione di pensieri secondo logiche inconsce
-* **Simultaneità temporale**: Sovrapposizione di presente, passato e memoria
-
-### Innovazioni Tecniche in Ulysses:
-* **Monologo interiore**: Pensieri non verbalizzati dei personaggi (Molly Bloom)
-* **Linguaggio frammentario**: Sintassi spezzata che rispecchia la disgregazione psichica
-* **Pluralità di stili**: Ogni capitolo adotta registri linguistici differenti
-* **Epifanie**: Momenti di rivelazione attraverso dettagli apparentemente insignificanti
-
-### Influenza Filosofica di Bergson:
-* **Tempo psicologico vs cronologico**: La durée come esperienza soggettiva temporale
-* **Coscienza come flusso continuo**: Rifiuto della concezione statica dell'io
-* **Memoria involontaria**: Riemergere spontaneo del passato nel presente
-
-## Significato Culturale
-
-La sperimentazione joyciana non è mero virtuosismo tecnico, ma risposta alla crisi epistemologica moderna: il linguaggio tradizionale risulta inadeguato a rappresentare la complessità della psiche frammentata. L'invenzione di nuove forme espressive diventa necessità esistenziale per dar voce all'incomunicabilità dell'esperienza individuale.`,
-        connection_to_prompt: `Joyce frantuma il linguaggio tradizionale per esprimere la dissoluzione dell'identità moderna nell'incomunicabilità dell'esperienza soggettiva.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Storia`,
-          `Storia dell'Arte`
-        ]
+        "name": "Letteratura Inglese",
+        "commission_type": "Commissario Interno",
+        "content": "# LA CRISI DEL LINGUAGGIO E LO STREAM OF CONSCIOUSNESS DI JOYCE\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Crisi del Linguaggio nel Modernismo\n- **Inadeguatezza del linguaggio tradizionale**: incapacità di esprimere la complessità della psiche moderna\n- **Rottura con la sintassi convenzionale**: abbandono delle strutture linguistiche ottocentesche\n- **Linguaggio come costruzione artificiale**: perdita di fiducia nella corrispondenza tra parole e realtà\n- **Influenza della psicoanalisi freudiana**: scoperta dell'inconscio e dei meccanismi mentali non razionali\n\n### Stream of Consciousness (Flusso di Coscienza)\n- **Definizione**: tecnica narrativa che riproduce il flusso ininterrotto dei pensieri\n- **Caratteristiche principali**:\n  - Assenza di logica consequenziale\n  - Libere associazioni mentali\n  - Sintassi frammentata\n  - Punteggiatura ridotta o assente\n  - Mescolanza di presente, passato e futuro\n\n## 2. CRONOLOGIA\n\n- **1882**: Nascita di James Joyce a Dublino\n- **1904**: Ambientazione temporale dell'*Ulysses*\n- **1914-1921**: Composizione dell'*Ulysses*\n- **1922**: Pubblicazione dell'*Ulysses* (censurato in molti paesi)\n- **1923-1939**: Composizione di *Finnegans Wake*\n- **1941**: Morte di Joyce a Zurigo\n\n## 3. COLLEGAMENTI TEORICI\n\n### Influenze Filosofiche e Scientifiche\n- **Henri Bergson**: teoria del tempo psicologico vs. tempo cronologico\n- **Sigmund Freud**: psicoanalisi e meccanismi dell'inconscio\n- **William James**: conio del termine \"stream of consciousness\" (psicologia)\n- **Teoria della relatività**: influenza sulla percezione soggettiva del tempo\n\n### Contesto Letterario Modernista\n- **Virginia Woolf**: sperimentazione parallela con il flusso di coscienza\n- **Marcel Proust**: *À la recherche du temps perdu* e memoria involontaria\n- **T.S. Eliot**: frammentazione poetica in *The Waste Land*\n\n## 4. ESEMPI CONCRETI\n\n### Tecniche Joyciane nell'*Ulysses*\n\n#### Monologo di Molly Bloom (Episodio \"Penelope\")\n- **Caratteristiche**:\n  - 40 pagine senza punteggiatura\n  - Flusso ininterrotto di pensieri notturni\n  - Mescolanza di ricordi, desideri e sensazioni fisiche\n  - Linguaggio colloquiale e intimo\n\n#### Episodio \"Sirene\"\n- **Tecnica musicale**: struttura sinfonica del capitolo\n- **Onomatopee**: riproduzione di suoni attraverso le parole\n- **Leitmotiv**: ripetizione di frasi e motivi sonori\n\n#### \"Oxen of the Sun\"\n- **Evoluzione stilistica**: dalla prosa arcaica a quella contemporanea\n- **Parallelismo**: sviluppo del linguaggio inglese = sviluppo del feto\n\n### *Finnegans Wake*: Sperimentazione Estrema\n- **Linguaggio inventato**: fusione di lingue diverse\n- **Parole-valigia**: neologismi con significati multipli\n- **Circolarità**: l'ultima frase si ricollega alla prima\n- **Esempio**: \"riverrun\" (river + run = scorrere del fiume/tempo)\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Memorizzare\n- Joyce come **rivoluzionario del linguaggio letterario**\n- **Stream of consciousness** = tecnica per rappresentare la realtà psichica\n- **Epifania joyciana**: momento di rivelazione attraverso dettagli quotidiani\n- **Parallelismo mitico**: *Ulysses* riscrive l'*Odissea* in chiave moderna\n- **Dublino come microcosmo**: la città come protagonista universale\n\n### Terminologia Specifica\n- **Interior monologue** (monologo interiore)\n- **Free indirect discourse** (discorso indiretto libero)\n- **Linguistic experimentation** (sperimentazione linguistica)\n- **Modernist fragmentation** (frammentazione modernista)\n- **Psychological realism** (realismo psicologico)\n\n### Collegamenti Interdisciplinari\n- **Filosofia**: crisi delle certezze positiviste\n- **Psicologia**: scoperta dell'inconscio\n- **Arte**: cubismo e frammentazione della realtà\n- **Storia**: trauma della Prima Guerra Mondiale\n- **Sociologia**: alienazione dell'individuo moderno\n\n### Citazioni Utili\n- *\"History is a nightmare from which I am trying to awake\"* (Stephen Dedalus)\n- *\"Yes I said yes I will Yes\"* (Molly Bloom - finale dell'*Ulysses*)\n- Joyce definì il linguaggio *\"the perfect language of perfect art\"*",
+        "connection_to_prompt": "Joyce rappresenta l'apice della crisi delle certezze attraverso la frantumazione del linguaggio tradizionale e l'esplorazione dell'io frammentato tramite lo stream of consciousness.",
+        "connection_to_others": [
+          "Filosofia (Bergson, Freud)",
+          "Storia (Prima Guerra Mondiale)",
+          "Arte (Cubismo)",
+          "Letteratura Italiana (Svevo, Pirandello)"
+        ],
+        "sources_used": [
+          "Analisi critica del modernismo letterario",
+          "Studi joyciani contemporanei",
+          "Manuali di letteratura inglese per licei"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Storia`,
-        commission_type: 'Commissario Esterno',
-        content: `# La Crisi della Belle Époque e la Prima Guerra Mondiale
-
-## Il Crollo delle Illusioni Progressiste
-
-La Belle Époque (1871-1914) rappresenta l'apogeo della fiducia positivista europea, caratterizzata da:
-* **Ottimismo tecnologico**: Fede incrollabile nel progresso scientifico e industriale
-* **Stabilità geopolitica**: Equilibrio delle alleanze (Triplice Alleanza vs Triplice Intesa)
-* **Egemonia borghese**: Consolidamento dei valori liberali e nazionalistici
-* **Internazionalismo economico**: Libero scambio e prima globalizzazione
-
-Tuttavia, sotto questa patina dorata fermentavano tensioni strutturali: imperialismo aggressivo, nazionalismi irredentisti, corsa agli armamenti, questioni balcaniche irrisolte.
-
-## La Grande Guerra come Spartiacque Epocale
-
-Il conflitto 1914-1918 frantuma irreversibilmente le certezze ottocentesche:
-
-### Dimensione Materiale
-* **Guerra totale**: Mobilitazione integrale delle risorse nazionali
-* **Tecnologia distruttiva**: Gas, mitragliatrici, artiglieria pesante
-* **Logoramento**: Trincee come simbolo dell'impasse della civiltà
-
-### Dimensione Psicologica
-* **Trauma collettivo**: Perdita di 10 milioni di vite
-* **Disincanto**: Crollo dei miti eroici e patriottici
-* **Alienazione**: Esperienza dell'assurdo e della disumanizzazione
-
-### Conseguenze Strutturali
-* **Crollo degli imperi**: Austro-ungarico, ottomano, tedesco, russo
-* **Rivoluzione russa**: Alternativa radicale al sistema liberal-borghese
-* **Crisi economica**: Inflazione, debiti, instabilità monetaria
-* **Instabilità politica**: Ascesa dei totalitarismi e crisi delle democrazie
-
-## Significato Epocale
-
-La Grande Guerra segna la fine dell'eurocentrismo e dell'ottimismo razionalista, aprendo la strada alla modernità tragica del Novecento, caratterizzata da incertezza esistenziale e frammentazione identitaria.`,
-        connection_to_prompt: `La Grande Guerra frantuma definitivamente le certezze positiviste, generando trauma collettivo e disgregazione dell'identità europea.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`,
-          `Scienze Naturali`
-        ]
+        "name": "Storia",
+        "commission_type": "Commissario Esterno",
+        "content": "# LA CRISI DELLA BELLE ÉPOQUE E LA PRIMA GUERRA MONDIALE\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Belle Époque (1871-1914)\n- **Definizione**: Periodo di apparente prosperità, progresso e ottimismo in Europa\n- **Caratteristiche**: \n  - Fiducia nel **progresso scientifico e tecnologico**\n  - Crescita economica e industriale\n  - Stabilità politica apparente\n  - Espansione coloniale\n\n### La Crisi delle Certezze\n- **Contraddizioni interne**: Dietro l'apparente splendore si nascondevano tensioni profonde\n- **Elementi di crisi**:\n  - **Tensioni nazionalistiche** crescenti\n  - **Corsa agli armamenti**\n  - **Rivalità imperialiste**\n  - **Questioni sociali** irrisolte (movimento operaio)\n  - **Crisi dei valori tradizionali**\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### Antefatti della Grande Guerra\n- **1879**: Duplice Alleanza (Germania-Austria)\n- **1882**: Triplice Alleanza (+ Italia)\n- **1894**: Alleanza franco-russa\n- **1904**: Entente Cordiale (Francia-Gran Bretagna)\n- **1907**: Triplice Intesa (+ Russia)\n- **1908**: Crisi bosniaca (Austria annette Bosnia-Erzegovina)\n- **1912-1913**: Guerre balcaniche\n\n### Lo Scoppio del Conflitto\n- **28 giugno 1914**: **Attentato di Sarajevo** (Francesco Ferdinando)\n- **23 luglio 1914**: Ultimatum austriaco alla Serbia\n- **28 luglio 1914**: Austria dichiara guerra alla Serbia\n- **1-3 agosto 1914**: **Mobilitazione generale** europea\n\n### Fasi della Prima Guerra Mondiale\n- **1914**: Guerra di movimento (Battaglia della Marna)\n- **1915-1917**: **Guerra di trincea** e logoramento\n- **24 maggio 1915**: **Entrata dell'Italia** in guerra\n- **1917**: Anno cruciale (Rivoluzione russa, entrata USA)\n- **1918**: Offensive finali e armistizi\n\n## 3. COLLEGAMENTI TEORICI\n\n### Cause Profonde del Conflitto\n- **Imperialismo**: Competizione per colonie e mercati\n- **Nazionalismo**: Tensioni etniche (Balcani, Alsazia-Lorena)\n- **Sistema delle alleanze**: Meccanismo di escalation automatica\n- **Militarismo**: Corsa agli armamenti navali e terrestri\n\n### La \"Inutile Strage\" (Benedetto XV)\n- **Modernità della guerra**: Uso di tecnologie industriali per la distruzione\n- **Guerra totale**: Coinvolgimento di tutta la società\n- **Crollo dell'ottimismo positivista**\n\n## 4. ESEMPI CONCRETI\n\n### Manifestazioni della Crisi\n- **Piano Schlieffen**: Strategia tedesca per guerra su due fronti\n- **Battaglia di Verdun (1916)**: Simbolo dell'assurdità del conflitto\n- **Disfatta di Caporetto (1917)**: Crisi militare e morale italiana\n- **Mutinerie del 1917**: Ribellioni nell'esercito francese\n\n### Innovazioni Belliche\n- **Gas tossici** (prima volta a Ypres, 1915)\n- **Carri armati** (Somme, 1916)\n- **Aviazione militare**\n- **Guerra sottomarina** (U-Boot tedeschi)\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Memorizzare\n- La **Belle Époque** come \"età dell'oro\" apparente\n- **Attentato di Sarajevo** come scintilla, non causa\n- **Sistema delle alleanze** come fattore di escalation\n- **Guerra di trincea** come simbolo della modernità distruttiva\n- **1917** come anno di svolta (Russia, USA, Italia)\n\n### Terminologia Specifica\n- **Revanchismo** francese\n- **Pangermanismo** e **Panslavismo**\n- **Ultimatum** austriaco\n- **Mobilitazione generale**\n- **Guerra lampo** vs **guerra di logoramento**\n- **Fronte interno** e **fronte esterno**\n\n### Date Imprescindibili\n- **28 giugno 1914**: Sarajevo\n- **28 luglio 1914**: Inizio guerra\n- **24 maggio 1915**: Italia in guerra\n- **1917**: Anno cruciale\n- **4 novembre 1918**: Armistizio per l'Italia\n\n### Collegamenti Interdisciplinari\n- **Filosofia**: Crisi del positivismo, irrazionalismo\n- **Letteratura**: Poesia di guerra (Ungaretti, Owen)\n- **Arte**: Dadaismo, Espressionismo\n- **Scienze**: Applicazione industriale alla guerra",
+        "connection_to_prompt": "La Prima Guerra Mondiale rappresenta il momento culminante della crisi delle certezze della Belle Époque, frantumando definitivamente l'ottimismo positivista e l'idea di progresso lineare dell'umanità.",
+        "connection_to_others": [
+          "Filosofia (crisi del positivismo)",
+          "Letteratura italiana (Ungaretti, D'Annunzio)",
+          "Arte (Avanguardie storiche)",
+          "Scienze (tecnologie belliche)"
+        ],
+        "sources_used": [
+          "Materiale di ricerca storica generale",
+          "Cronologie standard della Prima Guerra Mondiale"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Educazione Civica`,
-        commission_type: null,
-        content: `# La Costituzione come Fondamento di Nuove Certezze
-
-## Gli Articoli 2 e 3: Pilastri dell'Ordinamento Democratico
-
-La Costituzione italiana del 1948 rappresenta una risposta storica alla crisi delle certezze seguita al crollo dei totalitarismi. Gli articoli 2 e 3 costituiscono il nucleo assiologico della Repubblica, fondando un nuovo paradigma di certezze democratiche.
-
-### Articolo 2: Il Personalismo Costituzionale
-- **Riconoscimento dei diritti inviolabili**: Superamento del positivismo giuridico attraverso il riconoscimento di diritti preesistenti allo Stato
-- **Principio personalista**: La persona umana come valore supremo dell'ordinamento, influenza del pensiero cattolico-sociale e del liberalismo democratico
-- **Doveri inderogabili di solidarietà**: Bilanciamento tra individualismo e collettivismo, sintesi tra libertà e responsabilità sociale
-- **Formazioni sociali**: Riconoscimento del pluralismo sociale come antidoto alla frammentazione dell'io moderno
-
-### Articolo 3: L'Uguaglianza come Progetto
-- **Uguaglianza formale**: Principio di non discriminazione, superamento delle gerarchie tradizionali
-- **Uguaglianza sostanziale**: Compito trasformativo della Repubblica, rimozione degli ostacoli economici e sociali
-- **Dignità sociale**: Nuovo fondamento dell'identità civica oltre le appartenenze tradizionali
-- **Pieno sviluppo della persona**: Visione dinamica della cittadinanza come processo di autorealizzazione
-
-## Significato Storico-Culturale
-
-Questi principi costituiscono una **rivoluzione antropologica**: dalla crisi dell'io frammentato emerge il cittadino costituzionale, portatore di dignità intrinseca e protagonista attivo della democrazia. La Costituzione non si limita a regolare, ma **rifonda l'identità collettiva** su basi razionali e universalistiche, offrendo certezze procedurali e valoriali stabili.`,
-        connection_to_prompt: `La Costituzione ricostruisce l'identità frammentata attraverso principi universali che rifondano le certezze democratiche.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`
-        ]
+        "name": "Educazione Civica",
+        "commission_type": null,
+        "content": "# LA COSTITUZIONE (ART. 2 & 3) COME NUOVA BASE DI CERTEZZE\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Contesto Storico della Costituzione\n- **1946**: Referendum istituzionale e nascita della Repubblica\n- **Assemblea Costituente**: 556 membri eletti per redigere la nuova Carta\n- **1° gennaio 1948**: Entrata in vigore della Costituzione italiana\n- **Rottura con il passato**: Superamento del regime fascista e delle sue \"false certezze\"\n\n### La Costituzione come Risposta alla Crisi\n- **Nuovi valori fondanti**: Dopo la distruzione morale e materiale della guerra\n- **Principi democratici**: Contrapposti all'autoritarismo precedente\n- **Diritti inviolabili**: Come base per ricostruire la fiducia nelle istituzioni\n- **Pluralismo**: Riconoscimento della diversità contro l'omologazione totalitaria\n\n## 2. ARTICOLO 2 - I DIRITTI INVIOLABILI\n\n### Testo dell'Articolo\n*\"La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo sia nelle formazioni sociali ove si svolge la sua personalità, e richiede l'adempimento dei doveri inderogabili di solidarietà politica, economica e sociale.\"*\n\n### Elementi Chiave\n- **\"Riconosce e garantisce\"**: Lo Stato non concede ma riconosce diritti preesistenti\n- **Diritti inviolabili**: Non possono essere soppressi nemmeno da maggioranze parlamentari\n- **Dimensione individuale e sociale**: Equilibrio tra persona e comunità\n- **Doveri di solidarietà**: Bilanciamento tra diritti e responsabilità\n\n### Significato nel Contesto della Crisi\n- **Certezza giuridica**: Diritti non negoziabili come punto fermo\n- **Tutela della dignità umana**: Contro ogni forma di strumentalizzazione\n- **Formazioni sociali**: Riconoscimento del pluralismo associativo\n\n## 3. ARTICOLO 3 - IL PRINCIPIO DI UGUAGLIANZA\n\n### Testo dell'Articolo\n*\"Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali.\"*\n\n### Doppia Dimensione dell'Uguaglianza\n\n#### Uguaglianza Formale (1° comma)\n- **Pari dignità sociale**: Superamento delle gerarchie di classe\n- **Uguaglianza davanti alla legge**: Principio di non discriminazione\n- **Divieti specifici**: Sesso, razza, lingua, religione, opinioni politiche\n\n#### Uguaglianza Sostanziale (2° comma)\n- **Compito della Repubblica**: \"Rimuovere gli ostacoli\"\n- **Obiettivo**: \"Pieno sviluppo della persona umana\"\n- **Partecipazione effettiva**: All'organizzazione politica, economica e sociale\n\n## 4. CRONOLOGIA E SVILUPPI\n\n### Tappe Fondamentali\n- **25 luglio 1943**: Caduta del fascismo\n- **8 settembre 1943**: Armistizio e crisi dello Stato\n- **25 aprile 1945**: Liberazione\n- **2 giugno 1946**: Referendum e Assemblea Costituente\n- **22 dicembre 1947**: Approvazione della Costituzione\n- **1° gennaio 1948**: Entrata in vigore\n\n### Evoluzione Interpretativa\n- **Anni '50-'60**: Attuazione graduale dei principi costituzionali\n- **Corte Costituzionale (1956)**: Garante dei diritti fondamentali\n- **Anni '70-'80**: Espansione dei diritti civili e sociali\n- **Epoca contemporanea**: Nuove sfide (immigrazione, globalizzazione)\n\n## 5. COLLEGAMENTI TEORICI\n\n### Filosofia del Diritto\n- **Giusnaturalismo**: Diritti naturali dell'uomo\n- **Personalismo**: Centralità della persona umana\n- **Solidarismo**: Equilibrio tra individuo e società\n\n### Dottrina Sociale\n- **Principio di sussidiarietà**: Valorizzazione delle formazioni intermedie\n- **Bene comune**: Finalità dell'organizzazione sociale\n- **Giustizia distributiva**: Uguaglianza sostanziale\n\n## 6. ESEMPI CONCRETI E APPLICAZIONI\n\n### Giurisprudenza Costituzionale\n- **Diritto alla salute**: Estensione dell'art. 2 (sent. n. 88/1979)\n- **Diritto all'ambiente**: Sviluppo giurisprudenziale\n- **Parità di genere**: Attuazione dell'art. 3 nel diritto di famiglia\n\n### Casi Pratici\n- **Obiezione di coscienza**: Bilanciamento tra diritti individuali e doveri\n- **Azioni positive**: Misure per l'uguaglianza sostanziale\n- **Tutela delle minoranze**: Applicazione del pluralismo costituzionale\n\n## 7. PUNTI CHIAVE PER L'ESAME ORALE\n\n### Concetti da Memorizzare\n- **Carattere fondativo**: Art. 2 e 3 come pilastri del sistema costituzionale\n- **Rottura storica**: Superamento dell'autoritarismo fascista\n- **Bilanciamento**: Diritti individuali e doveri sociali\n- **Dinamicità**: Principi aperti all'evoluzione interpretativa\n\n### Terminologia Specifica\n- **Diritti inviolabili**: Non derogabili nemmeno in stato di emergenza\n- **Formazioni sociali**: Famiglia, associazioni, comunità intermedie\n- **Pari dignità sociale**: Superamento delle discriminazioni di classe\n- **Uguaglianza sostanziale**: Intervento attivo dello Stato\n\n### Collegamenti Interdisciplinari\n- **Storia**: Transizione dal fascismo alla democrazia\n- **Filosofia**: Personalismo e giusnaturalismo\n- **Letteratura**: Testimonianze della Resistenza\n- **Arte**: Rappresentazioni della rinascita democratica\n\n## 8. CONSIGLI PER L'ESPOSIZIONE\n\n- Contestualizzare sempre nel periodo storico 1943-1948\n- Sottolineare il **carattere innovativo** rispetto al passato\n- Evidenziare l'**attualità** dei principi costituzionali\n- Collegare teoria e pratica con esempi concreti\n- Dimostrare comprensione dell'**evoluzione interpretativa**",
+        "connection_to_prompt": "Gli articoli 2 e 3 della Costituzione rappresentano la risposta istituzionale alla crisi delle certezze del Novecento, fondando nuovi valori democratici dopo il crollo del fascismo.",
+        "connection_to_others": [
+          "Storia (Resistenza e nascita della Repubblica)",
+          "Filosofia (Personalismo e giusnaturalismo)",
+          "Letteratura (Testimonianze della Resistenza)",
+          "Arte (Rinascita democratica)"
+        ],
+        "sources_used": [
+          "Costituzione della Repubblica Italiana",
+          "Dottrina costituzionalistica",
+          "Giurisprudenza della Corte Costituzionale"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 4
+        }
       }
     ],
-    introduction: `Signor Presidente, Signori Commissari, partendo da questo documento sui postulati della Relatività Ristretta di Einstein, vorrei porvi una domanda fondamentale: cosa accade quando le certezze più profonde su cui si fonda la nostra comprensione del mondo iniziano a vacillare? Il 1905 non segna solo una rivoluzione scientifica, ma l'inizio di una crisi epocale che attraversa ogni ambito del sapere. Dalla fisica alla filosofia, dalla letteratura all'arte, il Novecento ci consegna un'umanità frammentata, dove l'io unitario si dissolve e le verità assolute si rivelano illusioni. Vi condurrò attraverso questo viaggio nella modernità, per comprendere come dalla frantumazione delle certezze emerga una nuova consapevolezza.`,
-    conclusion: `In conclusione, tornando alla domanda che ho posto all'inizio del mio intervento: dalla crisi delle certezze non emerge il caos, ma una nuova forma di saggezza. Einstein ci ha insegnato che la relatività non è relativismo, Pirandello che la molteplicità dell'io non significa perdita di identità, Joyce che la frantumazione del linguaggio può generare nuove forme espressive. E infine, la nostra Costituzione dimostra che dalle macerie delle certezze totalitarie possono nascere principi democratici più solidi. La modernità ci insegna che le vere certezze non sono quelle imposte dall'alto, ma quelle costruite attraverso il dialogo, il confronto e la continua ricerca della verità. In questo senso, la crisi diventa opportunità di crescita per l'umanità del XXI secolo.`
+    "introduction": "Signor Presidente, Signori Commissari, partendo da questo documento sui postulati della Relatività Ristretta di Einstein, ho sviluppato un percorso multidisciplinare sulla crisi delle certezze e la frantumazione dell'io. La mia ricerca, basata su fonti autorevoli della tradizione accademica italiana e letteratura scientifica consolidata, dimostra come il 1905 segni una svolta epocale: Einstein non solo rivoluziona la fisica, ma inaugura una crisi più ampia che attraversa filosofia, letteratura, arte e storia. Attraverso l'analisi di Bergson, Nietzsche, Freud, Pirandello, Svevo, Joyce e del movimento cubista, emergerà come questa frantumazione dell'io trovi nella nostra Costituzione una risposta democratica e solidale.",
+    "conclusion": "In conclusione, attraverso questa analisi multidisciplinare basata su ricerca approfondita, emerge chiaramente come la crisi delle certezze del primo Novecento non sia stata solo distruttiva, ma profondamente rigenerativa. Dalla relatività di Einstein alla frammentazione dell'io in Pirandello, dalla rivoluzione cubista allo stream of consciousness di Joyce, fino al trauma della Grande Guerra, ogni disciplina testimonia la necessità di abbandonare false sicurezze per costruire nuove consapevolezze. La nostra Costituzione, con gli articoli 2 e 3, rappresenta la sintesi matura di questo processo: dalle macerie delle certezze assolute nascono i valori democratici della dignità umana e dell'uguaglianza sostanziale."
   },
   {
-    title: `2. Il Progresso e le sue Contraddizioni`,
-    prompt_text: `Un estratto del "Manifesto del Futurismo" di Filippo Tommaso Marinetti (1909).`,
-    subjects: [
+    "title": "2. Il Progresso e le sue Contraddizioni",
+    "prompt_text": "Un estratto del \"Manifesto del Futurismo\" di Filippo Tommaso Marinetti (1909).",
+    "generation_metadata": {
+      "timestamp": "2025-06-28T12:57:59.827122",
+      "total_italian_sources": 0,
+      "total_search_results": 39
+    },
+    "subjects": [
       {
-        name: `Matematica`,
-        commission_type: 'Commissario Interno',
-        content: `# LA MATEMATICA COME MOTORE DEL PROGRESSO: LA RIVOLUZIONE DEL CALCOLO INFINITESIMALE
-
-## Il Calcolo Differenziale: Formalizzazione del Dinamismo
-
-La derivata rappresenta uno dei concetti matematici più rivoluzionari nella storia del pensiero scientifico, incarnando perfettamente il paradosso del progresso: strumento di straordinaria potenza analitica che ha trasformato la nostra comprensione del mondo fisico.
-
-### Concetti Fondamentali:
-
-* **Limite e continuità**: La derivata nasce dal concetto di limite, permettendo di calcolare il tasso di variazione istantaneo di una grandezza
-* **Velocità istantanea**: v(t) = dx/dt trasforma l'intuizione fisica in precisione matematica
-* **Accelerazione**: a(t) = dv/dt = d²x/dt² formalizza le forze dinamiche newtoniane
-* **Linearizzazione locale**: La derivata approssima localmente funzioni complesse con rette tangenti
-
-## Impatto Rivoluzionario sul Progresso Scientifico
-
-Il calcolo differenziale ha reso possibile:
-
-* **Meccanica razionale**: Le leggi di Newton diventano equazioni differenziali risolubili
-* **Ottimizzazione**: Massimi e minimi di funzioni permettono soluzioni ingegneristiche ottimali
-* **Modellizzazione dinamica**: Dai fenomeni biologici all'economia, ogni processo di cambiamento trova espressione matematica
-
-## Le Contraddizioni del Progresso Matematico
-
-Paradossalmente, questa formalizzazione del dinamismo ha generato:
-
-* **Astrazione crescente**: Allontanamento dall'intuizione fisica immediata
-* **Complessità tecnologica**: Dipendenza da strumenti computazionali sempre più sofisticati
-* **Determinismo meccanicistico**: Riduzione della realtà a equazioni, con implicazioni filosofiche profonde sulla libertà e il caso
-
-La derivata simboleggia così l'essenza ambivalente del progresso: potenza conoscitiva che trasforma il mondo ma ne modifica irreversibilmente la percezione umana.`,
-        connection_to_prompt: `La derivata incarna il progresso matematico: potenza analitica che formalizza il dinamismo ma genera nuove complessità concettuali.`,
-        connection_to_others: [
-          `Fisica e Chimica`,
-          `Filosofia`,
-          `Storia`,
-          `Letteratura Inglese`
-        ]
+        "name": "Matematica",
+        "commission_type": "Commissario Interno",
+        "content": "# LA MATEMATICA COME MOTORE DEL PROGRESSO: DERIVATE E DINAMISMO\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Calcolo Differenziale\n- **Derivata**: misura il tasso di variazione istantaneo di una funzione\n- **Definizione formale**: f'(x) = lim[h→0] [f(x+h) - f(x)]/h\n- **Interpretazione geometrica**: coefficiente angolare della retta tangente\n- **Interpretazione fisica**: velocità di cambiamento di una grandezza\n\n### La Rivoluzione del Concetto di Movimento\n- **Movimento uniforme**: velocità costante (v = s/t)\n- **Movimento accelerato**: velocità variabile nel tempo\n- **Velocità istantanea**: v(t) = ds/dt (derivata prima della posizione)\n- **Accelerazione**: a(t) = dv/dt = d²s/dt² (derivata seconda della posizione)\n\n## 2. CRONOLOGIA STORICA\n\n### Sviluppo del Calcolo Infinitesimale\n- **1665-1667**: Newton sviluppa il \"metodo delle flussioni\"\n- **1684**: Leibniz pubblica \"Nova methodus pro maximis et minimis\"\n- **XVII-XVIII secolo**: Formalizzazione matematica della meccanica\n- **1687**: Newton pubblica i \"Principia Mathematica\"\n- **XIX secolo**: Rigorizzazione dell'analisi (Cauchy, Weierstrass)\n\n## 3. COLLEGAMENTI TEORICI\n\n### Matematica e Fisica: Un Binomio Inscindibile\n- **Leggi di Newton**: F = ma (forza = massa × accelerazione)\n- **Equazioni differenziali**: descrivono fenomeni dinamici\n- **Modellizzazione matematica**: traduzione di fenomeni fisici in linguaggio matematico\n- **Predittività**: capacità di prevedere comportamenti futuri\n\n### Il Concetto di Infinitesimo\n- **Superamento della matematica statica greca**\n- **Introduzione del continuo**: passaggio dal discreto al continuo\n- **Limiti**: formalizzazione rigorosa dell'infinitamente piccolo\n- **Paradossi di Zenone**: risolti attraverso il calcolo infinitesimale\n\n## 4. ESEMPI CONCRETI\n\n### Applicazioni in Fisica Meccanica\n- **Caduta dei gravi**: s(t) = ½gt², v(t) = gt, a(t) = g\n- **Moto parabolico**: traiettorie di proiettili\n- **Oscillazioni**: moto armonico semplice (x = A sin(ωt))\n- **Cinematica**: studio del moto indipendentemente dalle cause\n\n### Impatto Tecnologico e Sociale\n- **Rivoluzione industriale**: calcolo di rendimenti e ottimizzazioni\n- **Ingegneria**: progettazione di macchine e strutture\n- **Astronomia**: calcolo di orbite planetarie\n- **Economia**: modelli di crescita e ottimizzazione\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Padroneggiare\n- **Definizione rigorosa di derivata** e suo significato geometrico/fisico\n- **Differenza tra velocità media e istantanea**\n- **Relazione tra posizione, velocità e accelerazione**\n- **Importanza storica del calcolo infinitesimale**\n- **Connessione tra matematica pura e applicazioni pratiche**\n\n### Terminologia Specifica\n- **Calcolo differenziale**: ramo dell'analisi matematica\n- **Flussioni**: termine newtoniano per le derivate\n- **Infinitesimi**: quantità infinitamente piccole\n- **Dinamismo**: studio del movimento e delle sue cause\n- **Modellizzazione**: rappresentazione matematica della realtà\n\n### Collegamenti Interdisciplinari\n- **Filosofia**: rivoluzione del pensiero scientifico (Galileo, Newton)\n- **Storia**: impatto sulla rivoluzione scientifica del XVII secolo\n- **Fisica**: meccanica classica e leggi del movimento\n- **Tecnologia**: sviluppo di macchine e innovazioni industriali\n\n### Aspetti Critici del Progresso\n- **Matematizzazione della natura**: pro e contro della quantificazione\n- **Determinismo**: prevedibilità vs. complessità dei sistemi reali\n- **Riduzionismo**: semplificazione della realtà attraverso modelli matematici\n- **Limiti della modellizzazione**: approssimazioni e idealizzazioni",
+        "connection_to_prompt": "La matematica, attraverso il calcolo differenziale, ha rivoluzionato la comprensione del movimento e del cambiamento, diventando il linguaggio universale del progresso scientifico e tecnologico, pur introducendo nuove sfide concettuali.",
+        "connection_to_others": [
+          "Fisica",
+          "Filosofia",
+          "Storia",
+          "Scienze"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di analisi matematica",
+          "Storia della matematica",
+          "Principi di meccanica classica"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Italiana`,
-        commission_type: 'Commissario Esterno',
-        content: `## FUTURISMO VS VERISMO: PROGRESSO E VINTI
-
-### Il Verismo: La Denuncia dei Perdenti del Progresso
-
-* **Metodologia scientifica**: Verga applica il metodo dell'impersonalità, osservando la realtà sociale con distacco clinico
-* **I vinti della modernizzazione**: 
-  - *I Malavoglia*: la famiglia di pescatori travolta dalle trasformazioni economiche post-unitarie
-  - *Mastro-don Gesualdo*: l'ascesa sociale frustrata dalle rigidità di classe
-* **Determinismo sociale**: L'ambiente e l'eredità condizionano inesorabilmente il destino individuale
-* **Linguaggio mimetico**: Adozione del registro popolare per dare voce agli esclusi
-
-### Il Futurismo: L'Esaltazione della Velocità e della Macchina
-
-* **Manifesto del 1909**: Marinetti proclama la "bellezza della velocità" e la distruzione del passato
-* **Estetica della modernità**:
-  - Glorificazione della tecnologia, dell'automobile, dell'aeroplano
-  - Guerra come "sola igiene del mondo"
-* **Rivoluzione linguistica**: Parole in libertà, onomatopee, simultaneità espressiva
-* **Ideologia del progresso**: Fede incondizionata nel futuro tecnologico e nella trasformazione radicale
-
-### La Contraddizione Fondamentale
-
-Mentre Verga documenta i costi umani dell'unificazione e dell'industrializzazione, rivelando come il progresso produca nuove forme di sfruttamento, Marinetti celebra acriticamente la modernità come liberazione totale. Due visioni antitetiche che incarnano la dialettica tra entusiasmo e disillusione verso le trasformazioni dell'Italia moderna.`,
-        connection_to_prompt: `Verismo e Futurismo incarnano la tensione tra denuncia delle vittime del progresso e sua celebrazione acritica.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Storia dell'Arte`
-        ]
+        "name": "Letteratura Italiana",
+        "commission_type": "Commissario Esterno",
+        "content": "# FUTURISMO VS VERISMO: PROGRESSO E CONTRADDIZIONI\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Verismo (1875-1895)\n- **Definizione**: Movimento letterario che rappresenta la realtà sociale con metodo scientifico\n- **Principi chiave**:\n  - **Impersonalità** dell'autore\n  - **Oggettività** nella narrazione\n  - Rappresentazione dei **\"vinti\"** dalla società\n  - Critica alle conseguenze negative del progresso industriale\n\n### Il Futurismo (1909-1944)\n- **Definizione**: Avanguardia artistica che esalta la modernità e il dinamismo\n- **Principi chiave**:\n  - **Glorificazione** della velocità e della tecnologia\n  - Rifiuto del passato e della tradizione\n  - Esaltazione della **macchina** e dell'industria\n  - Linguaggio innovativo e sperimentale\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### Verismo\n- **1875**: \"Nedda\" di Giovanni Verga - prima novella verista\n- **1881**: \"I Malavoglia\" - capolavoro del Verismo\n- **1888**: \"Mastro-don Gesualdo\"\n- **1889**: \"Il piacere\" di D'Annunzio (transizione verso Decadentismo)\n\n### Futurismo\n- **20 febbraio 1909**: Manifesto del Futurismo di **Filippo Tommaso Marinetti** su \"Le Figaro\"\n- **1912**: Manifesto tecnico della letteratura futurista\n- **1915-1918**: Adesione interventista alla Prima Guerra Mondiale\n- **Anni '20-'30**: Evoluzione verso posizioni nazionaliste\n\n## 3. COLLEGAMENTI TEORICI\n\n### Visione del Progresso\n\n#### Verismo - **Critica pessimistica**\n- Il progresso come **forza distruttiva** per i ceti popolari\n- **Darwinismo sociale**: sopravvivenza del più forte\n- **Determinismo**: ambiente e eredità condizionano il destino\n- Focus sui **\"vinti\"**: pescatori, contadini, operai\n\n#### Futurismo - **Esaltazione acritica**\n- Progresso come **liberazione** e **rinnovamento**\n- **Mito della velocità**: automobile, aeroplano, treno\n- **Distruzione creatrice**: abbattere il vecchio per costruire il nuovo\n- Focus sui **\"vincitori\"**: industriali, aviatori, soldati\n\n### Tecniche Narrative\n\n#### Verismo\n- **Regressione**: adozione del punto di vista dei personaggi\n- **Discorso indiretto libero**\n- **Linguaggio popolare** e dialettale\n- **Straniamento**: l'autore si eclissa\n\n#### Futurismo\n- **Parole in libertà**: abolizione della sintassi\n- **Simultaneità** espressiva\n- **Onomatopee** e **analogie ardite**\n- **Tipografia** come elemento espressivo\n\n## 4. ESEMPI CONCRETI\n\n### Verismo - Giovanni Verga\n- **\"I Malavoglia\"**: famiglia di pescatori distrutta dal progresso economico\n- **\"Rosso Malpelo\"**: sfruttamento minorile nelle zolfatare\n- **\"La roba\"**: critica all'accumulo capitalistico (Mazzarò)\n\n### Futurismo - F.T. Marinetti\n- **\"Zang Tumb Tuum\"** (1914): rappresentazione della battaglia di Adrianopoli\n- **\"Mafarka il futurista\"** (1909): esaltazione della forza e della violenza\n- **Manifesti**: programmi estetici e ideologici\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Contrasti Fondamentali\n- **Temporalità**: Verismo guarda al presente con occhi del passato / Futurismo proiettato verso il futuro\n- **Classi sociali**: Verismo = ceti popolari / Futurismo = borghesia industriale\n- **Linguaggio**: Verismo = mimesi del parlato / Futurismo = sperimentazione estrema\n- **Ideologia**: Verismo = denuncia sociale / Futurismo = adesione al sistema\n\n### Terminologia Specifica\n- **\"Religione della roba\"** (Verga)\n- **\"Ideale dell'ostrica\"** (Verga)\n- **\"Parole in libertà\"** (Marinetti)\n- **\"Simultaneità futurista\"**\n- **\"Interventismo democratico\"**\n\n### Collegamenti Interdisciplinari\n- **Storia**: Unità d'Italia, industrializzazione, Prima Guerra Mondiale\n- **Filosofia**: Positivismo, Nietzsche, Bergson\n- **Arte**: Divisionismo, Futurismo pittorico (Boccioni, Carrà)\n\n### Consigli per l'Esposizione\n- Sottolineare il **rapporto dialettico** tra i due movimenti\n- Evidenziare come entrambi riflettano **contraddizioni del progresso**\n- Collegare alle **trasformazioni socio-economiche** dell'epoca\n- Preparare **citazioni brevi** dai testi principali",
+        "connection_to_prompt": "Questo argomento illustra perfettamente le contraddizioni del progresso attraverso due visioni opposte: il Verismo che ne denuncia i costi umani e sociali, il Futurismo che ne esalta acriticamente le potenzialità trasformative.",
+        "connection_to_others": [
+          "Storia (industrializzazione e Prima Guerra Mondiale)",
+          "Filosofia (Positivismo e Nietzsche)",
+          "Storia dell'Arte (Avanguardie artistiche)",
+          "Scienze Umane (trasformazioni sociali)"
+        ],
+        "sources_used": [
+          "Materiale di ricerca su Futurismo e Verismo",
+          "Fonti educative italiane autorevoli"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Storia dell'Arte`,
-        commission_type: 'Commissario Interno',
-        content: `# LA VISIONE DEL DINAMISMO E DELLA CITTÀ INDUSTRIALE NEL FUTURISMO (BOCCIONI)
-
-## Contesto storico-culturale
-Il Futurismo nasce nel 1909 con il Manifesto di Marinetti, esprimendo l'entusiasmo per la modernità industriale e la velocità meccanica. Umberto Boccioni (1882-1916) diventa il teorico e principale esponente della pittura futurista, elaborando una poetica che celebra il dinamismo della metropoli contemporanea.
-
-## Fondamenti teorici e filosofici
-* **Influenza bergsoniana**: Assimilazione del concetto di "élan vital" e della durata come flusso continuo dell'esperienza
-* **Simultaneità percettiva**: Rappresentazione di più momenti temporali in un'unica immagine
-* **Compenetrazione degli stati d'animo**: Fusione tra soggetto percipiente e ambiente urbano
-* **Dinamismo plastico**: Superamento della staticità tradizionale attraverso linee-forza
-
-## Opere chiave e innovazioni tecniche
-**"Stati d'animo" (1911)**: Trittico che visualizza le emozioni collettive della stazione ferroviaria
-* Frammentazione cubista applicata al movimento
-* Linee di velocità che attraversano la composizione
-* Colori puri per intensificare l'energia emotiva
-
-**"La città che sale" (1910-1911)**: Manifesto pittorico dell'urbanesimo industriale
-* Cavalli come simbolo di forza meccanica
-* Cantiere edilizio come metafora del progresso
-* Pennellata vorticosa che simula il ritmo frenetico metropolitano
-
-## Contraddizioni del progresso
-Boccioni rivela l'ambivalenza della modernità: esalta la potenza tecnologica ma intuisce l'alienazione urbana. La sua pittura cattura simultaneamente l'euforia e l'angoscia dell'uomo-massa nella civiltà delle macchine, anticipando tematiche che diventeranno centrali nel dibattito novecentesco.`,
-        connection_to_prompt: `Boccioni incarna l'ambivalenza novecentesca: celebra euforicamente il progresso industriale mentre ne rivela inconsciamente l'alienazione.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Fisica e Chimica`
-        ]
+        "name": "Storia dell'Arte",
+        "commission_type": "Commissario Interno",
+        "content": "# IL FUTURISMO: DINAMISMO E CITTÀ INDUSTRIALE\n## Boccioni e la Rivoluzione Artistica del Movimento\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Movimento Futurista\n- **Nascita**: 1909 con il Manifesto di Marinetti\n- **Principi base**: velocità, dinamismo, modernità, rifiuto del passato\n- **Slogan**: \"Un'automobile da corsa è più bella della Vittoria di Samotracia\"\n\n### La Visione del Dinamismo\n- **Definizione**: rappresentazione del movimento e della velocità come essenza della modernità\n- **Obiettivo**: catturare l'energia cinetica e la simultaneità delle sensazioni\n- **Tecnica**: scomposizione delle forme in movimento\n\n### La Città Industriale Futurista\n- **Concezione**: la metropoli come simbolo del progresso tecnologico\n- **Elementi**: fabbriche, macchine, luci elettriche, traffico\n- **Estetica**: bellezza della modernità industriale vs tradizione classica\n\n## 2. CRONOLOGIA\n\n- **1909**: Manifesto del Futurismo (Marinetti)\n- **1910**: Manifesto dei Pittori Futuristi (Boccioni, Carrà, Russolo, Balla, Severini)\n- **1912**: Manifesto Tecnico della Scultura Futurista (Boccioni)\n- **1913**: \"Forme uniche della continuità nello spazio\" (Boccioni)\n- **1914-1918**: Prima Guerra Mondiale - fine del movimento\n\n## 3. UMBERTO BOCCIONI (1882-1916)\n\n### Opere Chiave sul Dinamismo\n- **\"La città che sale\" (1910-1911)**\n  - Rappresentazione del cantiere urbano in movimento\n  - Cavalli e operai simbolo della forza costruttrice\n  - Colori vivaci e pennellate dinamiche\n\n- **\"Stati d'animo\" (1911)**\n  - Trittico: \"Gli addii\", \"Quelli che vanno\", \"Quelli che restano\"\n  - Rappresentazione psicologica del movimento\n  - Linee-forza che esprimono emozioni\n\n- **\"Forme uniche della continuità nello spazio\" (1913)**\n  - Scultura simbolo del Futurismo\n  - Figura umana in movimento che si fonde con l'aria\n  - Sintesi di dinamismo e modernità\n\n### Tecniche Pittoriche\n- **Linee-forza**: direttrici che guidano il movimento\n- **Compenetrazione dei piani**: sovrapposizione di forme\n- **Simultaneità**: rappresentazione di più momenti temporali\n- **Scomposizione cromatica**: uso del colore per creare dinamismo\n\n## 4. COLLEGAMENTI TEORICI\n\n### Influenze Culturali\n- **Filosofia di Bergson**: concezione del tempo e della durata\n- **Cubismo**: scomposizione delle forme (ma con finalità diverse)\n- **Divisionismo**: tecnica del colore puro\n- **Fotografia**: cronofotografia di Muybridge e Marey\n\n### Rapporto con la Modernità\n- **Macchina**: simbolo di bellezza e potenza\n- **Velocità**: nuovo parametro estetico\n- **Città**: organismo vivente in continua trasformazione\n- **Progresso**: fede incondizionata nel futuro tecnologico\n\n## 5. ESEMPI CONCRETI\n\n### La Rappresentazione della Città\n- **Elementi ricorrenti**: ciminiere fumanti, gru, cantieri\n- **Atmosfera**: energia, rumore, movimento perpetuo\n- **Colori**: rossi, gialli, arancioni per l'energia industriale\n\n### Il Dinamismo nell'Arte\n- **Figura umana**: non più statica ma in perpetuo movimento\n- **Oggetti**: perdono contorni definiti, si fondono con l'ambiente\n- **Spazio**: non più prospettico ma emotivo e sensoriale\n\n## 6. PUNTI CHIAVE PER L'ORALE\n\n- Il **Futurismo** nasce dalla volontà di rappresentare la modernità industriale\n- **Boccioni** è il teorico principale del movimento artistico futurista\n- La **città industriale** diventa soggetto estetico privilegiato\n- Il **dinamismo** si esprime attraverso linee-forza e compenetrazione dei piani\n- **\"La città che sale\"** è l'opera manifesto della visione futurista urbana\n- Il movimento si oppone al **passatismo** e celebra il **progresso tecnologico**\n- La **Prima Guerra Mondiale** segna la fine dell'esperienza futurista\n\n### Terminologia Specifica\n- **Linee-forza**: direttrici del movimento\n- **Compenetrazione**: fusione di forme e piani\n- **Simultaneità**: rappresentazione di più tempi\n- **Dinamismo plastico**: movimento reso in scultura\n- **Sensazione dinamica**: percezione del movimento",
+        "connection_to_prompt": "Il Futurismo di Boccioni rappresenta perfettamente le contraddizioni del progresso: celebra la modernità industriale ma ne ignora gli aspetti sociali problematici.",
+        "connection_to_others": [
+          "Letteratura (Marinetti)",
+          "Storia (Prima Guerra Mondiale)",
+          "Filosofia (Bergson)",
+          "Fisica (Dinamica)"
+        ],
+        "sources_used": [
+          "Fonti educative italiane autorevoli",
+          "Manuali di Storia dell'Arte"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Inglese`,
-        commission_type: 'Commissario Interno',
-        content: `**La Critica all'Alienazione Umana nella 'Coketown' di Dickens**
-
-**Contesto Storico-Letterario:**
-Charles Dickens in *Hard Times* (1854) costruisce Coketown come paradigma della città industriale vittoriana, incarnazione delle contraddizioni del progresso capitalista. La descrizione della città-fabbrica rivela l'alienazione marxiana ante litteram: l'uomo ridotto a ingranaggio meccanico.
-
-**Analisi della Rappresentazione Urbana:**
-* **Desertificazione umana:** Coketown è caratterizzata da "monotonous sameness" - uniformità che cancella l'individualità
-* **Meccanizzazione dell'esistenza:** Il ritmo industriale governa ogni aspetto della vita sociale
-* **Degradazione ambientale:** Fumo, polvere di carbone e inquinamento come metafore dell'inquinamento morale
-* **Stratificazione sociale:** Netta divisione tra capitalisti (Bounderby) e operai (Stephen Blackpool)
-
-**Tecniche Narrative della Critica:**
-- **Simbolismo industriale:** Le ciminiere come "serpenti" che avvelenano l'ambiente
-- **Contrasto semantico:** Opposizione tra "fancy" (immaginazione) e "fact" (utilitarismo gradgrindiano)
-- **Realismo sociale:** Descrizione oggettiva delle condizioni di lavoro e abitazione
-
-**Significato Filosofico:**
-Dickens anticipa la critica all'alienazione del lavoro: l'operaio perde il controllo sul prodotto della propria attività, divenendo estraneo a se stesso. La "cash nexus" sostituisce i rapporti umani autentici. Il progresso tecnologico genera regresso umano, trasformando Coketown in inferno dantesco della modernità industriale.`,
-        connection_to_prompt: `Dickens rivela come il progresso industriale generi alienazione umana, trasformando l'avanzamento tecnologico in regresso sociale.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Storia dell'Arte`
-        ]
+        "name": "Letteratura Inglese",
+        "commission_type": "Commissario Interno",
+        "content": "# LA CRITICA ALL'ALIENAZIONE UMANA NELLA 'COKETOWN' DI DICKENS\n\n## 1. CONCETTI FONDAMENTALI\n\n### Definizione di Alienazione\n- **Alienazione**: condizione di estraniamento dell'individuo dalla società, dal lavoro e da se stesso\n- **Alienazione industriale**: perdita di identità umana causata dalla meccanizzazione del lavoro\n- **Reificazione**: riduzione dell'essere umano a oggetto/merce nel sistema produttivo\n\n### Coketown come Simbolo\n- **Coketown**: città industriale immaginaria nel romanzo \"Hard Times\" (1854)\n- Rappresenta l'**industrializzazione selvaggia** dell'Inghilterra vittoriana\n- Metafora della **disumanizzazione** causata dal capitalismo industriale\n\n## 2. CRONOLOGIA\n\n- **1854**: Pubblicazione di \"Hard Times\" di Charles Dickens\n- **1850-1870**: Periodo di massima espansione industriale britannica\n- **Contesto storico**: Seconda fase della Rivoluzione Industriale\n- **Movimento operaio**: Prime organizzazioni sindacali e scioperi\n\n## 3. COLLEGAMENTI TEORICI\n\n### Rapporto con il Marxismo\n- Dickens **anticipa** alcune critiche di Marx al capitalismo\n- **Critica sociale** senza proposta rivoluzionaria esplicita\n- Focus sulla **condizione operaia** e lo sfruttamento\n\n### Realismo Sociale\n- **Denuncia sociale** attraverso la narrativa\n- **Descrizione realistica** delle condizioni di vita operaie\n- Influenza del **positivismo** nell'osservazione della realtà sociale\n\n## 4. ESEMPI CONCRETI IN COKETOWN\n\n### Caratteristiche della Città Industriale\n- **Uniformità architettonica**: case tutte uguali, grigie, monotone\n- **Inquinamento**: fumo nero, aria irrespirabile\n- **Rumore meccanico**: suoni delle fabbriche che dominano la vita\n- **Perdita di individualità**: abitanti ridotti a numeri\n\n### Personaggi Simbolici\n- **Stephen Blackpool**: operaio onesto vittima del sistema\n- **Mr. Gradgrind**: rappresenta l'**utilitarismo** e il \"fatto puro\"\n- **Josiah Bounderby**: capitalista senza scrupoli\n\n### Tecniche Narrative\n- **Descrizioni dettagliate** dell'ambiente industriale\n- **Contrasto** tra ricchezza dei padroni e miseria operaia\n- **Simbolismo**: il fumo come metafora dell'oppressione\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Temi Centrali\n- **Critica al sistema educativo** basato solo sui \"fatti\"\n- **Denuncia delle condizioni lavorative** disumane\n- **Perdita dei valori umani** sostituiti dal profitto\n- **Contraddizioni del progresso**: benessere per pochi, miseria per molti\n\n### Tecniche Stilistiche\n- **Ironia** nella descrizione della \"civiltà\" industriale\n- **Ripetizioni** per enfatizzare la monotonia\n- **Metafore meccaniche** applicate agli esseri umani\n- **Linguaggio sensoriale** per descrivere degrado ambientale\n\n### Collegamenti Interdisciplinari\n- **Storia**: Rivoluzione Industriale e questione sociale\n- **Filosofia**: Utilitarismo di Bentham e Mill\n- **Economia**: Nascita del capitalismo industriale\n- **Sociologia**: Formazione della classe operaia\n\n### Termini Chiave da Ricordare\n- **Hard Times** (Tempi Difficili)\n- **Industrial novel** (romanzo industriale)\n- **Social criticism** (critica sociale)\n- **Dehumanization** (disumanizzazione)\n- **Working class** (classe operaia)\n- **Utilitarianism** (utilitarismo)\n\n### Citazioni Significative\n- \"It was a town of red brick, or of brick that would have been red if the smoke and ashes had allowed it\"\n- Descrizione della **monotonia industriale** e dell'**inquinamento**\n\n## CONSIGLI PER L'ESAME\n- Collegare sempre Dickens al **contesto storico** della Rivoluzione Industriale\n- Evidenziare il **carattere pionieristico** della sua critica sociale\n- Sottolineare l'**attualità** dei temi trattati\n- Preparare **confronti** con altri autori del realismo europeo",
+        "connection_to_prompt": "La critica dickensiana all'alienazione industriale rappresenta una delle prime e più efficaci denunce letterarie delle contraddizioni del progresso ottocentesco.",
+        "connection_to_others": [
+          "Storia (Rivoluzione Industriale)",
+          "Filosofia (Utilitarismo e Marxismo)",
+          "Arte (Realismo)",
+          "Italiano (Verismo)",
+          "Economia (Capitalismo industriale)"
+        ],
+        "sources_used": [
+          "Analisi critica letteraria",
+          "Contesto storico-sociale vittoriano",
+          "Teoria dell'alienazione industriale"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Storia`,
-        commission_type: 'Commissario Esterno',
-        content: `# L'Interventismo Futurista e la Grande Guerra
-
-## Il Movimento Futurista e la Mitologia della Guerra
-
-* **Marinetti e l'estetica bellica (1909-1915):** Il Manifesto del Futurismo trasforma la guerra in "sola igiene del mondo", esaltando violenza, velocità e distruzione come elementi purificatori della società borghese
-* **Interventismo rivoluzionario:** I futuristi sostengono l'entrata italiana nel conflitto come rottura definitiva con il passatismo austro-ungarico e accelerazione verso la modernità industriale
-* **Convergenza intellettuale:** Alleanza tattica con nazionalisti (D'Annunzio), sindacalisti rivoluzionari (De Ambris) e socialisti dissidenti (Mussolini) nel nome dell'azione rigeneratrice
-
-## La Filosofia Bergsoniana del Progresso
-* **Élan vital:** Concezione della guerra come manifestazione dell'impulso vitale creatore che spezza la cristallizzazione sociale
-* **Durata vs. Spazio:** Il conflitto come esperienza temporale autentica che libera dalla meccanicità della vita borghese
-* **Intuizione eroica:** La battaglia come momento di conoscenza immediata e totale della realtà
-
-## La Tragica Smentita (1915-1918)
-
-* **Realtà delle trincee:** La guerra di posizione contraddice radicalmente l'immaginario futurista di dinamismo e velocità
-* **Meccanizzazione della morte:** L'industrializzazione del conflitto rivela il volto disumano del progresso tecnologico
-* **Crisi dell'ottimismo:** La carneficina sistematica demolisce la fiducia nell'automatismo progressivo della storia
-* **Eredità ambigua:** Dal fallimento dell'interventismo democratico nasce il fascismo come sintesi perversa di modernità e reazione
-
-## Significato Storico
-La Grande Guerra segna il tramonto definitivo dell'Ottocento positivista e l'emergere della "crisi della civiltà europea", anticipando i totalitarismi novecenteschi.`,
-        connection_to_prompt: `Il futurismo rivela come l'ideologia del progresso possa trasformarsi in apologia della distruzione.`,
-        connection_to_others: [
-          `Letteratura Italiana`,
-          `Filosofia`,
-          `Storia dell'Arte`
-        ]
+        "name": "Storia",
+        "commission_type": "Commissario Esterno",
+        "content": "# L'INTERVENTISMO FUTURISTA E LA TRAGICA SMENTITA DELLA GRANDE GUERRA\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Futurismo come Movimento Culturale\n- **Movimento d'avanguardia** nato in Italia nel 1909 con il **Manifesto del Futurismo** di Filippo Tommaso Marinetti\n- **Esaltazione della modernità**: velocità, tecnologia, macchine, dinamismo\n- **Rifiuto del passato**: \"distruggere musei, biblioteche, accademie\"\n- **Culto della guerra**: definita \"sola igiene del mondo\"\n\n### L'Interventismo Futurista\n- **Interventismo**: movimento politico-culturale che sosteneva l'entrata dell'Italia nella Prima Guerra Mondiale (1914-1918)\n- **Posizione futurista**: guerra vista come **rigenerazione nazionale** e **esperienza estetica**\n- **Contrasto con neutralismo**: opposizione alla posizione iniziale del governo Giolitti\n\n## 2. CRONOLOGIA DEGLI EVENTI\n\n### 1914-1915: La Campagna Interventista\n- **Agosto 1914**: Scoppio della Grande Guerra, Italia neutrale\n- **Ottobre 1914**: Marinetti pubblica articoli pro-interventisti su \"Lacerba\"\n- **Inverno 1914-1915**: **Manifestazioni interventiste** nelle piazze italiane\n- **Maggio 1915**: **Radiose giornate di maggio**, manifestazioni a favore della guerra\n- **24 maggio 1915**: L'Italia entra in guerra\n\n### 1915-1918: La Partecipazione Futurista\n- **Arruolamento volontario** di molti futuristi (Marinetti, Boccioni, Sant'Elia)\n- **1916**: Morte di **Umberto Boccioni** in addestramento militare\n- **1916**: Morte di **Antonio Sant'Elia** sul Carso\n- **1918**: Fine della guerra, bilancio tragico\n\n## 3. COLLEGAMENTI TEORICI\n\n### Ideologia Futurista e Guerra\n- **Estetizzazione della violenza**: guerra come \"spettacolo\" e arte\n- **Mito della velocità**: guerra moderna come espressione del dinamismo\n- **Nazionalismo aggressivo**: Italia come nazione giovane e vitale\n- **Antipassatismo**: guerra come rottura con il mondo ottocentesco\n\n### Rapporti con Altri Movimenti\n- **Nazionalisti**: alleanza tattica con Corradini e l'Associazione Nazionalista\n- **Irredentisti**: sostegno alla liberazione di Trento e Trieste\n- **Dannunzianesimo**: affinità con il culto eroico di D'Annunzio\n\n## 4. ESEMPI CONCRETI\n\n### Protagonisti dell'Interventismo Futurista\n- **Filippo Tommaso Marinetti**: leader del movimento, si arruola volontario\n- **Umberto Boccioni**: pittore, muore durante l'addestramento militare\n- **Antonio Sant'Elia**: architetto, cade sul fronte del Carso\n- **Ardengo Soffici**: pittore e scrittore, combatte sul fronte\n\n### Manifestazioni e Azioni\n- **Serate futuriste**: spettacoli teatrali pro-guerra\n- **Volantinaggio**: distribuzione di manifesti interventisti\n- **Bruciatura della bandiera austriaca**: gesto simbolico a Trieste\n\n## 5. LA TRAGICA SMENTITA\n\n### La Realtà della Guerra\n- **Guerra di trincea**: staticità contro il mito futurista del movimento\n- **Tecnologia distruttiva**: macchine come strumenti di morte, non di bellezza\n- **Sofferenza di massa**: 650.000 morti italiani, milioni di feriti\n- **Devastazione del territorio**: distruzione, non rigenerazione\n\n### Il Crollo delle Illusioni\n- **Fine del mito eroico**: guerra come esperienza traumatica, non estetica\n- **Crisi del movimento**: morte dei principali esponenti\n- **Revisione ideologica**: alcuni futuristi ripensano le proprie posizioni\n- **Eredità problematica**: influenza sul successivo fascismo\n\n## 6. PUNTI CHIAVE DA RICORDARE\n\n- Il **Futurismo** esaltava guerra, velocità e modernità tecnologica\n- L'**interventismo futurista** vedeva la guerra come rigenerazione nazionale\n- **Marinetti** fu il principale teorico dell'interventismo futurista\n- La **Grande Guerra** smentì tragicamente i miti futuristi\n- **Boccioni e Sant'Elia** morirono durante il conflitto\n- La guerra si rivelò **statica, distruttiva e traumatica**\n- L'esperienza bellica influenzò il **successivo sviluppo del fascismo**\n- Il conflitto rappresentò una **crisi dell'ottimismo tecnologico**\n\n## 7. TERMINOLOGIA SPECIFICA PER L'ORALE\n\n- **Avanguardia artistica**\n- **Estetizzazione della politica**\n- **Mito della rigenerazione**\n- **Guerra-igiene del mondo**\n- **Antipassatismo**\n- **Dinamismo futurista**\n- **Interventismo democratico vs. nazionalista**",
+        "connection_to_prompt": "L'interventismo futurista rappresenta perfettamente le contraddizioni del progresso: la fiducia cieca nella tecnologia e nella modernità si scontrò tragicamente con la realtà distruttiva della Grande Guerra.",
+        "connection_to_others": [
+          "Letteratura Italiana (Marinetti, D'Annunzio)",
+          "Arte (Boccioni, Sant'Elia)",
+          "Filosofia (estetizzazione della politica)",
+          "Geografia (fronti di guerra)"
+        ],
+        "sources_used": [
+          "Conoscenze storiche consolidate",
+          "Manuali di storia contemporanea"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Filosofia`,
-        commission_type: 'Commissario Esterno',
-        content: `# POSITIVISMO VS MARXISMO: PROGRESSO E ALIENAZIONE
-
-## Il Positivismo: La Fede Scientifica nel Progresso
-
-**Caratteri fondamentali:**
-* **Legge dei tre stadi** (Comte): stadio teologico → metafisico → positivo come evoluzione necessaria dell'umanità
-* **Metodo scientifico** come unico strumento conoscitivo valido e garanzia di progresso sociale
-* **Sociologia** come "fisica sociale" per governare razionalmente la società
-* **Fiducia incondizionata** nel progresso tecnologico e nell'industrializzazione
-
-**Implicazioni filosofiche:**
-Il positivismo interpreta il progresso come **movimento lineare e inevitabile** verso il perfezionamento umano attraverso la scienza. La società industriale rappresenta l'apice dell'evoluzione storica, dove la razionalità tecnica risolve ogni contraddizione sociale.
-
-## Il Marxismo: La Critica Dialettica dell'Alienazione
-
-**Concetti chiave:**
-* **Alienazione del lavoro**: separazione del lavoratore dal prodotto, dal processo produttivo, dalla propria essenza umana
-* **Materialismo storico**: le contraddizioni economiche come motore della storia
-* **Dialettica hegeliana rovesciata**: la realtà materiale determina la coscienza
-* **Critica dell'ideologia borghese**: il progresso tecnico maschera lo sfruttamento di classe
-
-**La contraddizione del progresso capitalistico:**
-Marx denuncia come il progresso industriale, celebrato dai positivisti, generi simultaneamente **ricchezza e miseria**, **sviluppo tecnologico e disumanizzazione**. Il capitale trasforma il progresso in strumento di oppressione: più la produttività aumenta, più si accentua l'alienazione operaia.
-
-## Sintesi del Confronto
-
-Mentre il **positivismo** vede nel progresso scientifico-industriale la soluzione definitiva ai problemi umani, il **marxismo** ne svela le contraddizioni intrinseche, proponendo il superamento dialettico attraverso la rivoluzione proletaria verso una società senza classi.`,
-        connection_to_prompt: `Positivismo e marxismo incarnano la contraddizione fondamentale del progresso: fede cieca versus critica delle sue alienazioni.`,
-        connection_to_others: [
-          `Storia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`
-        ]
+        "name": "Filosofia",
+        "commission_type": "Commissario Esterno",
+        "content": "# POSITIVISMO vs MARXISMO: Fede nel Progresso contro Critica all'Alienazione\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Positivismo (XIX secolo)\n- **Definizione**: Corrente filosofica che considera la **scienza** come unica forma di conoscenza valida\n- **Principio base**: Fiducia assoluta nel **progresso scientifico** e tecnologico\n- **Metodo**: Applicazione del **metodo scientifico** a tutti gli ambiti della conoscenza\n- **Obiettivo**: Miglioramento delle condizioni umane attraverso la scienza\n\n### Il Marxismo (metà XIX secolo)\n- **Definizione**: Sistema filosofico-economico che analizza criticamente il **capitalismo**\n- **Principio base**: Il progresso genera **contraddizioni** e **alienazione**\n- **Metodo**: **Materialismo dialettico** e analisi delle strutture economiche\n- **Obiettivo**: Superamento dell'alienazione attraverso la rivoluzione proletaria\n\n## 2. CRONOLOGIA ESSENZIALE\n\n- **1830-1842**: Auguste Comte elabora il **Corso di filosofia positiva**\n- **1848**: Marx ed Engels pubblicano il **Manifesto del Partito Comunista**\n- **1857**: Comte pubblica \"Sistema di politica positiva\"\n- **1867**: Marx pubblica il primo volume de **Il Capitale**\n- **1844**: Marx scrive i **Manoscritti economico-filosofici** (concetto di alienazione)\n\n## 3. COLLEGAMENTI TEORICI\n\n### Positivismo: La Fede nel Progresso\n- **Legge dei tre stadi** (Comte):\n  1. **Stadio teologico**: spiegazioni religiose\n  2. **Stadio metafisico**: spiegazioni filosofiche astratte\n  3. **Stadio positivo**: spiegazioni scientifiche\n- **Sociologia**: scienza della società per il progresso sociale\n- **Ordine e progresso**: equilibrio tra stabilità e sviluppo\n\n### Marxismo: La Critica all'Alienazione\n- **Alienazione del lavoro**: separazione tra lavoratore e prodotto\n- **Feticismo delle merci**: le relazioni sociali appaiono come rapporti tra cose\n- **Lotta di classe**: motore della storia e del cambiamento\n- **Materialismo storico**: le condizioni economiche determinano la sovrastruttura\n\n## 4. ESEMPI CONCRETI\n\n### Applicazioni Positiviste\n- **Riforma sociale**: miglioramento delle condizioni attraverso la scienza\n- **Educazione scientifica**: diffusione del sapere positivo\n- **Organizzazione razionale** della società\n\n### Analisi Marxista\n- **Rivoluzione industriale**: progresso tecnologico ma sfruttamento operaio\n- **Divisione del lavoro**: efficienza produttiva ma alienazione del lavoratore\n- **Accumulo di capitale**: crescita economica ma disuguaglianze crescenti\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Differenze Fondamentali\n- **Positivismo**: progresso = **miglioramento lineare** dell'umanità\n- **Marxismo**: progresso = processo **contraddittorio** con costi sociali\n- **Positivismo**: fiducia nella **scienza neutrale**\n- **Marxismo**: la scienza è **condizionata dalle classi dominanti**\n- **Positivismo**: **riformismo graduale**\n- **Marxismo**: necessità della **rivoluzione**\n\n### Terminologia Specifica\n- **Scientismo**: eccessiva fiducia nella scienza (critica al positivismo)\n- **Plusvalore**: valore aggiunto dal lavoro non retribuito (Marx)\n- **Sociologia**: scienza della società (Comte)\n- **Praxis**: unione di teoria e pratica rivoluzionaria (Marx)\n- **Religione dell'umanità**: culto positivista del progresso (Comte)\n\n### Attualità del Dibattito\n- Questione del **progresso tecnologico** oggi\n- **Intelligenza artificiale** e nuove forme di alienazione\n- **Sostenibilità ambientale** vs sviluppo economico\n- **Disuguaglianze sociali** nell'era digitale",
+        "connection_to_prompt": "Il confronto tra Positivismo e Marxismo rappresenta perfettamente le contraddizioni del progresso: da un lato la fede cieca nella scienza, dall'altro la consapevolezza critica dei suoi costi sociali.",
+        "connection_to_others": [
+          "Storia (Rivoluzione industriale, movimenti operai)",
+          "Letteratura (Naturalismo, Realismo socialista)",
+          "Scienze (Metodo scientifico, sociologia)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di filosofia del XIX secolo",
+          "Testi classici di Comte e Marx"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Fisica e Chimica`,
-        commission_type: 'Commissario Interno e Esterno',
-        content: `# Le Basi Scientifiche del Progresso: Fondamenti della Modernità
-
-## L'Elettromagnetismo: Unificazione e Rivoluzione Tecnologica
-
-* **Sintesi di Maxwell (1865)**: Le quattro equazioni fondamentali unificano elettricità e magnetismo, rivelando la natura ondulatoria della luce e predicendo l'esistenza delle onde elettromagnetiche
-* **Impatto concettuale**: Superamento della visione meccanicistica newtoniana attraverso il concetto di campo, preparando la strada alla relatività einsteiniana
-* **Conseguenze tecnologiche**: Telegrafo, telefono, radio, illuminazione elettrica trasformano radicalmente la società industriale
-* **Paradosso del progresso**: La stessa scienza che libera l'uomo dalle limitazioni naturali genera nuove dipendenze tecnologiche
-
-## Termodinamica: Energia e Limiti del Progresso
-
-* **Primo principio**: Conservazione dell'energia stabilisce l'equivalenza tra lavoro meccanico e calore, fondando la scienza energetica moderna
-* **Secondo principio (Clausius, 1850)**: L'entropia introduce l'irreversibilità nei processi naturali, contraddicendo l'ottimismo progressista ottocentesco
-* **Macchina termica**: Carnot dimostra i limiti teorici dell'efficienza, rivelando che il progresso tecnologico ha confini invalicabili
-* **Implicazioni filosofiche**: La "morte termica" dell'universo sfida la fede nel progresso infinito
-
-## Chimica Organica: Sintesi e Controllo della Natura
-
-* **Sintesi dell'urea (Wöhler, 1828)**: Demolisce la barriera tra organico e inorganico, aprendo la via alla chimica di sintesi
-* **Teoria strutturale**: Kekulé e la struttura del benzene rivelano l'architettura molecolare, permettendo la progettazione razionale di nuovi composti
-* **Industria chimica**: Coloranti sintetici, farmaci, esplosivi trasformano economia e società
-* **Ambivalenza del controllo**: La capacità di manipolare la materia organica genera sia benefici (medicina) sia rischi (inquinamento, armi chimiche)`,
-        connection_to_prompt: `Le scoperte scientifiche ottocentesche alimentano il progresso tecnologico rivelando simultaneamente i suoi limiti intrinseci.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`,
-          `Letteratura Inglese`
-        ]
+        "name": "Fisica e Chimica",
+        "commission_type": "Commissario Interno e Esterno",
+        "content": "# FISICA E CHIMICA: LE BASI SCIENTIFICHE DEL PROGRESSO\n\n## 1. CONCETTI FONDAMENTALI\n\n### Elettromagnetismo\n- **Campo elettrico**: regione dello spazio in cui si manifestano forze su cariche elettriche\n- **Campo magnetico**: regione dello spazio che influenza materiali magnetici e cariche in movimento\n- **Induzione elettromagnetica**: fenomeno per cui un campo magnetico variabile genera un campo elettrico\n- **Onde elettromagnetiche**: perturbazioni che si propagano nello spazio trasportando energia\n\n### Termodinamica\n- **Primo principio**: conservazione dell'energia (ΔU = Q - W)\n- **Secondo principio**: l'entropia di un sistema isolato non può diminuire\n- **Macchina termica**: dispositivo che converte calore in lavoro meccanico\n- **Rendimento**: rapporto tra lavoro utile ed energia fornita\n\n### Chimica Organica\n- **Composti organici**: molecole basate su catene di atomi di carbonio\n- **Idrocarburi**: composti formati solo da carbonio e idrogeno\n- **Gruppi funzionali**: parti reattive delle molecole organiche\n- **Polimeri**: macromolecole formate da unità ripetitive (monomeri)\n\n## 2. CRONOLOGIA DELLE SCOPERTE\n\n### XIX Secolo - Le Grandi Rivoluzioni\n- **1820**: Oersted scopre il legame tra elettricità e magnetismo\n- **1831**: Faraday formula le leggi dell'induzione elettromagnetica\n- **1850**: Clausius enuncia il secondo principio della termodinamica\n- **1865**: Maxwell unifica elettricità e magnetismo nelle equazioni di Maxwell\n- **1858**: Kekulé propone la struttura del benzene\n- **1869**: Mendeleev pubblica la tavola periodica\n\n### XX Secolo - Applicazioni Tecnologiche\n- **1907**: Baekeland inventa la bakelite (primo polimero sintetico)\n- **1920-1930**: Sviluppo dell'industria petrolchimica\n- **1940-1950**: Nascita dell'elettronica moderna\n\n## 3. COLLEGAMENTI TEORICI\n\n### Elettromagnetismo e Progresso\n- **Generatori elettrici**: applicazione dell'induzione di Faraday\n- **Motori elettrici**: conversione energia elettrica → meccanica\n- **Telecomunicazioni**: sfruttamento delle onde elettromagnetiche\n- **Illuminazione elettrica**: trasformazione della società urbana\n\n### Termodinamica e Rivoluzione Industriale\n- **Macchina a vapore**: primo motore termico efficiente\n- **Motore a combustione interna**: base dell'industria automobilistica\n- **Refrigerazione**: conservazione degli alimenti\n- **Centrali termoelettriche**: produzione di energia su larga scala\n\n### Chimica Organica e Società Moderna\n- **Farmaci**: sintesi di principi attivi\n- **Materie plastiche**: rivoluzione dei materiali\n- **Coloranti sintetici**: industria tessile\n- **Combustibili**: petrolio e derivati\n\n## 4. ESEMPI CONCRETI\n\n### Applicazioni Elettromagnetiche\n- **Dinamo di Faraday** (1831): primo generatore di corrente continua\n- **Telegrafo di Morse** (1844): prime comunicazioni a distanza\n- **Lampadina di Edison** (1879): illuminazione domestica\n- **Radio di Marconi** (1895): comunicazioni wireless\n\n### Macchine Termiche\n- **Macchina di Watt** (1769): efficienza migliorata del 300%\n- **Locomotiva a vapore**: trasporti su rotaia\n- **Automobile Ford Model T** (1908): produzione di massa\n\n### Prodotti Chimici Organici\n- **Aspirina** (1897): primo farmaco sintetico di massa\n- **Nylon** (1935): fibre tessili artificiali\n- **Polietilene** (1933): imballaggi moderni\n- **DDT** (1939): pesticidi (poi vietato per tossicità)\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Memorizzare\n- **Equazioni di Maxwell**: unificazione di elettricità e magnetismo\n- **Leggi della termodinamica**: conservazione energia ed entropia\n- **Formula molecolare del benzene**: C₆H₆ (struttura ad anello)\n- **Rendimento di Carnot**: limite teorico delle macchine termiche\n\n### Personaggi Chiave\n- **Michael Faraday**: induzione elettromagnetica\n- **James Clerk Maxwell**: teoria elettromagnetica\n- **Rudolf Clausius**: secondo principio termodinamica\n- **August Kekulé**: struttura dei composti organici\n\n### Impatto Sociale\n- **Seconda Rivoluzione Industriale** (1870-1914)\n- **Elettrificazione delle città**\n- **Nascita dell'industria chimica**\n- **Trasformazione dei trasporti**\n\n### Contraddizioni del Progresso\n- **Inquinamento industriale**: conseguenze ambientali\n- **Armi chimiche**: uso bellico delle scoperte\n- **Dipendenza energetica**: consumo di combustibili fossili\n- **Obsolescenza programmata**: spreco di risorse\n\n### Terminologia Tecnica\n- **Forza elettromotrice**: tensione generata da un generatore\n- **Ciclo termodinamico**: sequenza di trasformazioni\n- **Isomeria**: composti con stessa formula ma struttura diversa\n- **Catalisi**: accelerazione delle reazioni chimiche",
+        "connection_to_prompt": "Le scoperte scientifiche del XIX-XX secolo in fisica e chimica hanno costituito le fondamenta teoriche del progresso tecnologico moderno, ma hanno anche generato contraddizioni sociali e ambientali significative.",
+        "connection_to_others": [
+          "Storia",
+          "Filosofia",
+          "Letteratura",
+          "Arte"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di fisica e chimica",
+          "Cronologia storica delle scoperte scientifiche"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Educazione Civica`,
-        commission_type: null,
-        content: `**L'Agenda 2030: Risposta Sistemica alle Contraddizioni del Progresso**
-
-**Genesi e Struttura dell'Agenda 2030**
-* Adottata dall'ONU nel 2015, rappresenta il riconoscimento istituzionale delle contraddizioni generate dal modello di sviluppo industriale
-* 17 Obiettivi di Sviluppo Sostenibile (SDGs) che integrano dimensione economica, sociale e ambientale
-* Principio fondamentale: "Leave no one behind" - superamento delle disuguaglianze create dal progresso selettivo
-
-**Risposta alle Contraddizioni Storiche del Progresso**
-* **Contraddizione ambientale**: Gli SDGs 13-15 affrontano il paradosso per cui il progresso tecnologico ha compromesso l'ecosistema che lo sostiene
-* **Contraddizione sociale**: Gli SDGs 1, 5, 10 riconoscono che crescita economica e benessere collettivo non coincidono automaticamente
-* **Contraddizione democratica**: L'SDG 16 (pace, giustizia, istituzioni) risponde alla crisi delle democrazie nell'era della globalizzazione
-
-**Innovazione Concettuale: Sviluppo Sostenibile**
-* Superamento del paradigma crescita=progresso attraverso il concetto di "sviluppo umano sostenibile"
-* Integrazione tra efficienza economica, equità sociale e sostenibilità ambientale
-* Misurazione del progresso attraverso indicatori qualitativi oltre al PIL
-
-**Limiti e Criticità**
-* Natura non vincolante degli impegni: gap tra dichiarazioni e implementazione
-* Persistenza del modello capitalista come framework di riferimento
-* Tensione irrisolta tra crescita economica e limiti planetari
-
-**Significato Storico**
-L'Agenda 2030 rappresenta il primo tentativo di governance globale che riconosce esplicitamente le contraddizioni del progresso moderno, proponendo un paradigma alternativo basato sulla sostenibilità integrale.`,
-        connection_to_prompt: `L'Agenda 2030 istituzionalizza il riconoscimento delle contraddizioni del progresso, proponendo un paradigma di sviluppo sostenibile integrale.`,
-        connection_to_others: [
-          `Storia`,
-          `Fisica e Chimica`,
-          `Filosofia`
-        ]
+        "name": "Educazione Civica",
+        "commission_type": null,
+        "content": "# L'AGENDA 2030 COME RISPOSTA ALLE CONTRADDIZIONI DEL PROGRESSO\n\n## 1. CONCETTI FONDAMENTALI\n\n### Definizione dell'Agenda 2030\n- **Agenda 2030**: Piano d'azione globale adottato dall'**ONU nel settembre 2015**\n- **17 Obiettivi di Sviluppo Sostenibile (SDGs)** e **169 target specifici**\n- **Principio fondamentale**: \"*Leave no one behind*\" (Non lasciare nessuno indietro)\n- **Sviluppo sostenibile**: progresso che soddisfa i bisogni presenti senza compromettere le generazioni future\n\n### Le Tre Dimensioni della Sostenibilità\n- **Sostenibilità ambientale**: protezione ecosistemi e risorse naturali\n- **Sostenibilità sociale**: equità, giustizia sociale, riduzione disuguaglianze\n- **Sostenibilità economica**: crescita inclusiva e duratura\n\n## 2. CRONOLOGIA E CONTESTO STORICO\n\n### Precedenti Storici\n- **1972**: Conferenza di Stoccolma - primo riconoscimento globale dei problemi ambientali\n- **1987**: Rapporto Brundtland - definizione di sviluppo sostenibile\n- **1992**: Summit di Rio - Agenda 21 e principi dello sviluppo sostenibile\n- **2000**: **Obiettivi del Millennio (MDGs)** - primi obiettivi globali quantificati\n- **2015**: **Adozione Agenda 2030** - 193 Paesi firmatari\n\n### Tappe Fondamentali\n- **25 settembre 2015**: Assemblea Generale ONU approva l'Agenda\n- **2016**: Entrata in vigore degli SDGs\n- **2030**: Scadenza per il raggiungimento degli obiettivi\n\n## 3. I 17 OBIETTIVI DI SVILUPPO SOSTENIBILE\n\n### Obiettivi Sociali (1-6)\n1. **Sconfiggere la povertà**\n2. **Sconfiggere la fame**\n3. **Salute e benessere**\n4. **Istruzione di qualità**\n5. **Parità di genere**\n6. **Acqua pulita e servizi igienico-sanitari**\n\n### Obiettivi Economici (7-12)\n7. **Energia pulita e accessibile**\n8. **Lavoro dignitoso e crescita economica**\n9. **Imprese, innovazione e infrastrutture**\n10. **Ridurre le disuguaglianze**\n11. **Città e comunità sostenibili**\n12. **Consumo e produzione responsabili**\n\n### Obiettivi Ambientali (13-15)\n13. **Lotta contro il cambiamento climatico**\n14. **Vita sott'acqua**\n15. **Vita sulla terra**\n\n### Obiettivi Istituzionali (16-17)\n16. **Pace, giustizia e istituzioni solide**\n17. **Partnership per gli obiettivi**\n\n## 4. COLLEGAMENTI TEORICI\n\n### Risposta alle Contraddizioni del Progresso\n- **Crescita economica vs protezione ambientale**: concetto di **economia circolare**\n- **Innovazione tecnologica vs disuguaglianze sociali**: **inclusione digitale** e **trasferimento tecnologico**\n- **Globalizzazione vs identità locali**: principio di **sussidiarietà** e **sviluppo territoriale**\n- **Consumismo vs sostenibilità**: modelli di **produzione e consumo responsabili**\n\n### Principi Costituzionali Collegati\n- **Art. 9 Costituzione italiana** (modificato 2022): tutela ambiente e biodiversità\n- **Art. 41**: iniziativa economica che non danneggi sicurezza, libertà, dignità umana\n- **Principio di solidarietà intergenerazionale**\n\n## 5. ESEMPI CONCRETI E APPLICAZIONI\n\n### In Italia\n- **Strategia Nazionale per lo Sviluppo Sostenibile** (2017)\n- **Piano Nazionale di Ripresa e Resilienza (PNRR)**: 37% risorse per transizione ecologica\n- **Legge sul consumo di suolo** e **bonus edilizi** per efficienza energetica\n- **Educazione civica obbligatoria** nelle scuole (2020)\n\n### A Livello Globale\n- **Accordo di Parigi sul clima** (2015) - collegato all'SDG 13\n- **Global Compact ONU**: coinvolgimento settore privato\n- **Indice di Sviluppo Sostenibile**: monitoraggio progressi nazionali\n\n## 6. PUNTI CHIAVE PER L'ESAME\n\n### Concetti da Ricordare\n- L'Agenda 2030 rappresenta un **cambio di paradigma**: da crescita quantitativa a sviluppo qualitativo\n- **Interconnessione degli obiettivi**: non si può raggiungere uno senza gli altri\n- **Universalità**: coinvolge tutti i Paesi, non solo quelli in via di sviluppo\n- **Multi-stakeholder approach**: governi, imprese, società civile, cittadini\n\n### Terminologia Specifica\n- **SDGs** (Sustainable Development Goals)\n- **Target** e **indicatori** di misurazione\n- **Spillover effects**: effetti di ricaduta tra obiettivi\n- **Policy coherence**: coerenza delle politiche pubbliche\n- **Governance multilivello**: locale, nazionale, internazionale\n\n### Criticità e Sfide\n- **Finanziamenti insufficienti**: gap di 2.5 trilioni di dollari annui\n- **Pandemia COVID-19**: rallentamento nel raggiungimento degli obiettivi\n- **Conflitti geopolitici**: ostacolo alla cooperazione internazionale\n- **Resistenze culturali**: difficoltà nel cambiare modelli di comportamento",
+        "connection_to_prompt": "L'Agenda 2030 rappresenta la principale risposta istituzionale contemporanea alle contraddizioni generate dal progresso industriale e tecnologico, proponendo un modello di sviluppo che integra crescita economica, giustizia sociale e tutela ambientale.",
+        "connection_to_others": [
+          "Storia (decolonizzazione e globalizzazione)",
+          "Geografia (sviluppo sostenibile e cambiamenti climatici)",
+          "Filosofia (etica della responsabilità)",
+          "Scienze (cambiamento climatico e innovazione tecnologica)",
+          "Economia (modelli di sviluppo sostenibile)"
+        ],
+        "sources_used": [
+          "Documenti ufficiali ONU",
+          "Costituzione italiana",
+          "Strategia Nazionale per lo Sviluppo Sostenibile",
+          "Fonti istituzionali europee e nazionali"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 4
+        }
       }
     ],
-    introduction: `Signor Presidente, Signori Commissari, le parole di Marinetti che esaltano 'la bellezza della velocità' e proclamano che 'un'automobile da corsa è più bella della Vittoria di Samotracia' ci pongono di fronte a una domanda cruciale: il progresso rappresenta davvero una conquista inequivocabile dell'umanità, o nasconde in sé contraddizioni profonde che ne compromettono la natura liberatrice? Attraverso questo percorso interdisciplinare, vi dimostrerò come ogni grande avanzamento - dalla rivoluzione del calcolo infinitesimale alla modernità industriale - abbia generato simultaneamente potenza e alienazione, illuminazione e cecità, creando quella dialettica tragica che ancora oggi caratterizza il nostro rapporto con l'innovazione.`,
-    conclusion: `In conclusione, tornando alla domanda che ho posto all'inizio del mio intervento, posso affermare che il progresso si rivela come un Giano bifronte: da un lato la derivata che formalizza il dinamismo, dall'altro l'astrazione che ci allontana dall'intuizione; da un lato la macchina futurista che promette liberazione, dall'altro le trincee che rivelano la meccanizzazione della morte. Dalle contraddizioni denunciate da Verga e Dickens fino all'Agenda 2030, l'umanità ha imparato che il vero progresso non consiste nell'accelerazione cieca celebrata da Marinetti, ma nella capacità di governare criticamente le proprie conquiste. Solo riconoscendo le contraddizioni del progresso possiamo trasformarlo da forza distruttrice in strumento di autentica emancipazione umana.`
+    "introduction": "Signor Presidente, Signori Commissari, partendo dal Manifesto del Futurismo di Marinetti del 1909, ho condotto una ricerca approfondita su fonti autorevoli italiane per esplorare il tema 'Il Progresso e le sue Contraddizioni'. La mia analisi multidisciplinare, basata su documenti ufficiali ONU, manuali di storia contemporanea, testi classici filosofici e fonti educative consolidate, rivela come l'entusiasmo futurista per la modernità rappresenti perfettamente l'ambivalenza del progresso. Attraverso sette discipline - dalla matematica del calcolo differenziale all'Agenda 2030 - dimostrerò come ogni conquista tecnologica e sociale porti con sé luci e ombre che caratterizzano la nostra epoca.",
+    "conclusion": "In conclusione, attraverso questa analisi multidisciplinare basata su fonti autorevoli, emerge chiaramente come il progresso sia un fenomeno intrinsecamente contraddittorio. Dal Verismo che denuncia i costi sociali dell'industrializzazione al Futurismo che ne esalta acriticamente le potenzialità, dalla tragica smentita della Grande Guerra all'attuale Agenda 2030, la storia ci insegna che ogni avanzamento comporta sfide etiche e sociali. La ricerca condotta su documenti istituzionali e testi consolidati conferma che solo attraverso una consapevolezza critica delle contraddizioni del progresso possiamo costruire un futuro più equilibrato e sostenibile per tutti."
   },
   {
-    title: `3. L'Individuo di fronte al Potere e alla Massa`,
-    prompt_text: `Un'immagine di propaganda del periodo fascista o nazista.`,
-    subjects: [
+    "title": "3. L'Individuo di fronte al Potere e alla Massa",
+    "prompt_text": "Un'immagine di propaganda del periodo fascista o nazista.",
+    "generation_metadata": {
+      "timestamp": "2025-06-28T13:01:12.298926",
+      "total_italian_sources": 0,
+      "total_search_results": 34
+    },
+    "subjects": [
       {
-        name: `Storia`,
-        commission_type: 'Commissario Esterno',
-        content: `# I Regimi Totalitari e la Propaganda per il Controllo Sociale
-
-## Definizione e Caratteristiche Strutturali
-
-I regimi totalitari del XX secolo (nazismo, fascismo, stalinismo) rappresentano una forma inedita di dominio politico che trascende l'autoritarismo tradizionale. La loro specificità risiede nella **penetrazione capillare** della sfera privata e nella **mobilitazione permanente** delle masse attraverso un apparato propagandistico sistematico.
-
-### Meccanismi di Controllo Sociale:
-
-* **Monopolio dell'informazione**: Controllo totale dei mezzi di comunicazione, censura e creazione di una "verità ufficiale"
-* **Culto della personalità**: Sacralizzazione del leader come incarnazione della volontà popolare (Hitler, Mussolini, Stalin)
-* **Nemico interno/esterno**: Identificazione costante di capri espiatori per canalizzare frustrazioni collettive
-* **Ritualità di massa**: Adunate, parate, cerimonie come strumenti di coesione e identificazione
-* **Linguaggio totalitario**: Semplificazione manichea della realtà, slogan ripetitivi, neolingua orwelliana
-
-## Tecniche Propagandistiche Innovative
-
-La propaganda totalitaria sfrutta le **scoperte della psicologia di massa** (Le Bon, Freud) e le **nuove tecnologie comunicative** (radio, cinema, manifesti). Goebbels teorizza la "grande menzogna" ripetuta fino a diventare verità percepita. La propaganda non si limita a convincere razionalmente, ma punta all'**adesione emotiva** e all'**annullamento del pensiero critico**.
-
-### Conseguenze Antropologiche:
-
-* **Atomizzazione sociale**: Distruzione dei legami comunitari tradizionali
-* **Uomo-massa**: Perdita dell'individualità critica in favore del conformismo
-* **Banalità del male**: Partecipazione passiva a crimini attraverso la normalizzazione dell'orrore
-
-L'efficacia di questi sistemi dimostra la **fragilità della coscienza democratica** quando l'individuo si trova isolato di fronte al potere organizzato e alla pressione del consenso manipolato.`,
-        connection_to_prompt: `I totalitarismi dimostrano come il potere moderno annulli l'individuo trasformandolo in massa manipolabile.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Storia dell'Arte`,
-          `Scienze`
-        ]
+        "name": "Storia",
+        "commission_type": "Commissario Esterno",
+        "content": "# I REGIMI TOTALITARI E LA PROPAGANDA\n\n## 1. CONCETTI FONDAMENTALI\n\n### Definizione di Totalitarismo\n- **Totalitarismo**: sistema politico che mira al controllo totale della società\n- **Caratteristiche essenziali**:\n  - Partito unico di massa\n  - Ideologia ufficiale obbligatoria\n  - Monopolio dei mezzi di comunicazione\n  - Controllo dell'economia\n  - Sistema di terrore poliziesco\n\n### La Propaganda Totalitaria\n- **Propaganda**: strumento di manipolazione dell'opinione pubblica\n- **Obiettivi**:\n  - Creazione del consenso di massa\n  - Eliminazione del pensiero critico\n  - Costruzione del culto del leader\n  - Mobilitazione permanente delle masse\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### Nascita dei Regimi (1917-1933)\n- **1917**: Rivoluzione russa - nascita del regime sovietico\n- **1922**: Marcia su Roma - Mussolini al potere\n- **1933**: Hitler cancelliere in Germania\n\n### Consolidamento (1924-1939)\n- **1924**: Morte di Lenin, ascesa di Stalin\n- **1925-1926**: Leggi fascistissime in Italia\n- **1933-1934**: Gleichschaltung nazista (\"coordinamento\")\n- **1936-1938**: Grandi purghe staliniane\n\n## 3. COLLEGAMENTI TEORICI\n\n### Teorie del Totalitarismo\n- **Hannah Arendt**: \"Le origini del totalitarismo\" (1951)\n  - Isolamento e atomizzazione dell'individuo\n  - Distruzione della sfera privata\n- **Carl Friedrich e Zbigniew Brzezinski**: modello a sei punti\n- **Differenza con autoritarismo**: controllo totale vs parziale\n\n### Meccanismi Psicologici\n- **Psicologia delle masse** (Gustave Le Bon)\n- **Conformismo sociale**\n- **Bisogno di appartenenza**\n- **Paura dell'isolamento**\n\n## 4. ESEMPI CONCRETI\n\n### Fascismo Italiano (1922-1943)\n- **Strumenti di propaganda**:\n  - Radio e cinema (Istituto LUCE)\n  - Organizzazioni di massa (ONB, GUF)\n  - Architettura monumentale (EUR)\n  - Rituali e simboli (saluto romano, fasci littori)\n- **Slogan**: \"Credere, obbedire, combattere\"\n- **Culto del Duce**: infallibilità di Mussolini\n\n### Nazismo Tedesco (1933-1945)\n- **Joseph Goebbels**: Ministro della Propaganda\n- **Tecniche innovative**:\n  - Uso sistematico della radio\n  - Adunate oceaniche (Norimberga)\n  - Cinema di propaganda (Leni Riefenstahl)\n  - Controllo della stampa\n- **Principio della \"Grande Menzogna\"**\n- **Propaganda antisemita**: preparazione all'Olocausto\n\n### Stalinismo Sovietico (1924-1953)\n- **Controllo dell'informazione**:\n  - Pravda (giornale ufficiale)\n  - Censura totale\n  - Riscrittura della storia\n- **Culto della personalità**: Stalin \"padre dei popoli\"\n- **Realismo socialista**: arte al servizio del regime\n- **Propaganda del lavoro**: stachanovismo\n\n## 5. PUNTI CHIAVE PER L'ESAME\n\n### Caratteristiche della Propaganda Totalitaria\n- **Monopolio dell'informazione**: eliminazione di fonti alternative\n- **Ripetizione ossessiva**: martellamento propagandistico\n- **Emotività vs razionalità**: appello ai sentimenti\n- **Nemico comune**: creazione di capri espiatori\n- **Promesse utopiche**: società perfetta futura\n\n### Differenze tra i Regimi\n- **Base ideologica**:\n  - Fascismo: nazionalismo e corporativismo\n  - Nazismo: razzismo e pangermanesimo\n  - Stalinismo: comunismo e internazionalismo\n- **Rapporto con la religione**: variabile\n- **Politica economica**: diverse forme di controllo\n\n### Conseguenze sul Controllo Sociale\n- **Atomizzazione della società**: distruzione dei legami tradizionali\n- **Mobilitazione permanente**: partecipazione obbligatoria\n- **Controllo del privato**: invasione della sfera personale\n- **Creazione dell'\"uomo nuovo\"**: trasformazione antropologica\n\n### Lessico Specifico per l'Orale\n- **Gleichschaltung**: coordinamento forzato (nazismo)\n- **Dopolavoro**: organizzazione del tempo libero (fascismo)\n- **Gulag**: sistema concentrazionario sovietico\n- **Arendt**: filosofa del totalitarismo\n- **Propaganda**: manipolazione sistematica dell'opinione\n- **Consenso**: adesione delle masse al regime\n\n### Collegamenti Interdisciplinari\n- **Filosofia**: crisi dell'individuo, massificazione\n- **Letteratura**: distopia (Orwell, \"1984\")\n- **Arte**: realismo socialista, architettura del potere\n- **Psicologia**: meccanismi di persuasione di massa",
+        "connection_to_prompt": "I regimi totalitari rappresentano l'esempio più estremo di annullamento dell'individuo di fronte al potere, attraverso la manipolazione sistematica delle masse tramite propaganda.",
+        "connection_to_others": [
+          "Filosofia (Hannah Arendt, crisi dell'individuo)",
+          "Letteratura (Orwell, distopia)",
+          "Arte (realismo socialista)",
+          "Psicologia (dinamiche di massa)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate sui regimi totalitari del XX secolo",
+          "Storiografia classica (Arendt, Friedrich-Brzezinski)",
+          "Esempi storici documentati di fascismo, nazismo e stalinismo"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Scienze`,
-        commission_type: 'Commissario Interno',
-        content: `# Lo Zyklon B e la Respirazione Cellulare: Scienza e Genocidio
-
-## Il Meccanismo Biochimico dello Sterminio
-
-Lo Zyklon B, utilizzato nei campi di sterminio nazisti, conteneva **acido cianidrico (HCN)**, un potente inibitore enzimatico che attacca il sistema respiratorio cellulare:
-
-* **Target molecolare**: Il cianuro si lega irreversibilmente al **citocromo C ossidasi** (Complesso IV della catena respiratoria)
-* **Meccanismo d'azione**: Blocca il trasferimento di elettroni all'ossigeno molecolare, impedendo la riduzione O₂ → H₂O
-* **Conseguenze metaboliche**: Arresto completo della **fosforilazione ossidativa** mitocondriale
-* **Effetto sistemico**: Ipossia citotossica - le cellule non possono utilizzare l'ossigeno disponibile
-
-## La Catena Respiratoria Compromessa
-
-L'interruzione del Complesso IV provoca:
-- **Accumulo di elettroni** nei complessi precedenti (I, II, III)
-- **Cessazione della sintesi di ATP** via ATP sintasi
-- **Morte cellulare rapida** per deficit energetico, specialmente nel sistema nervoso centrale
-
-## Implicazioni Etiche della Conoscenza Scientifica
-
-Questo caso rappresenta la **perversione della ricerca biochimica**:
-* La comprensione dei meccanismi respiratori, sviluppata per fini terapeutici, venne strumentalizzata per l'efficienza omicida
-* La **razionalizzazione scientifica** del genocidio: applicazione metodica di principi biochimici per massimizzare la letalità
-* **Responsabilità degli scienziati**: il sapere tecnico diventa complice quando si dissocia dall'etica
-
-L'HCN rappresenta il paradigma di come la conoscenza scientifica, neutra per natura, possa essere asservita al potere totalitario, trasformando la precisione molecolare in strumento di disumanizzazione sistematica.`,
-        connection_to_prompt: `La scienza diventa strumento di potere quando la conoscenza biochimica serve la logica dello sterminio di massa.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Educazione Civica`
-        ]
+        "name": "Scienze",
+        "commission_type": "Commissario Interno",
+        "content": "# LA SCIENZA AL SERVIZIO DELLO STERMINIO\n## Lo Zyklon B e il Meccanismo Biochimico della Morte\n\n### 1. CONCETTI FONDAMENTALI\n\n#### Lo Zyklon B\n- **Composizione chimica**: Acido cianidrico (HCN) adsorbito su supporto solido\n- **Formula molecolare**: HCN (peso molecolare 27 g/mol)\n- **Meccanismo d'azione**: **Inibitore irreversibile** della respirazione cellulare\n- **Sviluppo**: Originariamente pesticida (1922), poi utilizzato nei campi di sterminio nazisti\n\n#### Il Citocromo C Ossidasi\n- **Definizione**: Enzima terminale della **catena di trasporto degli elettroni**\n- **Localizzazione**: Membrana interna dei mitocondri\n- **Funzione**: Catalizza il trasferimento di elettroni dal citocromo c all'ossigeno molecolare\n- **Struttura**: Complesso enzimatico contenente **ioni rame e ferro**\n\n### 2. CRONOLOGIA STORICA\n\n- **1922**: Brevetto dello Zyklon B come insetticida\n- **1940-1945**: Utilizzo sistematico nei campi di concentramento\n- **Auschwitz-Birkenau**: Principale sito di utilizzo (stimate 1,1 milioni di vittime)\n- **Processo di Norimberga (1945-1946)**: Condanna dell'uso della scienza per crimini contro l'umanità\n\n### 3. MECCANISMO BIOCHIMICO DELLO STERMINIO\n\n#### Fase 1: Assorbimento\n- **Via di penetrazione**: Inalazione polmonare\n- **Diffusione**: Rapida distribuzione nel sangue\n- **Affinità**: Lo ione cianuro (CN⁻) ha alta affinità per i metalli di transizione\n\n#### Fase 2: Inibizione Enzimatica\n- **Target molecolare**: **Citocromo C ossidasi** (Complesso IV)\n- **Meccanismo**: Il CN⁻ si lega irreversibilmente al **ferro ferrico (Fe³⁺)** dell'enzima\n- **Conseguenza**: **Blocco totale** della fosforilazione ossidativa\n\n#### Fase 3: Morte Cellulare\n- **Arresto della sintesi di ATP**: Impossibilità di produrre energia\n- **Ipossia istotossica**: Le cellule non possono utilizzare l'ossigeno disponibile\n- **Morte**: Per **asfissia cellulare** in 15-20 minuti\n\n### 4. LA FOSFORILAZIONE OSSIDATIVA\n\n#### Processo Normale\n1. **Catena respiratoria**: 4 complessi enzimatici\n2. **Gradiente protonico**: Accumulo di H⁺ nello spazio intermembrana\n3. **ATP sintasi**: Sintesi di ATP dal gradiente elettrochimico\n4. **Resa energetica**: ~30-32 molecole di ATP per glucosio\n\n#### Effetto dello Zyklon B\n- **Blocco del Complesso IV**: Interruzione del flusso elettronico\n- **Accumulo di elettroni**: Nei complessi I, II e III\n- **Collasso del gradiente**: Impossibilità di sintesi dell'ATP\n- **Morte metabolica**: Esaurimento delle riserve energetiche cellulari\n\n### 5. COLLEGAMENTI TEORICI\n\n#### Biochimica\n- **Metabolismo cellulare**: Importanza vitale della respirazione aerobica\n- **Enzimologia**: Meccanismi di inibizione competitiva e non competitiva\n- **Tossicologia**: Studio dei veleni metabolici\n\n#### Etica Scientifica\n- **Principio di precauzione**: Responsabilità nell'applicazione delle scoperte\n- **Codice di Norimberga**: Nascita della bioetica moderna\n- **Dual-use research**: Ricerca a doppio uso (civile/militare)\n\n### 6. PUNTI CHIAVE PER L'ESAME\n\n- **Meccanismo molecolare**: CN⁻ + Fe³⁺ del citocromo c ossidasi = blocco respiratorio\n- **Tempo di azione**: 15-20 minuti per asfissia cellulare\n- **Sede d'azione**: Mitocondri (centrali energetiche cellulari)\n- **Conseguenza**: Arresto totale della produzione di ATP\n- **Significato storico**: Esempio di **perversione della scienza** al servizio del male\n- **Lezione etica**: Importanza della responsabilità scientifica\n\n### 7. TERMINOLOGIA SPECIFICA\n\n- **Ipossia istotossica**: Incapacità cellulare di utilizzare l'ossigeno\n- **Inibizione irreversibile**: Legame permanente enzima-inibitore\n- **Fosforilazione ossidativa**: Sintesi di ATP accoppiata al trasporto elettronico\n- **Gradiente elettrochimico**: Differenza di potenziale attraverso la membrana mitocondriale",
+        "connection_to_prompt": "Questo argomento illustra drammaticamente come l'individuo sia stato annientato dal potere totalitario attraverso l'uso perverso della scienza, rappresentando l'estrema subordinazione della persona alla macchina di sterminio di massa.",
+        "connection_to_others": [
+          "Storia (Shoah e nazismo)",
+          "Filosofia (Hannah Arendt - banalità del male)",
+          "Letteratura (Primo Levi)",
+          "Diritto (Processo di Norimberga)",
+          "Arte (opere sulla memoria)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di biochimica",
+          "Documentazione storica sui campi di concentramento",
+          "Letteratura scientifica sulla tossicologia del cianuro"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Storia dell'Arte`,
-        commission_type: 'Commissario Interno',
-        content: `# Il Linguaggio Visivo della Propaganda Totalitaria vs Arte di Denuncia
-
-## La Propaganda Totalitaria nell'Arte
-
-**Caratteristiche formali:**
-* **Monumentalità** - Dimensioni colossali per intimidire e impressionare
-* **Classicismo idealizzato** - Ripresa di canoni greco-romani per legittimazione storica
-* **Iconografia del potere** - Simboli, aquile, fasci littori, svastiche
-* **Corpo eroico** - Rappresentazione dell'uomo nuovo, atletico, perfetto
-
-**Funzioni politiche:**
-* **Sacralizzazione del leader** - Ritratti ieratici, pose divine
-* **Mitologizzazione della storia** - Eventi trasformati in epopee eroiche
-* **Uniformazione estetica** - Eliminazione del pluralismo artistico
-* **Controllo percettivo** - Orientamento dell'immaginario collettivo
-
-## Guernica: L'Arte come Resistenza
-
-**Rivoluzione linguistica di Picasso (1937):**
-* **Frammentazione cubista** - Distruzione della forma per rappresentare la distruzione della guerra
-* **Monocromatismo** - Bianco, nero, grigio evocano lutto e tragedia
-* **Simbolismo universale** - Toro (Spagna), cavallo (popolo), lampadina (bomba), occhio (testimonianza)
-* **Deformazione espressiva** - Volti stravolti dal dolore, corpi smembrati
-
-**Impatto politico-culturale:**
-* **Denuncia internazionale** - Esposizione universale di Parigi, tour mondiale
-* **Arte come testimonianza** - Documento storico del bombardamento di Guernica
-* **Opposizione estetica** - Linguaggio d'avanguardia contro retorica tradizionalista
-* **Universalizzazione del trauma** - Dalla guerra civile spagnola a simbolo anti-bellico globale
-
-## Dialettica Potere-Resistenza
-
-La contrapposizione rivela due concezioni opposte: l'arte come **strumento di dominio** (propaganda) versus l'arte come **coscienza critica** (denuncia). Guernica dimostra come il linguaggio d'avanguardia possa sovvertire la retorica del potere attraverso l'innovazione formale.`,
-        connection_to_prompt: `L'arte rivela la dialettica tra potere che manipola e individuo che resiste attraverso il linguaggio visivo.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Letteratura Inglese`
-        ]
+        "name": "Storia dell'Arte",
+        "commission_type": "Commissario Interno",
+        "content": "# IL LINGUAGGIO VISIVO DELLA PROPAGANDA TOTALITARIA CONTRO L'ARTE DI DENUNCIA\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Linguaggio Visivo\n- **Definizione**: Sistema di comunicazione che utilizza elementi visivi (colori, forme, composizione, simboli) per trasmettere messaggi e influenzare l'osservatore\n- **Funzione comunicativa**: Capacità di veicolare ideologie, emozioni e valori attraverso l'immagine\n- **Potere persuasivo**: Efficacia nel raggiungere le masse, anche analfabete\n\n### Arte di Propaganda vs Arte di Denuncia\n- **Arte di Propaganda**: \n  - Finalità: sostenere e diffondere l'ideologia del regime\n  - Caratteristiche: retorica celebrativa, esaltazione del potere, uniformità stilistica\n  - Committenza: stato totalitario\n\n- **Arte di Denuncia**:\n  - Finalità: criticare, testimoniare, sensibilizzare\n  - Caratteristiche: espressività drammatica, deformazione simbolica, libertà creativa\n  - Committenza: iniziativa personale dell'artista\n\n## 2. CRONOLOGIA ESSENZIALE\n\n- **1933-1945**: Germania nazista - controllo totale dell'arte\n- **1922-1943**: Italia fascista - arte di regime\n- **1917-1991**: URSS - Realismo Socialista\n- **1937**: Guernica di Picasso (Padiglione Spagnolo, Esposizione di Parigi)\n- **1937**: Mostra \"Arte Degenerata\" in Germania\n\n## 3. COLLEGAMENTI TEORICI\n\n### Caratteristiche della Propaganda Totalitaria\n- **Monumentalità**: dimensioni colossali per impressionare\n- **Simbolismo**: uso di simboli riconoscibili (aquile, fasci, falce e martello)\n- **Idealizzazione**: rappresentazione eroica di leader e popolo\n- **Uniformità stilistica**: eliminazione delle avanguardie\n- **Accessibilità**: linguaggio comprensibile alle masse\n\n### Tecniche di Controllo Artistico\n- **Censura**: eliminazione dell'arte \"degenerata\"\n- **Commissioni statali**: controllo della produzione artistica\n- **Educazione artistica**: formazione di artisti allineati al regime\n- **Esposizioni**: vetrine della cultura ufficiale\n\n## 4. ESEMPI CONCRETI\n\n### Arte di Propaganda\n- **Germania**: Arno Breker (sculture monumentali)\n- **Italia**: Mario Sironi (arte murale fascista)\n- **URSS**: Aleksandr Dejneka (Realismo Socialista)\n\n### Arte di Denuncia: Guernica (1937)\n- **Autore**: Pablo Picasso\n- **Dimensioni**: 349 × 777 cm\n- **Tecnica**: Olio su tela, monocromatico (bianco, nero, grigio)\n- **Soggetto**: Bombardamento di Guernica (26 aprile 1937)\n\n#### Analisi Compositiva di Guernica\n- **Struttura**: composizione triangolare, caos controllato\n- **Simboli**:\n  - **Toro**: Spagna, brutalità\n  - **Cavallo**: popolo sofferente\n  - **Lampadina/Occhio**: bomba, occhio di Dio\n  - **Donna con lampada**: ricerca della verità\n- **Linguaggio**: Cubismo per frammentare la realtà\n- **Colori**: assenza di colore = morte, lutto, universalità\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Memorizzare\n- **Funzione sociale dell'arte** nei regimi totalitari\n- **Differenza tra arte di regime e arte libera**\n- **Guernica come simbolo universale** contro la guerra\n- **Tecniche di controllo** dell'espressione artistica\n- **Linguaggio visivo** come strumento di potere\n\n### Terminologia Specifica\n- **Arte degenerata** (Entartete Kunst)\n- **Realismo Socialista**\n- **Monumentalismo**\n- **Iconografia politica**\n- **Deformazione espressionista**\n\n### Collegamenti Interdisciplinari\n- **Storia**: regimi totalitari del Novecento\n- **Filosofia**: estetica e politica, Benjamin e l'arte nell'epoca della riproducibilità tecnica\n- **Letteratura**: censura e letteratura di resistenza\n\n### Spunti di Riflessione per l'Orale\n- Come l'arte può essere strumento di controllo sociale?\n- Perché Guernica è diventata un'icona universale?\n- Qual è il ruolo dell'artista di fronte al potere?\n- Come si manifesta oggi il controllo dell'espressione artistica?",
+        "connection_to_prompt": "Il linguaggio visivo nell'arte del Novecento dimostra come l'individuo-artista possa opporsi al potere totalitario attraverso opere di denuncia come Guernica, contrastando la propaganda di massa.",
+        "connection_to_others": [
+          "Storia (regimi totalitari)",
+          "Filosofia (estetica e politica)",
+          "Letteratura (censura e resistenza)",
+          "Educazione Civica (libertà di espressione)"
+        ],
+        "sources_used": [
+          "Fonti educative italiane autorevoli",
+          "Materiale didattico specializzato in Storia dell'Arte contemporanea"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Italiana`,
-        commission_type: 'Commissario Esterno',
-        content: `**LA TESTIMONIANZA DI PRIMO LEVI: RESTITUZIONE DELL'UMANITÀ CONTRO L'ANNIENTAMENTO**
-
-**Il paradigma testimoniale leviano:**
-* **Se questo è un uomo** (1947): fondazione di una nuova letteratura testimoniale che trasforma l'esperienza concentrazionaria in universale antropologico
-* **La tregua** (1963): il difficile ritorno alla civiltà come processo di ricostruzione identitaria
-* **I sommersi e i salvati** (1986): riflessione matura sulla "zona grigia" e l'ambiguità morale estrema
-
-**Strategie narrative di resistenza:**
-* **Lucidità scientifica**: formazione chimica applicata all'osservazione del lager come laboratorio di disumanizzazione
-* **Precisione linguistica**: rifiuto della retorica, adozione di uno stile "neutro" che amplifica l'orrore attraverso l'understatement
-* **Universalizzazione dell'esperienza**: dalla cronaca personale all'indagine sui meccanismi di degradazione umana
-
-**La dialettica umanità/disumanizzazione:**
-* **Häftling**: l'uomo ridotto a numero, privato di nome, dignità, individualità
-* **Resistenza culturale**: il ricordo del Canto di Ulisse come riaffermazione dei valori umanistici
-* **Testimonianza come dovere morale**: "voi che vivete sicuri" - imperativo etico di trasmissione della memoria
-
-**Impatto letterario e culturale:**
-* Codificazione del genere testimoniale nella letteratura italiana del Novecento
-* Influenza sulla riflessione filosofica e storiografica sulla Shoah
-* Modello di scrittura civile che coniuga rigore documentario e profondità umana`,
-        connection_to_prompt: `Levi trasforma la testimonianza individuale in resistenza collettiva contro l'annientamento sistematico dell'umanità.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Inglese`,
-          `Educazione Civica`
-        ]
+        "name": "Letteratura Italiana",
+        "commission_type": "Commissario Esterno",
+        "content": "# PRIMO LEVI: LA TESTIMONIANZA COME RESTITUZIONE DELL'UMANITÀ\n\n## 1. CONCETTI FONDAMENTALI\n\n### **Definizione di testimonianza letteraria**\n- **Letteratura testimoniale**: genere letterario che documenta esperienze traumatiche storiche\n- **Dovere della memoria**: obbligo morale di tramandare la verità storica\n- **Restituzione dell'umanità**: processo di recupero della dignità umana attraverso la narrazione\n\n### **Il concetto di \"zona grigia\"**\n- **Definizione**: area morale ambigua dove vittime e carnefici si confondono\n- **Caratteristiche**: compromessi morali necessari alla sopravvivenza\n- **Importanza**: superamento della visione manichea del bene e del male\n\n## 2. CRONOLOGIA ESSENZIALE\n\n### **Vita di Primo Levi (1919-1987)**\n- **1919**: Nasce a Torino in famiglia ebraica borghese\n- **1941**: Laurea in Chimica presso l'Università di Torino\n- **1943**: Adesione alla Resistenza partigiana in Val d'Aosta\n- **1944**: Cattura e deportazione ad Auschwitz\n- **1945**: Liberazione del campo e rientro in Italia\n- **1947**: Pubblicazione di \"Se questo è un uomo\"\n- **1963**: \"La tregua\" - racconto del viaggio di ritorno\n- **1975**: \"Il sistema periodico\" - memoir scientifico-letterario\n- **1986**: \"I sommersi e i salvati\" - riflessione finale sui Lager\n\n## 3. COLLEGAMENTI TEORICI\n\n### **Rapporto con la tradizione letteraria**\n- **Influenze**: cultura ebraica, illuminismo, positivismo scientifico\n- **Innovazioni**: fusso tra scienza e letteratura, stile \"neutro\"\n- **Modelli**: Dante Alighieri (\"Se questo è un uomo\" come nuovo Inferno)\n\n### **Dimensione filosofica**\n- **Questione del male**: riflessione sulla natura umana\n- **Sopravvivenza**: analisi dei meccanismi di resistenza psicologica\n- **Memoria collettiva**: ruolo della testimonianza nella Storia\n\n## 4. ESEMPI CONCRETI\n\n### **\"Se questo è un uomo\" (1947)**\n- **Struttura**: 17 capitoli che ripercorrono l'esperienza concentrazionaria\n- **Stile**: prosa asciutta, scientifica, priva di retorica\n- **Temi centrali**:\n  - Disumanizzazione sistematica\n  - Resistenza attraverso la cultura\n  - Solidarietà tra deportati\n\n### **Episodi emblematici**\n- **Il canto di Ulisse**: trasmissione della cultura classica come atto di resistenza\n- **Il laboratorio chimico**: la scienza come ancora di salvezza\n- **Ka-Be (ospedale)**: momento di riflessione sulla condizione umana\n\n### **\"I sommersi e i salvati\" (1986)**\n- **I sommersi**: chi non è sopravvissuto, i \"testimoni integrali\"\n- **I salvati**: i sopravvissuti, testimoni \"privilegiati\" e imperfetti\n- **Privilegio della sopravvivenza**: senso di colpa del sopravvissuto\n\n## 5. PUNTI CHIAVE PER L'ESAME\n\n### **Caratteristiche stilistiche**\n- **Lingua**: italiana standard, lessico scientifico-tecnico\n- **Tono**: distaccato, oggettivo, privo di sentimentalismo\n- **Struttura**: narrativa lineare, cronologica\n- **Metodo**: approccio \"chimico\" alla realtà\n\n### **Temi fondamentali**\n- **Dignità umana**: mantenimento dell'identità in condizioni estreme\n- **Violenza e sopraffazione**: meccanismi di disumanizzazione\n- **Cultura come resistenza**: ruolo della memoria letteraria\n- **Comunicazione**: necessità imperativa di raccontare\n\n### **Valore universale**\n- **Monito contro l'indifferenza**: \"Se comprendere è impossibile, conoscere è necessario\"\n- **Attualità del messaggio**: rilevanza per ogni forma di discriminazione\n- **Educazione civica**: formazione della coscienza democratica\n\n### **Terminologia specifica per l'orale**\n- **Testis**: termine latino per testimone (chi ha visto)\n- **Häftling**: termine tedesco per deportato\n- **Muselmann**: deportato ridotto allo stato vegetativo\n- **Prominente**: deportato con funzioni di controllo\n- **Selezione**: processo di scelta per le camere a gas\n\n## 6. COLLEGAMENTI INTERDISCIPLINARI\n\n### **Storia**\n- Seconda Guerra Mondiale e Shoah\n- Leggi razziali del 1938\n- Resistenza italiana\n\n### **Filosofia**\n- Hannah Arendt (\"La banalità del male\")\n- Theodor Adorno (possibilità della poesia dopo Auschwitz)\n- Emmanuel Levinas (etica del volto)\n\n### **Scienze**\n- Metodo scientifico applicato alla testimonianza\n- Chimica come metafora esistenziale\n- Razionalità vs irrazionalità del male",
+        "connection_to_prompt": "Primo Levi, attraverso la sua testimonianza lucida e rigorosa, rappresenta l'individuo che, pur annientato dalla macchina di sterminio di massa, riesce a restituire dignità e umanità attraverso la scrittura, opponendosi al tentativo di cancellazione del potere totalitario.",
+        "connection_to_others": [
+          "Storia (Shoah, Seconda Guerra Mondiale)",
+          "Filosofia (Arendt, Adorno)",
+          "Scienze (metodo scientifico)",
+          "Educazione Civica (memoria e diritti umani)"
+        ],
+        "sources_used": [
+          "Opere di Primo Levi (\"Se questo è un uomo\", \"I sommersi e i salvati\")",
+          "Critica letteraria su Primo Levi",
+          "Studi sulla Shoah e sulla letteratura testimoniale"
+        ],
+        "research_summary": {
+          "italian_sources_count": 3,
+          "total_results": 5
+        }
       },
       {
-        name: `Filosofia`,
-        commission_type: 'Commissario Esterno',
-        content: `# Le radici ideologiche del primato dello Stato sull'individuo: Hegel e Fichte
-
-## Concetti fondamentali
-
-### Fichte: Il primato della nazione
-* **Stato etico totalitario**: Nei *Discorsi alla nazione tedesca* (1807-1808), Fichte teorizza uno Stato che plasma integralmente l'individuo attraverso l'educazione nazionale
-* **Autarchia economica**: Lo Stato chiuso commercialmente (*Der geschlossene Handelsstaat*, 1800) dove l'individuo esiste solo come funzione della collettività nazionale
-* **Missione del popolo tedesco**: La nazione tedesca come portatrice di una missione storica universale che giustifica il sacrificio della libertà individuale
-
-### Hegel: Lo Stato come realizzazione dell'Assoluto
-* **Stato come "dio terreno"**: Nelle *Lineamenti di filosofia del diritto* (1821), lo Stato hegeliano rappresenta la massima realizzazione etica, superiore alla moralità soggettiva
-* **Dialettica servo-padrone**: La coscienza individuale si realizza solo attraverso il riconoscimento statale; l'autocoscienza è sempre mediata dall'universale
-* **Astuzia della ragione**: Gli individui sono "strumenti" inconsapevoli dello Spirito del mondo che si realizza nella storia attraverso gli Stati-nazione
-* **Critica del liberalismo**: Contro l'individualismo contrattualista, Hegel afferma che i diritti derivano dallo Stato, non lo precedono
-
-## Sintesi concettuale
-**Fichte**: Stato = Educatore totale della nazione
-**Hegel**: Stato = Manifestazione dell'Assoluto nella storia
-**Comune denominatore**: L'individuo trova significato solo dissolvendosi nell'universale statale`,
-        connection_to_prompt: `Fichte e Hegel fondano filosoficamente la subordinazione totale dell'individuo allo Stato come realizzazione etica suprema.`,
-        connection_to_others: [
-          `Storia`,
-          `Letteratura Italiana`,
-          `Educazione Civica`
-        ]
+        "name": "Filosofia",
+        "commission_type": "Commissario Esterno",
+        "content": "# LE RADICI IDEOLOGICHE DEL PRIMATO DELLO STATO SULL'INDIVIDUO: HEGEL E FICHTE\n\n## 1. CONCETTI FONDAMENTALI\n\n### Il Primato dello Stato\n- **Definizione**: Concezione filosofica che subordina l'individuo alle esigenze e finalità dello Stato\n- **Caratteristiche principali**:\n  - Lo Stato come **entità superiore** all'individuo\n  - L'individuo trova **realizzazione** solo attraverso lo Stato\n  - **Sacrificio dell'autonomia individuale** per il bene collettivo\n  - Lo Stato come **incarnazione della ragione** nella storia\n\n### Contesto Storico-Filosofico\n- **Periodo**: Fine XVIII - inizio XIX secolo\n- **Contesto**: Nascita degli Stati nazionali moderni\n- **Reazione a**: Individualismo illuministico e liberalismo\n\n## 2. JOHANN GOTTLIEB FICHTE (1762-1814)\n\n### Concetti Chiave\n- **\"Io assoluto\"**: Principio fondamentale della realtà\n- **Dialettica Io/Non-Io**: L'Io pone se stesso opponendosi al Non-Io\n- **Missione del dotto**: L'intellettuale deve guidare la nazione\n\n### Il Primato dello Stato in Fichte\n- **\"Discorsi alla nazione tedesca\" (1807-1808)**:\n  - Lo Stato come **educatore del popolo**\n  - **Nazionalismo culturale**: la lingua come fondamento dell'identità\n  - **Autarchia economica**: chiusura commerciale per preservare l'identità nazionale\n\n- **\"Lo Stato commerciale chiuso\" (1800)**:\n  - **Pianificazione statale** dell'economia\n  - **Controllo totale** delle attività produttive\n  - Subordinazione dell'**interesse privato** a quello pubblico\n\n### Elementi Autoritari\n- **Educazione nazionale obbligatoria**\n- **Controllo statale** su commercio e produzione\n- **Sacrificio dell'individuo** per la grandezza nazionale\n\n## 3. GEORG WILHELM FRIEDRICH HEGEL (1770-1831)\n\n### Concetti Fondamentali\n- **Spirito Assoluto**: La realtà come processo dialettico dello Spirito\n- **Dialettica**: Tesi-Antitesi-Sintesi\n- **Razionalità del reale**: \"Tutto ciò che è reale è razionale\"\n\n### Lo Stato Etico Hegeliano\n- **\"Lineamenti di filosofia del diritto\" (1821)**:\n  - Lo Stato come **\"realtà dell'idea etica\"**\n  - **Superamento** di famiglia e società civile\n  - Lo Stato come **\"dio terreno\"**\n\n### La Dialettica delle Figure Etiche\n1. **Famiglia**: Unità immediata basata sull'amore\n2. **Società civile**: Sfera degli interessi particolari\n3. **Stato**: Sintesi che concilia universale e particolare\n\n### Il Cittadino Hegeliano\n- L'individuo trova **libertà** solo nello Stato\n- **Doveri** verso lo Stato come realizzazione etica\n- **Patriottismo** come virtù suprema\n- **Sacrificio per la patria** come atto di libertà\n\n## 4. CRONOLOGIA ESSENZIALE\n\n- **1800**: Fichte pubblica \"Lo Stato commerciale chiuso\"\n- **1807-1808**: \"Discorsi alla nazione tedesca\" di Fichte\n- **1807**: Hegel pubblica la \"Fenomenologia dello Spirito\"\n- **1821**: \"Lineamenti di filosofia del diritto\" di Hegel\n- **1831**: Morte di Hegel\n\n## 5. COLLEGAMENTI TEORICI\n\n### Influenze Precedenti\n- **Rousseau**: \"Volontà generale\" vs volontà particolare\n- **Kant**: Autonomia morale e dovere categorico\n- **Idealismo tedesco**: Primato dello Spirito sulla materia\n\n### Sviluppi Successivi\n- **Nazionalismo romantico**\n- **Statalismo del XIX secolo**\n- **Totalitarismi del XX secolo** (interpretazioni controverse)\n\n## 6. ESEMPI CONCRETI\n\n### In Fichte\n- **Educazione nazionale**: Sistema scolastico uniforme controllato dallo Stato\n- **Autarchia economica**: Divieto di commercio estero per preservare l'identità\n- **Lingua tedesca**: Come fondamento dell'identità nazionale\n\n### In Hegel\n- **Burocrazia**: Come ceto universale al servizio dello Stato\n- **Guerra**: Come momento necessario per la vitalità dello Stato\n- **Monarchia costituzionale**: Come forma politica più razionale\n\n## 7. PUNTI CHIAVE PER L'ORALE\n\n### Da Ricordare su Fichte\n- **Nazionalismo culturale** basato sulla lingua\n- **Stato educatore** e pianificatore economico\n- **Discorsi alla nazione tedesca** come manifesto nazionalista\n- **Autarchia** come strumento di preservazione identitaria\n\n### Da Ricordare su Hegel\n- **Stato etico** come sintesi dialettica\n- **\"Dio terreno\"**: formula celebre per definire lo Stato\n- **Libertà attraverso lo Stato**, non contro di esso\n- **Razionalità del reale**: giustificazione filosofica dell'esistente\n\n### Termini Chiave per l'Esame\n- **Stato etico**\n- **Nazionalismo romantico**\n- **Dialettica hegeliana**\n- **Io assoluto fichteano**\n- **Primato dello Spirito**\n- **Autarchia economica**\n- **Volontà generale**\n\n## 8. COLLEGAMENTI INTERDISCIPLINARI\n\n- **Storia**: Nascita degli Stati nazionali, Restaurazione\n- **Letteratura**: Romanticismo tedesco, nazionalismo letterario\n- **Diritto**: Teoria dello Stato, costituzionalismo\n- **Economia**: Protezionismo, pianificazione statale",
+        "connection_to_prompt": "Fichte e Hegel forniscono le basi filosofiche per giustificare la subordinazione dell'individuo allo Stato, tema centrale nel rapporto tra persona e potere.",
+        "connection_to_others": [
+          "Storia (Restaurazione e nazionalismi)",
+          "Letteratura (Romanticismo tedesco)",
+          "Diritto (Teoria dello Stato)"
+        ],
+        "sources_used": [
+          "Tradizione filosofica tedesca",
+          "Opere principali di Fichte e Hegel",
+          "Manuali di storia della filosofia"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Letteratura Inglese`,
-        commission_type: 'Commissario Interno',
-        content: `**LA RIBELLIONE ESTETICA DI OSCAR WILDE**
-
-**Il Dandismo come Filosofia di Resistenza**
-* **Culto dell'individualità**: Wilde trasforma il dandismo da moda aristocratica a manifesto filosofico anti-conformista
-* **Arte come suprema espressione**: L'estetismo wildiano proclama l'arte superiore alla morale borghese e alle convenzioni sociali
-* **Paradosso come arma intellettuale**: L'uso sistematico del paradosso per scardinare le certezze della società vittoriana
-
-**Opere Chiave della Contestazione**
-* **"The Picture of Dorian Gray" (1890)**: Manifesto dell'arte per l'arte che scandalizza l'Inghilterra puritana
-* **"The Importance of Being Earnest" (1895)**: Satira feroce dell'ipocrisia e delle convenzioni sociali vittoriane
-* **"De Profundis" (1905)**: Riflessione carceraria sulla propria ribellione e sul prezzo dell'individualismo
-
-**Filosofia Estetica Anti-Massificazione**
-* **Principi fondamentali**:
-  - L'arte non deve imitare la vita, ma la vita deve imitare l'arte
-  - Il bello è superiore al buono e al vero
-  - L'individualità è sacra contro l'omologazione sociale
-* **Influenze**: Pater, Ruskin, simbolismo francese
-* **Impatto**: Precorre le avanguardie novecentesche e la critica alla società di massa
-
-**Il Prezzo della Ribellione**
-La condanna per "gross indecency" (1895) trasforma Wilde da dandy trionfante a martire dell'individualismo, dimostrando come il potere vittoriano punisca chi sfida le norme attraverso l'arte e la vita.`,
-        connection_to_prompt: `Wilde incarna la resistenza estetica dell'individuo contro l'omologazione morale e sociale della massa vittoriana.`,
-        connection_to_others: [
-          `Filosofia`,
-          `Storia`,
-          `Storia dell'Arte`,
-          `Letteratura Italiana`
-        ]
+        "name": "Letteratura Inglese",
+        "commission_type": "Commissario Interno",
+        "content": "# LA RIBELLIONE INDIVIDUALE DI OSCAR WILDE CONTRO L'OMOLOGAZIONE DELLA MASSA\n\n## 1. CONCETTI FONDAMENTALI\n\n### **Estetismo e Individualismo**\n- **Estetismo**: movimento artistico che pone l'arte al di sopra della morale e della società\n- **\"Art for Art's Sake\"**: principio fondamentale dell'arte fine a se stessa\n- **Individualismo estetico**: rifiuto delle convenzioni sociali attraverso la ricerca della bellezza\n- **Dandy**: figura dell'aristocratico ribelle che sfida le norme borghesi\n\n### **Ribellione contro la Società Vittoriana**\n- **Ipocrisia vittoriana**: critica alla doppia morale della società inglese\n- **Conformismo borghese**: omologazione ai valori materialisti e puritani\n- **Paradosso wildiano**: uso dell'ironia per smascherare le contraddizioni sociali\n\n## 2. CRONOLOGIA\n\n- **1854**: Nascita di Oscar Wilde a Dublino\n- **1878**: Laurea a Oxford, influenza dell'estetismo di Walter Pater\n- **1881**: Pubblicazione \"Poems\" - prime manifestazioni estetiche\n- **1890**: \"The Picture of Dorian Gray\" - manifesto dell'individualismo estetico\n- **1891**: \"The Soul of Man Under Socialism\" - critica sociale e individualismo\n- **1895**: Processo e condanna per \"gross indecency\"\n- **1897**: \"De Profundis\" - riflessione sulla sofferenza e l'arte\n- **1900**: Morte a Parigi in esilio\n\n## 3. COLLEGAMENTI TEORICI\n\n### **Influenze Filosofiche**\n- **Walter Pater**: \"Studies in the History of the Renaissance\" (1873)\n- **Edonismo estetico**: ricerca del piacere attraverso l'arte\n- **Relativismo morale**: rifiuto di valori assoluti imposti dalla società\n\n### **Contesto Letterario**\n- **Decadentismo europeo**: movimento di fine secolo\n- **Simbolismo francese**: influenza di Baudelaire e Mallarmé\n- **Realismo sociale**: opposizione al naturalismo di Zola\n\n## 4. ESEMPI CONCRETI\n\n### **\"The Picture of Dorian Gray\" (1890)**\n- **Tema centrale**: corruzione morale vs bellezza estetica\n- **Ribellione**: protagonista che rifiuta l'invecchiamento e la morale\n- **Critica sociale**: denuncia dell'ipocrisia della società londinese\n- **Prefazione**: manifesto teorico dell'estetismo\n\n### **Commedie Teatrali**\n- **\"The Importance of Being Earnest\" (1895)**:\n  - Satira delle convenzioni sociali\n  - Paradossi e rovesciamenti ironici\n  - Critica al matrimonio borghese\n\n### **\"De Profundis\" (1897)**\n- **Contesto**: lettera scritta in carcere\n- **Evoluzione**: dalla ribellione estetica alla riflessione spirituale\n- **Individualismo maturo**: accettazione della sofferenza come esperienza estetica\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### **Caratteristiche della Ribellione Wildiana**\n- **Non violenta**: attraverso l'arte e il paradosso\n- **Estetica**: bellezza come valore supremo\n- **Intellettuale**: uso dell'ironia e del wit\n- **Aristocratica**: rifiuto dei valori borghesi-capitalisti\n\n### **Strumenti di Ribellione**\n- **Paradosso**: \"I can resist everything except temptation\"\n- **Aforisma**: frasi memorabili che sovvertono il senso comune\n- **Dandy attitude**: eleganza e sprezzo delle convenzioni\n- **Omosessualità**: trasgressione dei codici morali vittoriani\n\n### **Limiti e Contraddizioni**\n- **Elitarismo**: ribellione accessibile solo alle classi colte\n- **Individualismo estremo**: rischio di isolamento sociale\n- **Tragedia personale**: il processo del 1895 come fallimento della ribellione\n\n### **Eredità Culturale**\n- **Influenza sul Modernismo**: Joyce, Woolf, Eliot\n- **Icona LGBTQ+**: simbolo di resistenza alle norme eteronormative\n- **Critica sociale**: anticipazione delle avanguardie del '900\n\n## TERMINOLOGIA SPECIFICA\n- **Aestheticism** / **Estetismo**\n- **Decadence** / **Decadentismo**\n- **Fin de siècle**\n- **Victorian hypocrisy**\n- **Wildean paradox**\n- **Dandyism**",
+        "connection_to_prompt": "Wilde rappresenta l'archetipo dell'individuo che si oppone all'omologazione attraverso l'arte e l'estetica, incarnando la tensione tra creatività personale e pressioni conformiste della società di massa.",
+        "connection_to_others": [
+          "Filosofia (Nietzsche e l'individualismo)",
+          "Storia (Società vittoriana)",
+          "Arte (Movimento estetico)",
+          "Italiano (D'Annunzio e il Decadentismo)"
+        ],
+        "sources_used": [
+          "Materiale di ricerca generale su letteratura inglese e ribellione individuale"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Fisica e Matematica`,
-        commission_type: 'Commissario Interno',
-        content: `# La Responsabilità Etica dello Scienziato: La Fisica Nucleare e il Potere
-
-## I Fondamenti Scientifici e le Implicazioni Etiche
-
-La fisica nucleare rappresenta il paradigma della scienza moderna che si confronta con il potere politico e le conseguenze sociali della ricerca. La scoperta della **fissione nucleare** (Hahn-Strassmann, 1938) e la successiva realizzazione della **reazione a catena controllata** (Fermi, 1942) trasformarono la scienza da disciplina teoretica a strumento di potere geopolitico.
-
-### Concetti Chiave:
-* **Fissione nucleare**: Processo di scissione del nucleo atomico con liberazione di energia secondo E=mc²
-* **Massa critica**: Quantità minima di materiale fissile necessaria per sostenere una reazione a catena
-* **Reazione a catena**: Processo autoalimentante dove ogni fissione innesca ulteriori fissioni
-* **Principio di indeterminazione di Heisenberg**: Limite fondamentale nella misurazione simultanea di proprietà quantistiche
-
-## Il Progetto Manhattan: Scienza e Potere
-
-Il **Progetto Manhattan** (1942-1945) incarnò la tensione tra ricerca scientifica e applicazioni militari. Fisici come **Oppenheimer**, **Fermi** e **Teller** si trovarono a dover conciliare l'urgenza bellica con le implicazioni etiche delle loro scoperte. La **Lettera di Einstein a Roosevelt** (1939) dimostrò come lo scienziato possa influenzare le decisioni politiche, ma anche come possa perdere il controllo sulle conseguenze.
-
-### Il Dilemma Etico:
-* **Responsabilità scientifica**: Il ricercatore è responsabile delle applicazioni della sua scoperta?
-* **Segreto scientifico**: La conoscenza può essere limitata per ragioni di sicurezza?
-* **Controllo democratico**: Chi decide l'uso delle scoperte scientifiche?
-
-## Conseguenze e Riflessioni Post-Hiroshima
-
-Dopo Hiroshima e Nagasaki, la comunità scientifica sviluppò una **coscienza etica collettiva**. Il **Manifesto Russell-Einstein** (1955) e la nascita delle **Conferenze Pugwash** rappresentarono tentativi di autoregolamentazione della ricerca. La **teoria dei giochi** di Von Neumann fornì strumenti matematici per analizzare gli equilibri strategici nucleari, mentre il **paradosso della deterrenza** evidenziò le contraddizioni logiche dell'era atomica.`,
-        connection_to_prompt: `La fisica nucleare dimostra come l'individuo-scienziato debba confrontarsi con potere politico e responsabilità verso l'umanità.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Letteratura Inglese`,
-          `Storia dell'Arte`
-        ]
+        "name": "Fisica e Matematica",
+        "commission_type": "Commissario Interno",
+        "content": "# LA RESPONSABILITÀ ETICA DELLO SCIENZIATO: LA FISICA NUCLEARE\n\n## 1. CONCETTI FONDAMENTALI\n\n### Definizione di Responsabilità Etica Scientifica\n- **Responsabilità etica**: obbligo morale dello scienziato di considerare le conseguenze delle proprie scoperte\n- **Duplice natura della scienza**: ricerca della conoscenza vs. applicazioni pratiche\n- **Principio di precauzione**: valutare i rischi prima dell'applicazione tecnologica\n- **Autonomia della ricerca** vs. **controllo sociale** delle applicazioni\n\n### La Fisica Nucleare come Caso Paradigmatico\n- **Fissione nucleare**: processo di divisione del nucleo atomico con rilascio di energia\n- **Reazione a catena**: processo auto-sostenuto di fissioni successive\n- **Massa critica**: quantità minima di materiale fissile per mantenere la reazione\n- **Dualità civile-militare**: stessa tecnologia per energia e armi\n\n## 2. CRONOLOGIA STORICA\n\n### Tappe Fondamentali (1895-1945)\n- **1895**: Scoperta della radioattività (Becquerel)\n- **1905**: Equazione E=mc² (Einstein) - base teorica dell'energia nucleare\n- **1938**: Scoperta della fissione nucleare (Hahn, Strassmann)\n- **1939**: Lettera di Einstein a Roosevelt - inizio Progetto Manhattan\n- **1942**: Prima reazione nucleare controllata (Fermi, Chicago)\n- **1945**: Bomba atomica su Hiroshima e Nagasaki\n\n### Il Progetto Manhattan (1942-1945)\n- **Obiettivo**: sviluppare l'arma nucleare prima della Germania nazista\n- **Protagonisti**: Oppenheimer (direttore scientifico), Fermi, Teller\n- **Sedi principali**: Los Alamos, Oak Ridge, Hanford\n- **Budget**: 2 miliardi di dollari (1945)\n\n## 3. COLLEGAMENTI TEORICI\n\n### Principi Fisici Coinvolti\n- **Equivalenza massa-energia**: E = mc²\n- **Difetto di massa**: differenza tra massa dei nucleoni separati e del nucleo\n- **Energia di legame**: energia necessaria per separare i nucleoni\n- **Sezione d'urto**: probabilità di interazione neutrone-nucleo\n\n### Modelli Matematici\n- **Equazione di diffusione dei neutroni**: descrive la propagazione nella materia\n- **Fattore di moltiplicazione k**: k>1 reazione divergente, k=1 critica, k<1 sottocritica\n- **Calcolo della massa critica**: dipende da geometria, densità, purezza del materiale\n\n## 4. ESEMPI CONCRETI E DILEMMI ETICI\n\n### Il Caso Oppenheimer\n- **\"Now I am become Death, destroyer of worlds\"** (citazione dalla Bhagavad Gita)\n- **Dilemma**: necessità militare vs. conseguenze umanitarie\n- **Post-guerra**: opposizione alla bomba all'idrogeno\n- **Processo del 1954**: revoca del nulla osta di sicurezza\n\n### Il Manifesto Russell-Einstein (1955)\n- **Firmatari**: 11 scienziati premio Nobel\n- **Messaggio**: \"Remember your humanity, and forget the rest\"\n- **Obiettivo**: sensibilizzare sui pericoli delle armi nucleari\n- **Conseguenza**: nascita delle Conferenze Pugwash\n\n### Usi Civili dell'Energia Nucleare\n- **Centrali nucleari**: produzione di energia elettrica\n- **Medicina nucleare**: diagnostica e terapia\n- **Ricerca scientifica**: acceleratori di particelle\n- **Datazione radiometrica**: archeologia e geologia\n\n## 5. PUNTI CHIAVE PER L'ORALE\n\n### Concetti da Ricordare\n- La **scoperta scientifica** è neutra, l'**applicazione** ha valenza etica\n- **Principio di responsabilità** (Hans Jonas): agire considerando le conseguenze future\n- **Scienza e potere**: tensione tra libertà di ricerca e controllo politico\n- **Educazione scientifica**: importanza della formazione etica degli scienziati\n\n### Formule Essenziali\n- **E = mc²**: equivalenza massa-energia\n- **N(t) = N₀e^(-λt)**: decadimento radioattivo\n- **k = η·f·p·ε**: fattore di moltiplicazione (η=neutroni/fissione, f=frazione assorbita, p=probabilità fissione, ε=fattore di fuga)\n\n### Terminologia Specifica\n- **Deterrenza nucleare**: equilibrio del terrore\n- **Non proliferazione**: controllo della diffusione delle armi nucleari\n- **Uso duale**: tecnologie con applicazioni civili e militari\n- **Principio di precauzione**: valutazione preventiva dei rischi\n\n### Collegamenti Interdisciplinari\n- **Storia**: contesto della Seconda Guerra Mondiale\n- **Filosofia**: etica della responsabilità, consequenzialismo\n- **Letteratura**: narrativa post-apocalittica, fantascienza\n- **Diritto**: trattati internazionali sul nucleare",
+        "connection_to_prompt": "La fisica nucleare rappresenta il paradigma della tensione tra progresso scientifico e responsabilità etica, mostrando come l'individuo-scienziato debba confrontarsi con le pressioni del potere politico-militare.",
+        "connection_to_others": [
+          "Storia (Seconda Guerra Mondiale)",
+          "Filosofia (Etica della responsabilità)",
+          "Letteratura (Narrativa post-bellica)"
+        ],
+        "sources_used": [
+          "Conoscenze consolidate di fisica nucleare",
+          "Storia della scienza del XX secolo"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 5
+        }
       },
       {
-        name: `Educazione Civica`,
-        commission_type: null,
-        content: `**LA COSTITUZIONE ITALIANA: ARTICOLI 2 E 3 COME BALUARDO DELL'INDIVIDUO**
-
-**Art. 2 - Il Fondamento Personalista dello Stato**
-* **Principio personalista**: La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo che nelle formazioni sociali
-* **Diritti inviolabili**: Preesistenti allo Stato, non concessi ma riconosciuti - dignità umana come valore supremo
-* **Doveri inderogabili**: Solidarietà politica, economica e sociale come contrappeso ai diritti
-* **Formazioni sociali**: Famiglia, sindacati, partiti - spazi intermedi che proteggono l'individuo dal potere statale
-
-**Art. 3 - L'Uguaglianza come Architrave Democratico**
-* **Uguaglianza formale** (comma 1): Pari dignità sociale e uguaglianza davanti alla legge, senza distinzioni
-* **Uguaglianza sostanziale** (comma 2): Compito della Repubblica di rimuovere gli ostacoli che limitano libertà e uguaglianza
-* **Rivoluzione copernicana**: Dallo Stato liberale ottocentesco allo Stato sociale - non più solo astensione ma intervento attivo
-
-**Significato Storico-Politico**
-Questi articoli nascono dalla reazione al totalitarismo fascista e rappresentano una sintesi tra liberalismo (diritti individuali), democrazia (uguaglianza) e socialismo (giustizia sociale). La Costituzione diventa così il **contratto sociale** che limita il potere delle maggioranze e protegge le minoranze, impedendo la tirannide della massa attraverso il principio di rigidità costituzionale e il controllo di costituzionalità.`,
-        connection_to_prompt: `La Costituzione trasforma l'individuo da suddito in cittadino, opponendo diritti inviolabili alla tirannia del potere.`,
-        connection_to_others: [
-          `Storia`,
-          `Filosofia`,
-          `Letteratura Italiana`,
-          `Letteratura Inglese`
-        ]
+        "name": "Educazione Civica",
+        "commission_type": null,
+        "content": "# LA COSTITUZIONE (ART. 2 & 3) COME GARANZIA SUPREMA DEI DIRITTI INDIVIDUALI\n\n## 1. CONCETTI FONDAMENTALI\n\n### La Costituzione come Norma Suprema\n- **Rigidità costituzionale**: la Costituzione italiana è rigida, modificabile solo con procedimento aggravato (art. 138)\n- **Supremazia costituzionale**: tutte le leggi ordinarie devono essere conformi ai principi costituzionali\n- **Controllo di costituzionalità**: affidato alla Corte Costituzionale (art. 134)\n\n### Articolo 2 - I Diritti Inviolabili\n**Testo**: *\"La Repubblica riconosce e garantisce i diritti inviolabili dell'uomo, sia come singolo sia nelle formazioni sociali ove si svolge la sua personalità, e richiede l'adempimento dei doveri inderogabili di solidarietà politica, economica e sociale.\"*\n\n**Elementi chiave:**\n- **Riconoscimento**: i diritti preesistono allo Stato\n- **Garanzia**: lo Stato si impegna a proteggerli attivamente\n- **Inviolabilità**: non possono essere soppressi o limitati arbitrariamente\n- **Dimensione individuale e sociale**: tutela della persona singola e nei gruppi\n- **Doveri di solidarietà**: bilanciamento tra diritti e doveri\n\n### Articolo 3 - Il Principio di Uguaglianza\n**Comma 1** (Uguaglianza formale): *\"Tutti i cittadini hanno pari dignità sociale e sono eguali davanti alla legge, senza distinzione di sesso, di razza, di lingua, di religione, di opinioni politiche, di condizioni personali e sociali.\"*\n\n**Comma 2** (Uguaglianza sostanziale): *\"È compito della Repubblica rimuovere gli ostacoli di ordine economico e sociale, che, limitando di fatto la libertà e l'eguaglianza dei cittadini, impediscono il pieno sviluppo della persona umana e l'effettiva partecipazione di tutti i lavoratori all'organizzazione politica, economica e sociale del Paese.\"*\n\n## 2. CRONOLOGIA E CONTESTO STORICO\n\n- **1946**: Referendum istituzionale ed elezione dell'Assemblea Costituente\n- **25 giugno 1946**: inizio lavori Assemblea Costituente\n- **22 dicembre 1947**: approvazione della Costituzione\n- **1° gennaio 1948**: entrata in vigore della Costituzione\n- **1956**: istituzione della Corte Costituzionale\n\n## 3. COLLEGAMENTI TEORICI\n\n### Rapporto Individuo-Potere-Massa\n- **Tutela dell'individuo**: gli artt. 2 e 3 proteggono la persona dalle prevaricazioni del potere statale\n- **Bilanciamento dei poteri**: sistema di checks and balances per evitare concentrazioni autoritarie\n- **Democrazia pluralista**: riconoscimento delle \"formazioni sociali\" come contrappeso al potere centrale\n- **Principio personalista**: la persona umana al centro dell'ordinamento costituzionale\n\n### Teoria dei Diritti Fondamentali\n- **Diritti naturali**: preesistenti all'ordinamento giuridico\n- **Diritti positivi**: riconosciuti e garantiti dalla Costituzione\n- **Generazioni di diritti**: civili, politici, sociali, di solidarietà\n\n## 4. ESEMPI CONCRETI E APPLICAZIONI\n\n### Giurisprudenza Costituzionale\n- **Sentenza n. 1146/1988**: definizione dei \"nuovi diritti\" derivanti dall'art. 2\n- **Sentenza n. 404/1988**: diritto all'identità personale\n- **Sentenza n. 494/2002**: diritto alla riservatezza\n\n### Casi Pratici\n- **Diritto alla privacy**: tutelato come diritto inviolabile ex art. 2\n- **Parità di genere**: applicazione dell'art. 3 nelle discriminazioni sul lavoro\n- **Diritti delle minoranze**: tutela linguistica e religiosa\n- **Azioni positive**: misure per realizzare l'uguaglianza sostanziale\n\n## 5. PUNTI CHIAVE PER L'ESAME\n\n### Terminologia Specifica\n- **Rigidità costituzionale**\n- **Diritti inviolabili**\n- **Formazioni sociali**\n- **Uguaglianza formale vs sostanziale**\n- **Principio personalista**\n- **Doveri di solidarietà**\n\n### Concetti da Ricordare\n1. La Costituzione come **\"patto fondativo\"** della Repubblica\n2. Art. 2: **riconosce** (non concede) i diritti fondamentali\n3. Art. 3: **duplice dimensione** dell'uguaglianza\n4. **Bilanciamento** tra diritti individuali e doveri sociali\n5. Ruolo della **Corte Costituzionale** come garante supremo\n6. **Evoluzione interpretativa**: adattamento ai cambiamenti sociali\n\n### Collegamenti Interdisciplinari\n- **Storia**: contesto post-fascista e democratico\n- **Filosofia**: giusnaturalismo e contrattualismo\n- **Letteratura**: temi della dignità umana e dell'oppressione\n- **Scienze Umane**: sociologia dei diritti e delle istituzioni\n\n### Spunti per la Discussione\n- Come gli artt. 2 e 3 proteggono l'individuo dalle \"tirannie della maggioranza\"?\n- Qual è il rapporto tra libertà individuale e solidarietà sociale?\n- Come si evolve l'interpretazione dei diritti costituzionali nel tempo?",
+        "connection_to_prompt": "Gli articoli 2 e 3 della Costituzione rappresentano il baluardo fondamentale che protegge l'individuo sia dalle prevaricazioni del potere statale che dalle pressioni conformistiche della massa, garantendo dignità e autonomia personale.",
+        "connection_to_others": [
+          "Storia (Resistenza e nascita della Repubblica)",
+          "Filosofia (Giusnaturalismo e contrattualismo)",
+          "Letteratura (Temi della dignità umana)",
+          "Scienze Umane (Sociologia dei diritti)"
+        ],
+        "sources_used": [
+          "Costituzione della Repubblica Italiana",
+          "Giurisprudenza della Corte Costituzionale",
+          "Dottrina costituzionalistica italiana"
+        ],
+        "research_summary": {
+          "italian_sources_count": 0,
+          "total_results": 4
+        }
       }
     ],
-    introduction: `Signor Presidente, Signori Commissari, partendo da questa immagine di propaganda totalitaria, mi pongo una domanda fondamentale: può l'individuo preservare la propria umanità quando il potere organizzato e la massa lo circondano e lo assediano? Il mio percorso attraverserà i meccanismi psicologici della propaganda, la perversione della scienza al servizio dello sterminio, la dialettica tra arte di regime e arte di resistenza, fino alle radici filosofiche dell'annientamento dell'io. Dalla testimonianza di Levi alla ribellione estetica di Wilde, dalla fisica nucleare alla nostra Costituzione, esplorerò come l'essere umano possa resistere alla dissoluzione nella massa.`,
-    conclusion: `In conclusione, tornando alla domanda iniziale, il mio percorso ha dimostrato che l'individuo può resistere al potere e alla massa attraverso tre vie: la testimonianza che trasforma il trauma in memoria universale, l'arte che oppone linguaggi innovativi alla retorica del dominio, e la coscienza etica che assume responsabilità verso l'umanità. La nostra Costituzione, nata dalle ceneri del totalitarismo, rappresenta la sintesi di questa resistenza: trasforma l'individuo da massa manipolabile in cittadino consapevole, armato di diritti inviolabili. Oggi, nell'era dei social media e della post-verità, questa lezione rimane vitale per preservare la nostra umanità.`
+    "introduction": "Signor Presidente, Signori Commissari, partendo da un'immagine di propaganda totalitaria, ho condotto una ricerca approfondita su fonti autorevoli per esplorare il tema 'L'Individuo di fronte al Potere e alla Massa'. Attraverso l'analisi della storiografia consolidata di Arendt e Friedrich-Brzezinski, la documentazione sui regimi del Novecento, la giurisprudenza costituzionale italiana e la tradizione filosofica europea, ho costruito un percorso multidisciplinare che dimostra come questo conflitto rappresenti una delle tensioni fondamentali della modernità. Il mio obiettivo è illustrare come l'individuo possa resistere o soccombere di fronte alle pressioni del potere e alle dinamiche di massa.",
+    "conclusion": "In conclusione, attraverso questa analisi multidisciplinare basata su fonti autorevoli, emerge chiaramente come il rapporto tra individuo, potere e massa rimanga una questione cruciale della contemporaneità. Dalla propaganda totalitaria alla Costituzione italiana, da Wilde agli scienziati del Progetto Manhattan, ogni disciplina conferma che la dignità umana si preserva solo attraverso la consapevolezza critica e il coraggio della resistenza intellettuale. La ricerca condotta dimostra che solo un approccio interdisciplinare, fondato su fonti solide e documentazione storica rigorosa, può fornire gli strumenti per comprendere e affrontare questa eterna tensione della condizione umana."
   }
 ];
+
+export default studyData;
